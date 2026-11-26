@@ -52,7 +52,7 @@ cd "$B"
 
 仓库 `checkpoints/` 只包括已成功传输并校验或本地验证的文件；未包含的检查点和原始示范数据需要从原实验数据盘取得或重新采集。若文件存在，可将 `checkpoints/` 下对应的子目录复制到 `B`，保持上述相对路径。只有聚合指标 JSON 的实验不能由此完整恢复训练数据。
 
-已收录 `tft_pilot_20261121/policy.pt`、`tft_econ_imitation_20261124/hier_diffusion.pt` 和 `hier_bc.pt`；前两者与当前服务器的 SHA-256 一致，后者在本地成功加载。DAgger 的检查点是否收录以 `checkpoints/tft_dagger_20261124/` 的实际内容为准。原始示范数据未收录。
+已收录 `tft_pilot_20261121/policy.pt`、`tft_econ_imitation_20261124/hier_diffusion.pt` 和 `hier_bc.pt`，以及 `tft_dagger_20261124/dagger.pt` 和 `fresh_teacher.pt`。其中 `hier_bc.pt` 在本地成功加载，其他四个文件与当前服务器的 SHA-256 一致。原始示范数据未收录。
 
 ```bash
 cp -a "$REPO/checkpoints/." "$B/"
