@@ -1,0 +1,6103 @@
+{
+  "status": "completed",
+  "splits": {
+    "train": [
+      41001,
+      41002,
+      41003,
+      41004,
+      41005,
+      41006,
+      41007,
+      41008,
+      41009,
+      41010,
+      41011,
+      41012,
+      41013,
+      41014,
+      41015,
+      41016,
+      41017,
+      41018,
+      41019,
+      41020,
+      41021,
+      41022,
+      41023,
+      41024,
+      41025,
+      41026,
+      41027,
+      41028,
+      41029,
+      41030,
+      41031,
+      41032,
+      41033,
+      41034,
+      41035,
+      41036,
+      41037,
+      41038,
+      41039,
+      41040,
+      41041,
+      41042,
+      41043,
+      41044,
+      41045,
+      41046,
+      41047,
+      41048,
+      41049,
+      41050,
+      41051,
+      41052,
+      41053,
+      41054,
+      41055,
+      41056,
+      41057,
+      41058,
+      41059,
+      41060,
+      41061,
+      41062,
+      41063,
+      41064
+    ],
+    "validation": [
+      42001,
+      42002,
+      42003,
+      42004,
+      42005,
+      42006,
+      42007,
+      42008,
+      42009,
+      42010,
+      42011,
+      42012,
+      42013,
+      42014,
+      42015,
+      42016
+    ],
+    "test": [
+      43001,
+      43002,
+      43003,
+      43004,
+      43005,
+      43006,
+      43007,
+      43008,
+      43009,
+      43010,
+      43011,
+      43012,
+      43013,
+      43014,
+      43015,
+      43016
+    ]
+  },
+  "eval_seeds": [
+    44001,
+    44002,
+    44003,
+    44004,
+    44005,
+    44006,
+    44007,
+    44008,
+    44009,
+    44010,
+    44011,
+    44012,
+    44013,
+    44014,
+    44015,
+    44016
+  ],
+  "games": [
+    {
+      "split": "train",
+      "seed": 41002,
+      "seat": 2,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 8,
+      "ranks": {
+        "player_2": 8,
+        "player_5": 7,
+        "player_6": 6,
+        "player_1": 5,
+        "player_4": 4,
+        "player_0": 3,
+        "player_3": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 6,
+        "buy": 8,
+        "pass": 211,
+        "item": 7,
+        "refresh": 44,
+        "level": 9
+      },
+      "elapsed_seconds": 20.49,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41001,
+      "seat": 1,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 8,
+      "ranks": {
+        "player_1": 8,
+        "player_4": 7,
+        "player_6": 6,
+        "player_3": 5,
+        "player_5": 4,
+        "player_7": 3,
+        "player_0": 1,
+        "player_2": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 6,
+        "buy": 9,
+        "pass": 213,
+        "item": 8,
+        "refresh": 40,
+        "level": 9
+      },
+      "elapsed_seconds": 24.03,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41004,
+      "seat": 4,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 8,
+      "ranks": {
+        "player_4": 8,
+        "player_7": 7,
+        "player_0": 6,
+        "player_1": 5,
+        "player_2": 4,
+        "player_3": 3,
+        "player_5": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 14,
+        "pass": 212,
+        "item": 6,
+        "refresh": 37,
+        "level": 9
+      },
+      "elapsed_seconds": 28.31,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41003,
+      "seat": 3,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 1,
+      "ranks": {
+        "player_0": 8,
+        "player_6": 7,
+        "player_1": 6,
+        "player_2": 5,
+        "player_5": 4,
+        "player_4": 3,
+        "player_3": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "item": 17,
+        "buy": 12,
+        "pass": 358,
+        "refresh": 81,
+        "level": 20
+      },
+      "elapsed_seconds": 34.01,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41005,
+      "seat": 5,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 5,
+      "ranks": {
+        "player_6": 8,
+        "player_0": 7,
+        "player_2": 6,
+        "player_5": 5,
+        "player_1": 4,
+        "player_3": 3,
+        "player_4": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 9,
+        "buy": 14,
+        "move": 6,
+        "pass": 263,
+        "refresh": 38,
+        "level": 15
+      },
+      "elapsed_seconds": 16.13,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41006,
+      "seat": 6,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 3,
+      "ranks": {
+        "player_0": 8,
+        "player_3": 7,
+        "player_1": 6,
+        "player_4": 5,
+        "player_7": 4,
+        "player_6": 3,
+        "player_2": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "buy": 13,
+        "move": 7,
+        "pass": 305,
+        "item": 9,
+        "refresh": 51,
+        "level": 20
+      },
+      "elapsed_seconds": 17.21,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41007,
+      "seat": 7,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 5,
+      "ranks": {
+        "player_6": 8,
+        "player_0": 7,
+        "player_3": 6,
+        "player_7": 5,
+        "player_2": 4,
+        "player_1": 3,
+        "player_4": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 6,
+        "buy": 13,
+        "pass": 270,
+        "item": 11,
+        "refresh": 40,
+        "level": 20
+      },
+      "elapsed_seconds": 20.9,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41009,
+      "seat": 1,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 3,
+      "ranks": {
+        "player_6": 8,
+        "player_3": 7,
+        "player_5": 6,
+        "player_4": 5,
+        "player_2": 4,
+        "player_1": 3,
+        "player_0": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 15,
+        "buy": 17,
+        "move": 8,
+        "pass": 348,
+        "refresh": 57,
+        "level": 20
+      },
+      "elapsed_seconds": 19.61,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41010,
+      "seat": 2,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 525,
+      "rank": 3,
+      "ranks": {
+        "player_0": 8,
+        "player_3": 7,
+        "player_6": 6,
+        "player_7": 5,
+        "player_4": 4,
+        "player_2": 3,
+        "player_1": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "buy": 12,
+        "move": 7,
+        "pass": 338,
+        "item": 10,
+        "refresh": 48,
+        "level": 20
+      },
+      "elapsed_seconds": 20.98,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41008,
+      "seat": 0,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 2,
+      "ranks": {
+        "player_2": 8,
+        "player_1": 7,
+        "player_5": 6,
+        "player_3": 5,
+        "player_4": 4,
+        "player_6": 3,
+        "player_0": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 10,
+        "pass": 372,
+        "item": 14,
+        "refresh": 72,
+        "level": 20
+      },
+      "elapsed_seconds": 31.11,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41011,
+      "seat": 3,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 5,
+      "ranks": {
+        "player_2": 8,
+        "player_1": 7,
+        "player_6": 6,
+        "player_3": 5,
+        "player_7": 4,
+        "player_4": 3,
+        "player_0": 2,
+        "player_5": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 6,
+        "item": 6,
+        "buy": 14,
+        "pass": 246,
+        "refresh": 31,
+        "level": 12
+      },
+      "elapsed_seconds": 22.2,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41012,
+      "seat": 4,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 2,
+      "ranks": {
+        "player_7": 8,
+        "player_1": 7,
+        "player_2": 6,
+        "player_6": 5,
+        "player_5": 4,
+        "player_0": 3,
+        "player_3": 1,
+        "player_4": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 10,
+        "pass": 389,
+        "item": 14,
+        "refresh": 70,
+        "level": 20
+      },
+      "elapsed_seconds": 19.57,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41013,
+      "seat": 5,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 5,
+      "ranks": {
+        "player_0": 8,
+        "player_2": 7,
+        "player_6": 6,
+        "player_5": 5,
+        "player_3": 4,
+        "player_1": 3,
+        "player_4": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 8,
+        "buy": 11,
+        "move": 6,
+        "pass": 297,
+        "refresh": 34,
+        "level": 19
+      },
+      "elapsed_seconds": 21.15,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41015,
+      "seat": 7,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 2,
+      "ranks": {
+        "player_5": 8,
+        "player_6": 7,
+        "player_3": 6,
+        "player_0": 5,
+        "player_4": 4,
+        "player_1": 3,
+        "player_2": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 13,
+        "pass": 359,
+        "item": 18,
+        "refresh": 78,
+        "level": 20
+      },
+      "elapsed_seconds": 15.47,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41016,
+      "seat": 0,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 4,
+      "ranks": {
+        "player_4": 8,
+        "player_6": 7,
+        "player_3": 6,
+        "player_5": 5,
+        "player_0": 4,
+        "player_7": 3,
+        "player_1": 1,
+        "player_2": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 6,
+        "buy": 12,
+        "pass": 288,
+        "item": 8,
+        "refresh": 42,
+        "level": 19
+      },
+      "elapsed_seconds": 16.49,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41014,
+      "seat": 6,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 525,
+      "rank": 8,
+      "ranks": {
+        "player_6": 8,
+        "player_2": 7,
+        "player_3": 6,
+        "player_0": 5,
+        "player_5": 4,
+        "player_4": 3,
+        "player_1": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "buy": 13,
+        "move": 6,
+        "pass": 207,
+        "item": 5,
+        "refresh": 44,
+        "level": 10
+      },
+      "elapsed_seconds": 28.32,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41017,
+      "seat": 1,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 6,
+      "ranks": {
+        "player_6": 8,
+        "player_7": 7,
+        "player_1": 6,
+        "player_5": 5,
+        "player_4": 4,
+        "player_3": 3,
+        "player_0": 1,
+        "player_2": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 9,
+        "buy": 16,
+        "move": 7,
+        "pass": 243,
+        "refresh": 40,
+        "level": 15
+      },
+      "elapsed_seconds": 16.24,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41018,
+      "seat": 2,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 6,
+      "ranks": {
+        "player_1": 8,
+        "player_5": 7,
+        "player_2": 6,
+        "player_3": 5,
+        "player_4": 4,
+        "player_6": 3,
+        "player_0": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 6,
+        "buy": 12,
+        "pass": 247,
+        "refresh": 41,
+        "item": 7,
+        "level": 17
+      },
+      "elapsed_seconds": 16.22,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41020,
+      "seat": 4,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 4,
+      "ranks": {
+        "player_2": 8,
+        "player_3": 7,
+        "player_1": 6,
+        "player_7": 5,
+        "player_4": 4,
+        "player_0": 3,
+        "player_5": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 6,
+        "buy": 10,
+        "pass": 271,
+        "item": 9,
+        "refresh": 44,
+        "level": 20
+      },
+      "elapsed_seconds": 20.06,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41019,
+      "seat": 3,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 525,
+      "rank": 8,
+      "ranks": {
+        "player_3": 8,
+        "player_6": 7,
+        "player_1": 6,
+        "player_0": 5,
+        "player_5": 4,
+        "player_7": 3,
+        "player_2": 1,
+        "player_4": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 3,
+        "buy": 11,
+        "move": 5,
+        "pass": 180,
+        "refresh": 36,
+        "level": 5
+      },
+      "elapsed_seconds": 21.08,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41021,
+      "seat": 5,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 3,
+      "ranks": {
+        "player_3": 8,
+        "player_7": 7,
+        "player_2": 6,
+        "player_1": 5,
+        "player_0": 4,
+        "player_5": 3,
+        "player_4": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "buy": 15,
+        "move": 7,
+        "pass": 322,
+        "item": 14,
+        "refresh": 57,
+        "level": 20
+      },
+      "elapsed_seconds": 16.21,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41023,
+      "seat": 7,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 405,
+      "rank": 4,
+      "ranks": {
+        "player_2": 8,
+        "player_0": 7,
+        "player_4": 6,
+        "player_6": 5,
+        "player_7": 4,
+        "player_1": 1,
+        "player_3": 3,
+        "player_5": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 7,
+        "buy": 10,
+        "move": 6,
+        "pass": 266,
+        "refresh": 41,
+        "level": 15
+      },
+      "elapsed_seconds": 16.64,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41022,
+      "seat": 6,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 5,
+      "ranks": {
+        "player_3": 8,
+        "player_2": 7,
+        "player_7": 6,
+        "player_6": 5,
+        "player_5": 4,
+        "player_0": 3,
+        "player_1": 1,
+        "player_4": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 6,
+        "item": 6,
+        "buy": 13,
+        "pass": 235,
+        "refresh": 42,
+        "level": 13
+      },
+      "elapsed_seconds": 29.56,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41024,
+      "seat": 0,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 555,
+      "rank": 1,
+      "ranks": {
+        "player_5": 8,
+        "player_4": 7,
+        "player_1": 6,
+        "player_2": 5,
+        "player_6": 4,
+        "player_7": 3,
+        "player_0": 1,
+        "player_3": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 12,
+        "pass": 395,
+        "item": 19,
+        "refresh": 101,
+        "level": 21
+      },
+      "elapsed_seconds": 19.71,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41025,
+      "seat": 1,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 7,
+      "ranks": {
+        "player_6": 8,
+        "player_1": 7,
+        "player_4": 6,
+        "player_2": 5,
+        "player_3": 4,
+        "player_7": 3,
+        "player_0": 2,
+        "player_5": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 11,
+        "pass": 174,
+        "item": 3,
+        "refresh": 50,
+        "level": 10
+      },
+      "elapsed_seconds": 19.1,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41026,
+      "seat": 2,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 8,
+      "ranks": {
+        "player_2": 8,
+        "player_5": 7,
+        "player_0": 6,
+        "player_3": 5,
+        "player_4": 4,
+        "player_1": 3,
+        "player_6": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 5,
+        "buy": 7,
+        "pass": 170,
+        "item": 4,
+        "refresh": 45,
+        "level": 9
+      },
+      "elapsed_seconds": 16.02,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41027,
+      "seat": 3,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 3,
+      "ranks": {
+        "player_4": 8,
+        "player_0": 7,
+        "player_6": 6,
+        "player_5": 5,
+        "player_1": 4,
+        "player_3": 3,
+        "player_2": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 8,
+        "buy": 18,
+        "pass": 334,
+        "item": 12,
+        "refresh": 43,
+        "level": 20
+      },
+      "elapsed_seconds": 17.53,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41028,
+      "seat": 4,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 4,
+      "ranks": {
+        "player_1": 8,
+        "player_5": 7,
+        "player_3": 6,
+        "player_2": 5,
+        "player_4": 4,
+        "player_0": 3,
+        "player_6": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 14,
+        "buy": 14,
+        "move": 7,
+        "pass": 288,
+        "refresh": 32,
+        "level": 20
+      },
+      "elapsed_seconds": 19.66,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41029,
+      "seat": 5,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 7,
+      "ranks": {
+        "player_2": 8,
+        "player_5": 7,
+        "player_0": 6,
+        "player_4": 5,
+        "player_6": 4,
+        "player_1": 3,
+        "player_3": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 6,
+        "item": 4,
+        "buy": 7,
+        "pass": 262,
+        "refresh": 38,
+        "level": 13
+      },
+      "elapsed_seconds": 24.3,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41030,
+      "seat": 6,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 7,
+      "ranks": {
+        "player_0": 8,
+        "player_6": 7,
+        "player_5": 6,
+        "player_7": 5,
+        "player_4": 4,
+        "player_3": 3,
+        "player_1": 2,
+        "player_2": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 6,
+        "buy": 8,
+        "pass": 213,
+        "item": 4,
+        "refresh": 45,
+        "level": 9
+      },
+      "elapsed_seconds": 15.57,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41032,
+      "seat": 0,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 1,
+      "ranks": {
+        "player_6": 8,
+        "player_2": 7,
+        "player_7": 6,
+        "player_4": 5,
+        "player_1": 4,
+        "player_3": 3,
+        "player_0": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 8,
+        "buy": 17,
+        "pass": 325,
+        "item": 12,
+        "refresh": 82,
+        "level": 21
+      },
+      "elapsed_seconds": 12.67,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41031,
+      "seat": 7,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 4,
+      "ranks": {
+        "player_4": 8,
+        "player_6": 7,
+        "player_3": 6,
+        "player_0": 5,
+        "player_7": 4,
+        "player_1": 3,
+        "player_2": 2,
+        "player_5": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 13,
+        "pass": 304,
+        "item": 11,
+        "refresh": 49,
+        "level": 21
+      },
+      "elapsed_seconds": 21.22,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41033,
+      "seat": 1,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 3,
+      "ranks": {
+        "player_3": 8,
+        "player_4": 7,
+        "player_6": 6,
+        "player_0": 5,
+        "player_7": 4,
+        "player_1": 3,
+        "player_2": 2,
+        "player_5": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "item": 10,
+        "buy": 13,
+        "pass": 292,
+        "refresh": 63,
+        "level": 20
+      },
+      "elapsed_seconds": 21.37,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41035,
+      "seat": 3,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 4,
+      "ranks": {
+        "player_7": 8,
+        "player_2": 7,
+        "player_5": 6,
+        "player_1": 5,
+        "player_3": 4,
+        "player_6": 3,
+        "player_0": 2,
+        "player_4": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "item": 10,
+        "buy": 12,
+        "pass": 303,
+        "refresh": 52,
+        "level": 21
+      },
+      "elapsed_seconds": 17.13,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41034,
+      "seat": 2,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 4,
+      "ranks": {
+        "player_4": 8,
+        "player_7": 7,
+        "player_0": 6,
+        "player_1": 5,
+        "player_2": 4,
+        "player_3": 3,
+        "player_5": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 12,
+        "pass": 303,
+        "refresh": 52,
+        "item": 11,
+        "level": 20
+      },
+      "elapsed_seconds": 22.2,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41036,
+      "seat": 4,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 7,
+      "ranks": {
+        "player_6": 8,
+        "player_4": 7,
+        "player_7": 6,
+        "player_5": 5,
+        "player_1": 4,
+        "player_2": 3,
+        "player_0": 2,
+        "player_3": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 6,
+        "buy": 16,
+        "move": 6,
+        "pass": 215,
+        "refresh": 33,
+        "level": 9
+      },
+      "elapsed_seconds": 18.48,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41037,
+      "seat": 5,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 4,
+      "ranks": {
+        "player_6": 8,
+        "player_0": 7,
+        "player_3": 6,
+        "player_4": 5,
+        "player_5": 4,
+        "player_1": 3,
+        "player_2": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 6,
+        "buy": 12,
+        "pass": 284,
+        "item": 9,
+        "refresh": 30,
+        "level": 19
+      },
+      "elapsed_seconds": 19.06,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41038,
+      "seat": 6,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 5,
+      "ranks": {
+        "player_2": 8,
+        "player_3": 7,
+        "player_5": 6,
+        "player_6": 5,
+        "player_7": 4,
+        "player_4": 3,
+        "player_0": 2,
+        "player_1": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 6,
+        "buy": 11,
+        "pass": 261,
+        "item": 10,
+        "refresh": 39,
+        "level": 18
+      },
+      "elapsed_seconds": 18.12,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41039,
+      "seat": 7,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 2,
+      "ranks": {
+        "player_5": 8,
+        "player_6": 7,
+        "player_4": 6,
+        "player_0": 5,
+        "player_1": 4,
+        "player_3": 3,
+        "player_2": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 8,
+        "buy": 17,
+        "pass": 364,
+        "item": 15,
+        "refresh": 86,
+        "level": 20
+      },
+      "elapsed_seconds": 17.59,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41040,
+      "seat": 0,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 1,
+      "ranks": {
+        "player_1": 8,
+        "player_2": 7,
+        "player_4": 6,
+        "player_5": 5,
+        "player_7": 4,
+        "player_6": 3,
+        "player_0": 1,
+        "player_3": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 11,
+        "pass": 358,
+        "refresh": 88,
+        "item": 10,
+        "level": 21
+      },
+      "elapsed_seconds": 21.32,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41041,
+      "seat": 1,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 6,
+      "ranks": {
+        "player_2": 8,
+        "player_7": 7,
+        "player_1": 6,
+        "player_3": 5,
+        "player_6": 4,
+        "player_0": 3,
+        "player_4": 2,
+        "player_5": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 6,
+        "buy": 11,
+        "pass": 251,
+        "refresh": 44,
+        "item": 4,
+        "level": 14
+      },
+      "elapsed_seconds": 17.66,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41042,
+      "seat": 2,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 8,
+      "ranks": {
+        "player_2": 8,
+        "player_4": 7,
+        "player_3": 6,
+        "player_5": 5,
+        "player_1": 4,
+        "player_7": 3,
+        "player_0": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 6,
+        "buy": 10,
+        "pass": 207,
+        "item": 4,
+        "refresh": 48,
+        "level": 10
+      },
+      "elapsed_seconds": 19.83,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41043,
+      "seat": 3,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 3,
+      "ranks": {
+        "player_0": 8,
+        "player_7": 7,
+        "player_5": 6,
+        "player_4": 5,
+        "player_6": 4,
+        "player_3": 3,
+        "player_1": 2,
+        "player_2": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 13,
+        "pass": 351,
+        "refresh": 60,
+        "item": 13,
+        "level": 21
+      },
+      "elapsed_seconds": 23.59,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41044,
+      "seat": 4,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 555,
+      "rank": 4,
+      "ranks": {
+        "player_6": 8,
+        "player_1": 7,
+        "player_5": 6,
+        "player_7": 5,
+        "player_4": 4,
+        "player_2": 3,
+        "player_0": 1,
+        "player_3": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 9,
+        "buy": 9,
+        "move": 7,
+        "pass": 314,
+        "refresh": 46,
+        "level": 20
+      },
+      "elapsed_seconds": 20.07,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41045,
+      "seat": 5,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 2,
+      "ranks": {
+        "player_4": 8,
+        "player_0": 7,
+        "player_2": 6,
+        "player_7": 5,
+        "player_3": 4,
+        "player_6": 3,
+        "player_1": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 8,
+        "buy": 16,
+        "pass": 339,
+        "item": 17,
+        "refresh": 50,
+        "level": 20
+      },
+      "elapsed_seconds": 23.09,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41047,
+      "seat": 7,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 8,
+      "ranks": {
+        "player_7": 8,
+        "player_3": 7,
+        "player_0": 6,
+        "player_4": 5,
+        "player_1": 4,
+        "player_6": 3,
+        "player_2": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 5,
+        "buy": 7,
+        "pass": 208,
+        "item": 5,
+        "refresh": 36,
+        "level": 9
+      },
+      "elapsed_seconds": 18.38,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41046,
+      "seat": 6,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 2,
+      "ranks": {
+        "player_4": 8,
+        "player_0": 7,
+        "player_3": 6,
+        "player_7": 5,
+        "player_5": 4,
+        "player_2": 3,
+        "player_1": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 15,
+        "pass": 333,
+        "item": 15,
+        "refresh": 74,
+        "level": 21
+      },
+      "elapsed_seconds": 25.97,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41048,
+      "seat": 0,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 3,
+      "ranks": {
+        "player_3": 8,
+        "player_6": 7,
+        "player_1": 6,
+        "player_5": 5,
+        "player_2": 4,
+        "player_0": 3,
+        "player_4": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 10,
+        "pass": 325,
+        "item": 12,
+        "refresh": 61,
+        "level": 20
+      },
+      "elapsed_seconds": 15.61,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41049,
+      "seat": 1,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 3,
+      "ranks": {
+        "player_0": 8,
+        "player_3": 7,
+        "player_7": 6,
+        "player_2": 5,
+        "player_5": 4,
+        "player_1": 3,
+        "player_4": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 12,
+        "pass": 318,
+        "item": 14,
+        "refresh": 62,
+        "level": 22
+      },
+      "elapsed_seconds": 18.29,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41050,
+      "seat": 2,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 8,
+      "ranks": {
+        "player_2": 8,
+        "player_7": 7,
+        "player_5": 6,
+        "player_0": 5,
+        "player_3": 4,
+        "player_6": 3,
+        "player_1": 1,
+        "player_4": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 4,
+        "buy": 12,
+        "move": 5,
+        "pass": 186,
+        "refresh": 42,
+        "level": 6
+      },
+      "elapsed_seconds": 17.04,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41052,
+      "seat": 4,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 3,
+      "ranks": {
+        "player_5": 8,
+        "player_1": 7,
+        "player_2": 6,
+        "player_3": 5,
+        "player_0": 4,
+        "player_4": 3,
+        "player_6": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 8,
+        "pass": 328,
+        "refresh": 74,
+        "item": 12,
+        "level": 21
+      },
+      "elapsed_seconds": 18.43,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41051,
+      "seat": 3,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 8,
+      "ranks": {
+        "player_3": 8,
+        "player_1": 7,
+        "player_7": 6,
+        "player_4": 5,
+        "player_5": 4,
+        "player_2": 3,
+        "player_0": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 6,
+        "buy": 10,
+        "pass": 213,
+        "item": 6,
+        "refresh": 41,
+        "level": 9
+      },
+      "elapsed_seconds": 18.79,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41053,
+      "seat": 5,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 540,
+      "rank": 5,
+      "ranks": {
+        "player_1": 8,
+        "player_6": 7,
+        "player_3": 6,
+        "player_5": 5,
+        "player_2": 4,
+        "player_7": 3,
+        "player_0": 2,
+        "player_4": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 14,
+        "buy": 14,
+        "move": 7,
+        "pass": 284,
+        "refresh": 36,
+        "level": 20
+      },
+      "elapsed_seconds": 22.26,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41055,
+      "seat": 7,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 6,
+      "ranks": {
+        "player_2": 8,
+        "player_1": 7,
+        "player_7": 6,
+        "player_5": 5,
+        "player_0": 4,
+        "player_4": 3,
+        "player_3": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 6,
+        "buy": 10,
+        "pass": 262,
+        "item": 6,
+        "refresh": 31,
+        "level": 15
+      },
+      "elapsed_seconds": 18.41,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41054,
+      "seat": 6,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 2,
+      "ranks": {
+        "player_2": 8,
+        "player_7": 7,
+        "player_0": 6,
+        "player_5": 5,
+        "player_1": 4,
+        "player_4": 3,
+        "player_3": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 12,
+        "buy": 12,
+        "move": 7,
+        "pass": 330,
+        "refresh": 83,
+        "level": 21
+      },
+      "elapsed_seconds": 25.07,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41056,
+      "seat": 0,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 2,
+      "ranks": {
+        "player_6": 8,
+        "player_1": 7,
+        "player_3": 6,
+        "player_2": 5,
+        "player_7": 4,
+        "player_4": 3,
+        "player_0": 2,
+        "player_5": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 19,
+        "pass": 327,
+        "item": 13,
+        "refresh": 63,
+        "level": 21
+      },
+      "elapsed_seconds": 22.5,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41059,
+      "seat": 3,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 7,
+      "ranks": {
+        "player_0": 8,
+        "player_3": 7,
+        "player_6": 6,
+        "player_2": 5,
+        "player_1": 4,
+        "player_7": 3,
+        "player_4": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 5,
+        "item": 7,
+        "buy": 10,
+        "pass": 191,
+        "refresh": 35,
+        "level": 7
+      },
+      "elapsed_seconds": 16.05,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41057,
+      "seat": 1,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 405,
+      "rank": 3,
+      "ranks": {
+        "player_6": 8,
+        "player_7": 7,
+        "player_5": 6,
+        "player_4": 5,
+        "player_0": 4,
+        "player_1": 3,
+        "player_2": 2,
+        "player_3": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "buy": 15,
+        "move": 7,
+        "pass": 295,
+        "refresh": 59,
+        "item": 8,
+        "level": 21
+      },
+      "elapsed_seconds": 22.72,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41058,
+      "seat": 2,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 6,
+      "ranks": {
+        "player_6": 8,
+        "player_5": 7,
+        "player_2": 6,
+        "player_7": 5,
+        "player_3": 4,
+        "player_0": 3,
+        "player_1": 1,
+        "player_4": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 6,
+        "buy": 11,
+        "pass": 253,
+        "refresh": 41,
+        "item": 6,
+        "level": 13
+      },
+      "elapsed_seconds": 25.79,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41060,
+      "seat": 4,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 525,
+      "rank": 7,
+      "ranks": {
+        "player_1": 8,
+        "player_4": 7,
+        "player_6": 6,
+        "player_2": 5,
+        "player_5": 4,
+        "player_0": 3,
+        "player_3": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 5,
+        "buy": 11,
+        "pass": 204,
+        "item": 4,
+        "refresh": 38,
+        "level": 8
+      },
+      "elapsed_seconds": 25.25,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41062,
+      "seat": 6,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 1,
+      "ranks": {
+        "player_1": 8,
+        "player_5": 7,
+        "player_2": 6,
+        "player_3": 5,
+        "player_4": 4,
+        "player_7": 3,
+        "player_0": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 11,
+        "buy": 12,
+        "move": 7,
+        "pass": 294,
+        "refresh": 90,
+        "level": 21
+      },
+      "elapsed_seconds": 11.58,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41061,
+      "seat": 5,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 3,
+      "ranks": {
+        "player_3": 8,
+        "player_2": 7,
+        "player_6": 6,
+        "player_7": 5,
+        "player_0": 4,
+        "player_5": 3,
+        "player_1": 2,
+        "player_4": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 13,
+        "pass": 321,
+        "item": 13,
+        "refresh": 46,
+        "level": 20
+      },
+      "elapsed_seconds": 16.11,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41063,
+      "seat": 7,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 8,
+      "ranks": {
+        "player_7": 8,
+        "player_4": 7,
+        "player_6": 6,
+        "player_0": 5,
+        "player_1": 4,
+        "player_3": 3,
+        "player_2": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 5,
+        "buy": 7,
+        "pass": 196,
+        "item": 4,
+        "refresh": 37,
+        "level": 6
+      },
+      "elapsed_seconds": 20.81,
+      "rejection": null
+    },
+    {
+      "split": "train",
+      "seed": 41064,
+      "seat": 0,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 525,
+      "rank": 5,
+      "ranks": {
+        "player_3": 8,
+        "player_1": 7,
+        "player_7": 6,
+        "player_0": 5,
+        "player_5": 4,
+        "player_2": 3,
+        "player_4": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 11,
+        "buy": 13,
+        "move": 6,
+        "pass": 270,
+        "refresh": 29,
+        "level": 16
+      },
+      "elapsed_seconds": 24.38,
+      "rejection": null
+    },
+    {
+      "split": "validation",
+      "seed": 42001,
+      "seat": 1,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 8,
+      "ranks": {
+        "player_1": 8,
+        "player_0": 7,
+        "player_6": 6,
+        "player_7": 5,
+        "player_2": 4,
+        "player_3": 3,
+        "player_4": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 7,
+        "buy": 11,
+        "move": 6,
+        "pass": 230,
+        "refresh": 48,
+        "level": 13
+      },
+      "elapsed_seconds": 24.17,
+      "rejection": null
+    },
+    {
+      "split": "validation",
+      "seed": 42002,
+      "seat": 2,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 1,
+      "ranks": {
+        "player_6": 8,
+        "player_3": 7,
+        "player_4": 6,
+        "player_0": 5,
+        "player_7": 4,
+        "player_1": 3,
+        "player_2": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 13,
+        "buy": 14,
+        "move": 7,
+        "pass": 360,
+        "refresh": 95,
+        "level": 21
+      },
+      "elapsed_seconds": 22.27,
+      "rejection": null
+    },
+    {
+      "split": "validation",
+      "seed": 42003,
+      "seat": 3,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 1,
+      "ranks": {
+        "player_5": 8,
+        "player_7": 7,
+        "player_0": 6,
+        "player_1": 5,
+        "player_6": 4,
+        "player_4": 3,
+        "player_2": 2,
+        "player_3": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 9,
+        "buy": 22,
+        "pass": 315,
+        "item": 19,
+        "refresh": 79,
+        "level": 21
+      },
+      "elapsed_seconds": 21.28,
+      "rejection": null
+    },
+    {
+      "split": "validation",
+      "seed": 42004,
+      "seat": 4,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 2,
+      "ranks": {
+        "player_1": 8,
+        "player_5": 7,
+        "player_0": 6,
+        "player_7": 5,
+        "player_6": 4,
+        "player_3": 3,
+        "player_2": 1,
+        "player_4": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 15,
+        "pass": 340,
+        "item": 13,
+        "refresh": 70,
+        "level": 20
+      },
+      "elapsed_seconds": 15.96,
+      "rejection": null
+    },
+    {
+      "split": "validation",
+      "seed": 42006,
+      "seat": 6,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 3,
+      "ranks": {
+        "player_3": 8,
+        "player_5": 7,
+        "player_0": 6,
+        "player_1": 5,
+        "player_7": 4,
+        "player_6": 3,
+        "player_2": 1,
+        "player_4": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 14,
+        "buy": 9,
+        "move": 7,
+        "pass": 322,
+        "refresh": 48,
+        "level": 20
+      },
+      "elapsed_seconds": 19.16,
+      "rejection": null
+    },
+    {
+      "split": "validation",
+      "seed": 42005,
+      "seat": 5,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 7,
+      "ranks": {
+        "player_7": 8,
+        "player_5": 7,
+        "player_3": 6,
+        "player_2": 5,
+        "player_0": 4,
+        "player_1": 3,
+        "player_4": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 6,
+        "buy": 16,
+        "pass": 193,
+        "item": 10,
+        "refresh": 51,
+        "level": 9
+      },
+      "elapsed_seconds": 21.41,
+      "rejection": null
+    },
+    {
+      "split": "validation",
+      "seed": 42007,
+      "seat": 7,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 7,
+      "ranks": {
+        "player_6": 8,
+        "player_7": 7,
+        "player_2": 6,
+        "player_4": 5,
+        "player_1": 4,
+        "player_3": 3,
+        "player_0": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 6,
+        "buy": 7,
+        "pass": 207,
+        "refresh": 50,
+        "item": 5,
+        "level": 10
+      },
+      "elapsed_seconds": 20.43,
+      "rejection": null
+    },
+    {
+      "split": "validation",
+      "seed": 42008,
+      "seat": 0,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 6,
+      "ranks": {
+        "player_7": 8,
+        "player_5": 7,
+        "player_0": 6,
+        "player_1": 5,
+        "player_2": 4,
+        "player_3": 3,
+        "player_4": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 12,
+        "buy": 12,
+        "move": 6,
+        "pass": 261,
+        "refresh": 36,
+        "level": 18
+      },
+      "elapsed_seconds": 25.48,
+      "rejection": null
+    },
+    {
+      "split": "validation",
+      "seed": 42009,
+      "seat": 1,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 1,
+      "ranks": {
+        "player_6": 8,
+        "player_5": 7,
+        "player_4": 6,
+        "player_2": 5,
+        "player_3": 4,
+        "player_0": 3,
+        "player_1": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 15,
+        "pass": 363,
+        "item": 16,
+        "refresh": 89,
+        "level": 20
+      },
+      "elapsed_seconds": 20.08,
+      "rejection": null
+    },
+    {
+      "split": "validation",
+      "seed": 42010,
+      "seat": 2,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 4,
+      "ranks": {
+        "player_7": 8,
+        "player_0": 7,
+        "player_3": 6,
+        "player_5": 5,
+        "player_2": 4,
+        "player_4": 3,
+        "player_1": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 10,
+        "buy": 12,
+        "move": 6,
+        "pass": 277,
+        "refresh": 36,
+        "level": 19
+      },
+      "elapsed_seconds": 23.18,
+      "rejection": null
+    },
+    {
+      "split": "validation",
+      "seed": 42011,
+      "seat": 3,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 525,
+      "rank": 8,
+      "ranks": {
+        "player_3": 8,
+        "player_6": 7,
+        "player_0": 6,
+        "player_1": 5,
+        "player_7": 4,
+        "player_4": 3,
+        "player_2": 2,
+        "player_5": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 5,
+        "buy": 11,
+        "pass": 195,
+        "item": 5,
+        "refresh": 32,
+        "level": 7
+      },
+      "elapsed_seconds": 17.52,
+      "rejection": null
+    },
+    {
+      "split": "validation",
+      "seed": 42013,
+      "seat": 5,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 420,
+      "rank": 4,
+      "ranks": {
+        "player_2": 8,
+        "player_7": 7,
+        "player_0": 6,
+        "player_4": 5,
+        "player_5": 4,
+        "player_1": 3,
+        "player_3": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 6,
+        "buy": 9,
+        "pass": 286,
+        "refresh": 37,
+        "item": 6,
+        "level": 16
+      },
+      "elapsed_seconds": 14.98,
+      "rejection": null
+    },
+    {
+      "split": "validation",
+      "seed": 42012,
+      "seat": 4,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 6,
+      "ranks": {
+        "player_2": 8,
+        "player_0": 7,
+        "player_4": 6,
+        "player_1": 5,
+        "player_6": 4,
+        "player_5": 3,
+        "player_3": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 6,
+        "buy": 8,
+        "pass": 229,
+        "refresh": 46,
+        "item": 7,
+        "level": 19
+      },
+      "elapsed_seconds": 20.27,
+      "rejection": null
+    },
+    {
+      "split": "validation",
+      "seed": 42014,
+      "seat": 6,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 3,
+      "ranks": {
+        "player_0": 8,
+        "player_1": 7,
+        "player_4": 6,
+        "player_5": 5,
+        "player_2": 4,
+        "player_6": 3,
+        "player_3": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 9,
+        "buy": 14,
+        "move": 6,
+        "pass": 285,
+        "refresh": 42,
+        "level": 19
+      },
+      "elapsed_seconds": 16.22,
+      "rejection": null
+    },
+    {
+      "split": "validation",
+      "seed": 42015,
+      "seat": 7,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 420,
+      "rank": 7,
+      "ranks": {
+        "player_6": 8,
+        "player_7": 7,
+        "player_5": 6,
+        "player_1": 5,
+        "player_2": 4,
+        "player_3": 3,
+        "player_0": 1,
+        "player_4": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 5,
+        "buy": 11,
+        "pass": 188,
+        "refresh": 41,
+        "item": 2,
+        "level": 8
+      },
+      "elapsed_seconds": 15.79,
+      "rejection": null
+    },
+    {
+      "split": "validation",
+      "seed": 42016,
+      "seat": 0,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 3,
+      "ranks": {
+        "player_3": 8,
+        "player_4": 7,
+        "player_2": 6,
+        "player_7": 5,
+        "player_1": 4,
+        "player_0": 3,
+        "player_5": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 8,
+        "item": 12,
+        "buy": 12,
+        "pass": 325,
+        "refresh": 72,
+        "level": 21
+      },
+      "elapsed_seconds": 22.81,
+      "rejection": null
+    },
+    {
+      "split": "test",
+      "seed": 43001,
+      "seat": 1,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 7,
+      "ranks": {
+        "player_2": 8,
+        "player_1": 7,
+        "player_7": 6,
+        "player_3": 5,
+        "player_4": 4,
+        "player_5": 3,
+        "player_0": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 5,
+        "item": 6,
+        "buy": 9,
+        "pass": 185,
+        "refresh": 42,
+        "level": 8
+      },
+      "elapsed_seconds": 17.88,
+      "rejection": null
+    },
+    {
+      "split": "test",
+      "seed": 43002,
+      "seat": 2,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 7,
+      "ranks": {
+        "player_5": 8,
+        "player_2": 7,
+        "player_4": 6,
+        "player_3": 5,
+        "player_7": 4,
+        "player_0": 3,
+        "player_1": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 9,
+        "buy": 15,
+        "move": 6,
+        "pass": 235,
+        "refresh": 37,
+        "level": 13
+      },
+      "elapsed_seconds": 18.48,
+      "rejection": null
+    },
+    {
+      "split": "test",
+      "seed": 43003,
+      "seat": 3,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 7,
+      "ranks": {
+        "player_0": 8,
+        "player_3": 7,
+        "player_6": 6,
+        "player_7": 5,
+        "player_2": 4,
+        "player_5": 3,
+        "player_1": 2,
+        "player_4": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 6,
+        "item": 8,
+        "buy": 11,
+        "pass": 208,
+        "refresh": 43,
+        "level": 9
+      },
+      "elapsed_seconds": 17.96,
+      "rejection": null
+    },
+    {
+      "split": "test",
+      "seed": 43005,
+      "seat": 5,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 6,
+      "ranks": {
+        "player_4": 8,
+        "player_0": 7,
+        "player_5": 6,
+        "player_2": 5,
+        "player_7": 4,
+        "player_1": 3,
+        "player_3": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "buy": 12,
+        "move": 6,
+        "pass": 234,
+        "refresh": 37,
+        "item": 9,
+        "level": 17
+      },
+      "elapsed_seconds": 15.09,
+      "rejection": null
+    },
+    {
+      "split": "test",
+      "seed": 43004,
+      "seat": 4,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 2,
+      "ranks": {
+        "player_6": 8,
+        "player_1": 7,
+        "player_5": 6,
+        "player_2": 5,
+        "player_7": 4,
+        "player_0": 3,
+        "player_3": 1,
+        "player_4": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 8,
+        "item": 11,
+        "buy": 16,
+        "pass": 334,
+        "refresh": 61,
+        "level": 20
+      },
+      "elapsed_seconds": 16.86,
+      "rejection": null
+    },
+    {
+      "split": "test",
+      "seed": 43007,
+      "seat": 7,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 525,
+      "rank": 1,
+      "ranks": {
+        "player_1": 8,
+        "player_3": 7,
+        "player_5": 6,
+        "player_0": 5,
+        "player_4": 4,
+        "player_2": 3,
+        "player_6": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 13,
+        "buy": 13,
+        "move": 7,
+        "pass": 373,
+        "refresh": 98,
+        "level": 21
+      },
+      "elapsed_seconds": 15.34,
+      "rejection": null
+    },
+    {
+      "split": "test",
+      "seed": 43006,
+      "seat": 6,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 5,
+      "ranks": {
+        "player_3": 8,
+        "player_4": 7,
+        "player_5": 6,
+        "player_6": 5,
+        "player_0": 4,
+        "player_1": 3,
+        "player_2": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 6,
+        "buy": 11,
+        "pass": 243,
+        "item": 6,
+        "refresh": 36,
+        "level": 13
+      },
+      "elapsed_seconds": 21.78,
+      "rejection": null
+    },
+    {
+      "split": "test",
+      "seed": 43008,
+      "seat": 0,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 8,
+      "ranks": {
+        "player_0": 8,
+        "player_5": 7,
+        "player_6": 6,
+        "player_1": 5,
+        "player_7": 4,
+        "player_2": 3,
+        "player_3": 1,
+        "player_4": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "buy": 13,
+        "move": 5,
+        "pass": 170,
+        "item": 4,
+        "refresh": 30,
+        "level": 3
+      },
+      "elapsed_seconds": 14.24,
+      "rejection": null
+    },
+    {
+      "split": "test",
+      "seed": 43009,
+      "seat": 1,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 3,
+      "ranks": {
+        "player_3": 8,
+        "player_7": 7,
+        "player_4": 6,
+        "player_0": 5,
+        "player_5": 4,
+        "player_1": 3,
+        "player_2": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 11,
+        "buy": 14,
+        "move": 7,
+        "pass": 318,
+        "refresh": 64,
+        "level": 21
+      },
+      "elapsed_seconds": 14.72,
+      "rejection": null
+    },
+    {
+      "split": "test",
+      "seed": 43010,
+      "seat": 2,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 3,
+      "ranks": {
+        "player_1": 8,
+        "player_6": 7,
+        "player_7": 6,
+        "player_5": 5,
+        "player_0": 4,
+        "player_2": 3,
+        "player_3": 1,
+        "player_4": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 8,
+        "buy": 15,
+        "move": 8,
+        "pass": 325,
+        "refresh": 44,
+        "level": 20
+      },
+      "elapsed_seconds": 13.54,
+      "rejection": null
+    },
+    {
+      "split": "test",
+      "seed": 43011,
+      "seat": 3,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 8,
+      "ranks": {
+        "player_3": 8,
+        "player_5": 7,
+        "player_6": 6,
+        "player_7": 5,
+        "player_4": 4,
+        "player_0": 3,
+        "player_1": 1,
+        "player_2": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 5,
+        "buy": 11,
+        "pass": 169,
+        "item": 6,
+        "refresh": 42,
+        "level": 7
+      },
+      "elapsed_seconds": 17.39,
+      "rejection": null
+    },
+    {
+      "split": "test",
+      "seed": 43013,
+      "seat": 5,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 525,
+      "rank": 6,
+      "ranks": {
+        "player_3": 8,
+        "player_1": 7,
+        "player_5": 6,
+        "player_2": 5,
+        "player_0": 4,
+        "player_6": 3,
+        "player_4": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 8,
+        "buy": 13,
+        "move": 6,
+        "pass": 231,
+        "refresh": 45,
+        "level": 12
+      },
+      "elapsed_seconds": 18.92,
+      "rejection": null
+    },
+    {
+      "split": "test",
+      "seed": 43012,
+      "seat": 4,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 7,
+      "ranks": {
+        "player_6": 8,
+        "player_4": 7,
+        "player_0": 6,
+        "player_1": 5,
+        "player_2": 4,
+        "player_3": 3,
+        "player_5": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 6,
+        "buy": 10,
+        "pass": 209,
+        "item": 7,
+        "refresh": 44,
+        "level": 9
+      },
+      "elapsed_seconds": 21.89,
+      "rejection": null
+    },
+    {
+      "split": "test",
+      "seed": 43014,
+      "seat": 6,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 4,
+      "ranks": {
+        "player_7": 8,
+        "player_1": 7,
+        "player_2": 6,
+        "player_3": 5,
+        "player_6": 4,
+        "player_5": 3,
+        "player_0": 1,
+        "player_4": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "buy": 16,
+        "move": 6,
+        "pass": 265,
+        "refresh": 34,
+        "item": 8,
+        "level": 16
+      },
+      "elapsed_seconds": 15.99,
+      "rejection": null
+    },
+    {
+      "split": "test",
+      "seed": 43015,
+      "seat": 7,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 8,
+      "ranks": {
+        "player_7": 8,
+        "player_2": 7,
+        "player_6": 6,
+        "player_4": 5,
+        "player_1": 4,
+        "player_0": 3,
+        "player_3": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 5,
+        "buy": 10,
+        "pass": 180,
+        "item": 4,
+        "refresh": 36,
+        "level": 5
+      },
+      "elapsed_seconds": 22.17,
+      "rejection": null
+    },
+    {
+      "split": "test",
+      "seed": 43016,
+      "seat": 0,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 4,
+      "ranks": {
+        "player_7": 8,
+        "player_1": 7,
+        "player_5": 6,
+        "player_4": 5,
+        "player_0": 4,
+        "player_3": 3,
+        "player_2": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 6,
+        "buy": 11,
+        "pass": 284,
+        "refresh": 35,
+        "item": 8,
+        "level": 16
+      },
+      "elapsed_seconds": 17.99,
+      "rejection": null
+    }
+  ],
+  "accepted": {
+    "train": [
+      {
+        "seed": 41002,
+        "count": 285,
+        "family_counts": {
+          "move": 6,
+          "buy": 8,
+          "pass": 211,
+          "item": 7,
+          "refresh": 44,
+          "level": 9
+        }
+      },
+      {
+        "seed": 41001,
+        "count": 285,
+        "family_counts": {
+          "move": 6,
+          "buy": 9,
+          "pass": 213,
+          "item": 8,
+          "refresh": 40,
+          "level": 9
+        }
+      },
+      {
+        "seed": 41004,
+        "count": 285,
+        "family_counts": {
+          "move": 7,
+          "buy": 14,
+          "pass": 212,
+          "item": 6,
+          "refresh": 37,
+          "level": 9
+        }
+      },
+      {
+        "seed": 41003,
+        "count": 495,
+        "family_counts": {
+          "move": 7,
+          "item": 17,
+          "buy": 12,
+          "pass": 358,
+          "refresh": 81,
+          "level": 20
+        }
+      },
+      {
+        "seed": 41005,
+        "count": 345,
+        "family_counts": {
+          "item": 9,
+          "buy": 14,
+          "move": 6,
+          "pass": 263,
+          "refresh": 38,
+          "level": 15
+        }
+      },
+      {
+        "seed": 41006,
+        "count": 405,
+        "family_counts": {
+          "buy": 13,
+          "move": 7,
+          "pass": 305,
+          "item": 9,
+          "refresh": 51,
+          "level": 20
+        }
+      },
+      {
+        "seed": 41007,
+        "count": 360,
+        "family_counts": {
+          "move": 6,
+          "buy": 13,
+          "pass": 270,
+          "item": 11,
+          "refresh": 40,
+          "level": 20
+        }
+      },
+      {
+        "seed": 41009,
+        "count": 465,
+        "family_counts": {
+          "item": 15,
+          "buy": 17,
+          "move": 8,
+          "pass": 348,
+          "refresh": 57,
+          "level": 20
+        }
+      },
+      {
+        "seed": 41010,
+        "count": 435,
+        "family_counts": {
+          "buy": 12,
+          "move": 7,
+          "pass": 338,
+          "item": 10,
+          "refresh": 48,
+          "level": 20
+        }
+      },
+      {
+        "seed": 41008,
+        "count": 495,
+        "family_counts": {
+          "move": 7,
+          "buy": 10,
+          "pass": 372,
+          "item": 14,
+          "refresh": 72,
+          "level": 20
+        }
+      },
+      {
+        "seed": 41011,
+        "count": 315,
+        "family_counts": {
+          "move": 6,
+          "item": 6,
+          "buy": 14,
+          "pass": 246,
+          "refresh": 31,
+          "level": 12
+        }
+      },
+      {
+        "seed": 41012,
+        "count": 510,
+        "family_counts": {
+          "move": 7,
+          "buy": 10,
+          "pass": 389,
+          "item": 14,
+          "refresh": 70,
+          "level": 20
+        }
+      },
+      {
+        "seed": 41013,
+        "count": 375,
+        "family_counts": {
+          "item": 8,
+          "buy": 11,
+          "move": 6,
+          "pass": 297,
+          "refresh": 34,
+          "level": 19
+        }
+      },
+      {
+        "seed": 41015,
+        "count": 495,
+        "family_counts": {
+          "move": 7,
+          "buy": 13,
+          "pass": 359,
+          "item": 18,
+          "refresh": 78,
+          "level": 20
+        }
+      },
+      {
+        "seed": 41016,
+        "count": 375,
+        "family_counts": {
+          "move": 6,
+          "buy": 12,
+          "pass": 288,
+          "item": 8,
+          "refresh": 42,
+          "level": 19
+        }
+      },
+      {
+        "seed": 41014,
+        "count": 285,
+        "family_counts": {
+          "buy": 13,
+          "move": 6,
+          "pass": 207,
+          "item": 5,
+          "refresh": 44,
+          "level": 10
+        }
+      },
+      {
+        "seed": 41017,
+        "count": 330,
+        "family_counts": {
+          "item": 9,
+          "buy": 16,
+          "move": 7,
+          "pass": 243,
+          "refresh": 40,
+          "level": 15
+        }
+      },
+      {
+        "seed": 41018,
+        "count": 330,
+        "family_counts": {
+          "move": 6,
+          "buy": 12,
+          "pass": 247,
+          "refresh": 41,
+          "item": 7,
+          "level": 17
+        }
+      },
+      {
+        "seed": 41020,
+        "count": 360,
+        "family_counts": {
+          "move": 6,
+          "buy": 10,
+          "pass": 271,
+          "item": 9,
+          "refresh": 44,
+          "level": 20
+        }
+      },
+      {
+        "seed": 41019,
+        "count": 240,
+        "family_counts": {
+          "item": 3,
+          "buy": 11,
+          "move": 5,
+          "pass": 180,
+          "refresh": 36,
+          "level": 5
+        }
+      },
+      {
+        "seed": 41021,
+        "count": 435,
+        "family_counts": {
+          "buy": 15,
+          "move": 7,
+          "pass": 322,
+          "item": 14,
+          "refresh": 57,
+          "level": 20
+        }
+      },
+      {
+        "seed": 41023,
+        "count": 345,
+        "family_counts": {
+          "item": 7,
+          "buy": 10,
+          "move": 6,
+          "pass": 266,
+          "refresh": 41,
+          "level": 15
+        }
+      },
+      {
+        "seed": 41022,
+        "count": 315,
+        "family_counts": {
+          "move": 6,
+          "item": 6,
+          "buy": 13,
+          "pass": 235,
+          "refresh": 42,
+          "level": 13
+        }
+      },
+      {
+        "seed": 41024,
+        "count": 555,
+        "family_counts": {
+          "move": 7,
+          "buy": 12,
+          "pass": 395,
+          "item": 19,
+          "refresh": 101,
+          "level": 21
+        }
+      },
+      {
+        "seed": 41025,
+        "count": 255,
+        "family_counts": {
+          "move": 7,
+          "buy": 11,
+          "pass": 174,
+          "item": 3,
+          "refresh": 50,
+          "level": 10
+        }
+      },
+      {
+        "seed": 41026,
+        "count": 240,
+        "family_counts": {
+          "move": 5,
+          "buy": 7,
+          "pass": 170,
+          "item": 4,
+          "refresh": 45,
+          "level": 9
+        }
+      },
+      {
+        "seed": 41027,
+        "count": 435,
+        "family_counts": {
+          "move": 8,
+          "buy": 18,
+          "pass": 334,
+          "item": 12,
+          "refresh": 43,
+          "level": 20
+        }
+      },
+      {
+        "seed": 41028,
+        "count": 375,
+        "family_counts": {
+          "item": 14,
+          "buy": 14,
+          "move": 7,
+          "pass": 288,
+          "refresh": 32,
+          "level": 20
+        }
+      },
+      {
+        "seed": 41029,
+        "count": 330,
+        "family_counts": {
+          "move": 6,
+          "item": 4,
+          "buy": 7,
+          "pass": 262,
+          "refresh": 38,
+          "level": 13
+        }
+      },
+      {
+        "seed": 41030,
+        "count": 285,
+        "family_counts": {
+          "move": 6,
+          "buy": 8,
+          "pass": 213,
+          "item": 4,
+          "refresh": 45,
+          "level": 9
+        }
+      },
+      {
+        "seed": 41032,
+        "count": 465,
+        "family_counts": {
+          "move": 8,
+          "buy": 17,
+          "pass": 325,
+          "item": 12,
+          "refresh": 82,
+          "level": 21
+        }
+      },
+      {
+        "seed": 41031,
+        "count": 405,
+        "family_counts": {
+          "move": 7,
+          "buy": 13,
+          "pass": 304,
+          "item": 11,
+          "refresh": 49,
+          "level": 21
+        }
+      },
+      {
+        "seed": 41033,
+        "count": 405,
+        "family_counts": {
+          "move": 7,
+          "item": 10,
+          "buy": 13,
+          "pass": 292,
+          "refresh": 63,
+          "level": 20
+        }
+      },
+      {
+        "seed": 41035,
+        "count": 405,
+        "family_counts": {
+          "move": 7,
+          "item": 10,
+          "buy": 12,
+          "pass": 303,
+          "refresh": 52,
+          "level": 21
+        }
+      },
+      {
+        "seed": 41034,
+        "count": 405,
+        "family_counts": {
+          "move": 7,
+          "buy": 12,
+          "pass": 303,
+          "refresh": 52,
+          "item": 11,
+          "level": 20
+        }
+      },
+      {
+        "seed": 41036,
+        "count": 285,
+        "family_counts": {
+          "item": 6,
+          "buy": 16,
+          "move": 6,
+          "pass": 215,
+          "refresh": 33,
+          "level": 9
+        }
+      },
+      {
+        "seed": 41037,
+        "count": 360,
+        "family_counts": {
+          "move": 6,
+          "buy": 12,
+          "pass": 284,
+          "item": 9,
+          "refresh": 30,
+          "level": 19
+        }
+      },
+      {
+        "seed": 41038,
+        "count": 345,
+        "family_counts": {
+          "move": 6,
+          "buy": 11,
+          "pass": 261,
+          "item": 10,
+          "refresh": 39,
+          "level": 18
+        }
+      },
+      {
+        "seed": 41039,
+        "count": 510,
+        "family_counts": {
+          "move": 8,
+          "buy": 17,
+          "pass": 364,
+          "item": 15,
+          "refresh": 86,
+          "level": 20
+        }
+      },
+      {
+        "seed": 41040,
+        "count": 495,
+        "family_counts": {
+          "move": 7,
+          "buy": 11,
+          "pass": 358,
+          "refresh": 88,
+          "item": 10,
+          "level": 21
+        }
+      },
+      {
+        "seed": 41041,
+        "count": 330,
+        "family_counts": {
+          "move": 6,
+          "buy": 11,
+          "pass": 251,
+          "refresh": 44,
+          "item": 4,
+          "level": 14
+        }
+      },
+      {
+        "seed": 41042,
+        "count": 285,
+        "family_counts": {
+          "move": 6,
+          "buy": 10,
+          "pass": 207,
+          "item": 4,
+          "refresh": 48,
+          "level": 10
+        }
+      },
+      {
+        "seed": 41043,
+        "count": 465,
+        "family_counts": {
+          "move": 7,
+          "buy": 13,
+          "pass": 351,
+          "refresh": 60,
+          "item": 13,
+          "level": 21
+        }
+      },
+      {
+        "seed": 41044,
+        "count": 405,
+        "family_counts": {
+          "item": 9,
+          "buy": 9,
+          "move": 7,
+          "pass": 314,
+          "refresh": 46,
+          "level": 20
+        }
+      },
+      {
+        "seed": 41045,
+        "count": 450,
+        "family_counts": {
+          "move": 8,
+          "buy": 16,
+          "pass": 339,
+          "item": 17,
+          "refresh": 50,
+          "level": 20
+        }
+      },
+      {
+        "seed": 41047,
+        "count": 270,
+        "family_counts": {
+          "move": 5,
+          "buy": 7,
+          "pass": 208,
+          "item": 5,
+          "refresh": 36,
+          "level": 9
+        }
+      },
+      {
+        "seed": 41046,
+        "count": 465,
+        "family_counts": {
+          "move": 7,
+          "buy": 15,
+          "pass": 333,
+          "item": 15,
+          "refresh": 74,
+          "level": 21
+        }
+      },
+      {
+        "seed": 41048,
+        "count": 435,
+        "family_counts": {
+          "move": 7,
+          "buy": 10,
+          "pass": 325,
+          "item": 12,
+          "refresh": 61,
+          "level": 20
+        }
+      },
+      {
+        "seed": 41049,
+        "count": 435,
+        "family_counts": {
+          "move": 7,
+          "buy": 12,
+          "pass": 318,
+          "item": 14,
+          "refresh": 62,
+          "level": 22
+        }
+      },
+      {
+        "seed": 41050,
+        "count": 255,
+        "family_counts": {
+          "item": 4,
+          "buy": 12,
+          "move": 5,
+          "pass": 186,
+          "refresh": 42,
+          "level": 6
+        }
+      },
+      {
+        "seed": 41052,
+        "count": 450,
+        "family_counts": {
+          "move": 7,
+          "buy": 8,
+          "pass": 328,
+          "refresh": 74,
+          "item": 12,
+          "level": 21
+        }
+      },
+      {
+        "seed": 41051,
+        "count": 285,
+        "family_counts": {
+          "move": 6,
+          "buy": 10,
+          "pass": 213,
+          "item": 6,
+          "refresh": 41,
+          "level": 9
+        }
+      },
+      {
+        "seed": 41053,
+        "count": 375,
+        "family_counts": {
+          "item": 14,
+          "buy": 14,
+          "move": 7,
+          "pass": 284,
+          "refresh": 36,
+          "level": 20
+        }
+      },
+      {
+        "seed": 41055,
+        "count": 330,
+        "family_counts": {
+          "move": 6,
+          "buy": 10,
+          "pass": 262,
+          "item": 6,
+          "refresh": 31,
+          "level": 15
+        }
+      },
+      {
+        "seed": 41054,
+        "count": 465,
+        "family_counts": {
+          "item": 12,
+          "buy": 12,
+          "move": 7,
+          "pass": 330,
+          "refresh": 83,
+          "level": 21
+        }
+      },
+      {
+        "seed": 41056,
+        "count": 450,
+        "family_counts": {
+          "move": 7,
+          "buy": 19,
+          "pass": 327,
+          "item": 13,
+          "refresh": 63,
+          "level": 21
+        }
+      },
+      {
+        "seed": 41059,
+        "count": 255,
+        "family_counts": {
+          "move": 5,
+          "item": 7,
+          "buy": 10,
+          "pass": 191,
+          "refresh": 35,
+          "level": 7
+        }
+      },
+      {
+        "seed": 41057,
+        "count": 405,
+        "family_counts": {
+          "buy": 15,
+          "move": 7,
+          "pass": 295,
+          "refresh": 59,
+          "item": 8,
+          "level": 21
+        }
+      },
+      {
+        "seed": 41058,
+        "count": 330,
+        "family_counts": {
+          "move": 6,
+          "buy": 11,
+          "pass": 253,
+          "refresh": 41,
+          "item": 6,
+          "level": 13
+        }
+      },
+      {
+        "seed": 41060,
+        "count": 270,
+        "family_counts": {
+          "move": 5,
+          "buy": 11,
+          "pass": 204,
+          "item": 4,
+          "refresh": 38,
+          "level": 8
+        }
+      },
+      {
+        "seed": 41062,
+        "count": 435,
+        "family_counts": {
+          "item": 11,
+          "buy": 12,
+          "move": 7,
+          "pass": 294,
+          "refresh": 90,
+          "level": 21
+        }
+      },
+      {
+        "seed": 41061,
+        "count": 420,
+        "family_counts": {
+          "move": 7,
+          "buy": 13,
+          "pass": 321,
+          "item": 13,
+          "refresh": 46,
+          "level": 20
+        }
+      },
+      {
+        "seed": 41063,
+        "count": 255,
+        "family_counts": {
+          "move": 5,
+          "buy": 7,
+          "pass": 196,
+          "item": 4,
+          "refresh": 37,
+          "level": 6
+        }
+      },
+      {
+        "seed": 41064,
+        "count": 345,
+        "family_counts": {
+          "item": 11,
+          "buy": 13,
+          "move": 6,
+          "pass": 270,
+          "refresh": 29,
+          "level": 16
+        }
+      }
+    ],
+    "validation": [
+      {
+        "seed": 42001,
+        "count": 315,
+        "family_counts": {
+          "item": 7,
+          "buy": 11,
+          "move": 6,
+          "pass": 230,
+          "refresh": 48,
+          "level": 13
+        }
+      },
+      {
+        "seed": 42002,
+        "count": 510,
+        "family_counts": {
+          "item": 13,
+          "buy": 14,
+          "move": 7,
+          "pass": 360,
+          "refresh": 95,
+          "level": 21
+        }
+      },
+      {
+        "seed": 42003,
+        "count": 465,
+        "family_counts": {
+          "move": 9,
+          "buy": 22,
+          "pass": 315,
+          "item": 19,
+          "refresh": 79,
+          "level": 21
+        }
+      },
+      {
+        "seed": 42004,
+        "count": 465,
+        "family_counts": {
+          "move": 7,
+          "buy": 15,
+          "pass": 340,
+          "item": 13,
+          "refresh": 70,
+          "level": 20
+        }
+      },
+      {
+        "seed": 42006,
+        "count": 420,
+        "family_counts": {
+          "item": 14,
+          "buy": 9,
+          "move": 7,
+          "pass": 322,
+          "refresh": 48,
+          "level": 20
+        }
+      },
+      {
+        "seed": 42005,
+        "count": 285,
+        "family_counts": {
+          "move": 6,
+          "buy": 16,
+          "pass": 193,
+          "item": 10,
+          "refresh": 51,
+          "level": 9
+        }
+      },
+      {
+        "seed": 42007,
+        "count": 285,
+        "family_counts": {
+          "move": 6,
+          "buy": 7,
+          "pass": 207,
+          "refresh": 50,
+          "item": 5,
+          "level": 10
+        }
+      },
+      {
+        "seed": 42008,
+        "count": 345,
+        "family_counts": {
+          "item": 12,
+          "buy": 12,
+          "move": 6,
+          "pass": 261,
+          "refresh": 36,
+          "level": 18
+        }
+      },
+      {
+        "seed": 42009,
+        "count": 510,
+        "family_counts": {
+          "move": 7,
+          "buy": 15,
+          "pass": 363,
+          "item": 16,
+          "refresh": 89,
+          "level": 20
+        }
+      },
+      {
+        "seed": 42010,
+        "count": 360,
+        "family_counts": {
+          "item": 10,
+          "buy": 12,
+          "move": 6,
+          "pass": 277,
+          "refresh": 36,
+          "level": 19
+        }
+      },
+      {
+        "seed": 42011,
+        "count": 255,
+        "family_counts": {
+          "move": 5,
+          "buy": 11,
+          "pass": 195,
+          "item": 5,
+          "refresh": 32,
+          "level": 7
+        }
+      },
+      {
+        "seed": 42013,
+        "count": 360,
+        "family_counts": {
+          "move": 6,
+          "buy": 9,
+          "pass": 286,
+          "refresh": 37,
+          "item": 6,
+          "level": 16
+        }
+      },
+      {
+        "seed": 42012,
+        "count": 315,
+        "family_counts": {
+          "move": 6,
+          "buy": 8,
+          "pass": 229,
+          "refresh": 46,
+          "item": 7,
+          "level": 19
+        }
+      },
+      {
+        "seed": 42014,
+        "count": 375,
+        "family_counts": {
+          "item": 9,
+          "buy": 14,
+          "move": 6,
+          "pass": 285,
+          "refresh": 42,
+          "level": 19
+        }
+      },
+      {
+        "seed": 42015,
+        "count": 255,
+        "family_counts": {
+          "move": 5,
+          "buy": 11,
+          "pass": 188,
+          "refresh": 41,
+          "item": 2,
+          "level": 8
+        }
+      },
+      {
+        "seed": 42016,
+        "count": 450,
+        "family_counts": {
+          "move": 8,
+          "item": 12,
+          "buy": 12,
+          "pass": 325,
+          "refresh": 72,
+          "level": 21
+        }
+      }
+    ],
+    "test": [
+      {
+        "seed": 43001,
+        "count": 255,
+        "family_counts": {
+          "move": 5,
+          "item": 6,
+          "buy": 9,
+          "pass": 185,
+          "refresh": 42,
+          "level": 8
+        }
+      },
+      {
+        "seed": 43002,
+        "count": 315,
+        "family_counts": {
+          "item": 9,
+          "buy": 15,
+          "move": 6,
+          "pass": 235,
+          "refresh": 37,
+          "level": 13
+        }
+      },
+      {
+        "seed": 43003,
+        "count": 285,
+        "family_counts": {
+          "move": 6,
+          "item": 8,
+          "buy": 11,
+          "pass": 208,
+          "refresh": 43,
+          "level": 9
+        }
+      },
+      {
+        "seed": 43005,
+        "count": 315,
+        "family_counts": {
+          "buy": 12,
+          "move": 6,
+          "pass": 234,
+          "refresh": 37,
+          "item": 9,
+          "level": 17
+        }
+      },
+      {
+        "seed": 43004,
+        "count": 450,
+        "family_counts": {
+          "move": 8,
+          "item": 11,
+          "buy": 16,
+          "pass": 334,
+          "refresh": 61,
+          "level": 20
+        }
+      },
+      {
+        "seed": 43007,
+        "count": 525,
+        "family_counts": {
+          "item": 13,
+          "buy": 13,
+          "move": 7,
+          "pass": 373,
+          "refresh": 98,
+          "level": 21
+        }
+      },
+      {
+        "seed": 43006,
+        "count": 315,
+        "family_counts": {
+          "move": 6,
+          "buy": 11,
+          "pass": 243,
+          "item": 6,
+          "refresh": 36,
+          "level": 13
+        }
+      },
+      {
+        "seed": 43008,
+        "count": 225,
+        "family_counts": {
+          "buy": 13,
+          "move": 5,
+          "pass": 170,
+          "item": 4,
+          "refresh": 30,
+          "level": 3
+        }
+      },
+      {
+        "seed": 43009,
+        "count": 435,
+        "family_counts": {
+          "item": 11,
+          "buy": 14,
+          "move": 7,
+          "pass": 318,
+          "refresh": 64,
+          "level": 21
+        }
+      },
+      {
+        "seed": 43010,
+        "count": 420,
+        "family_counts": {
+          "item": 8,
+          "buy": 15,
+          "move": 8,
+          "pass": 325,
+          "refresh": 44,
+          "level": 20
+        }
+      },
+      {
+        "seed": 43011,
+        "count": 240,
+        "family_counts": {
+          "move": 5,
+          "buy": 11,
+          "pass": 169,
+          "item": 6,
+          "refresh": 42,
+          "level": 7
+        }
+      },
+      {
+        "seed": 43013,
+        "count": 315,
+        "family_counts": {
+          "item": 8,
+          "buy": 13,
+          "move": 6,
+          "pass": 231,
+          "refresh": 45,
+          "level": 12
+        }
+      },
+      {
+        "seed": 43012,
+        "count": 285,
+        "family_counts": {
+          "move": 6,
+          "buy": 10,
+          "pass": 209,
+          "item": 7,
+          "refresh": 44,
+          "level": 9
+        }
+      },
+      {
+        "seed": 43014,
+        "count": 345,
+        "family_counts": {
+          "buy": 16,
+          "move": 6,
+          "pass": 265,
+          "refresh": 34,
+          "item": 8,
+          "level": 16
+        }
+      },
+      {
+        "seed": 43015,
+        "count": 240,
+        "family_counts": {
+          "move": 5,
+          "buy": 10,
+          "pass": 180,
+          "item": 4,
+          "refresh": 36,
+          "level": 5
+        }
+      },
+      {
+        "seed": 43016,
+        "count": 360,
+        "family_counts": {
+          "move": 6,
+          "buy": 11,
+          "pass": 284,
+          "refresh": 35,
+          "item": 8,
+          "level": 16
+        }
+      }
+    ]
+  },
+  "rejected": [],
+  "notes": [
+    "natural action frequencies retained; no automatic removal of waiting or moves",
+    "script uses own simulator player information; information equivalence not fully audited",
+    "warnings measured through captured text only",
+    "model uses only observation; same seed can diverge after different actions",
+    "factorized categorical diffusion is a single-action generator, not trajectory diffusion"
+  ],
+  "data_summary": {
+    "train": {
+      "games": 64,
+      "samples": 23985,
+      "family_counts": {
+        "move": 416,
+        "buy": 773,
+        "pass": 17885,
+        "item": 608,
+        "refresh": 3262,
+        "level": 1041
+      }
+    },
+    "validation": {
+      "games": 16,
+      "samples": 5970,
+      "family_counts": {
+        "item": 160,
+        "buy": 198,
+        "move": 103,
+        "pass": 4376,
+        "refresh": 872,
+        "level": 261
+      }
+    },
+    "test": {
+      "games": 16,
+      "samples": 5325,
+      "family_counts": {
+        "move": 98,
+        "item": 126,
+        "buy": 200,
+        "pass": 3963,
+        "refresh": 728,
+        "level": 210
+      }
+    }
+  },
+  "training": {
+    "hier_bc": {
+      "updates": 1200,
+      "losses": [
+        {
+          "step": 200,
+          "loss": 0.5825579166412354
+        },
+        {
+          "step": 400,
+          "loss": 0.43607795238494873
+        },
+        {
+          "step": 600,
+          "loss": 0.24395371973514557
+        },
+        {
+          "step": 800,
+          "loss": 0.34529322385787964
+        },
+        {
+          "step": 1000,
+          "loss": 0.1828012764453888
+        },
+        {
+          "step": 1200,
+          "loss": 0.18993167579174042
+        }
+      ],
+      "validation": {
+        "samples": 1024,
+        "exact_accuracy": 0.734375,
+        "family_accuracy": 0.7890625,
+        "per_family": {
+          "move": {
+            "count": 14,
+            "family_recall": 0.7857142857142857,
+            "exact_accuracy": 0.0
+          },
+          "item": {
+            "count": 22,
+            "family_recall": 0.9090909090909091,
+            "exact_accuracy": 0.09090909090909091
+          },
+          "buy": {
+            "count": 41,
+            "family_recall": 0.8536585365853658,
+            "exact_accuracy": 0.1951219512195122
+          },
+          "pass": {
+            "count": 752,
+            "family_recall": 0.824468085106383,
+            "exact_accuracy": 0.824468085106383
+          },
+          "level": {
+            "count": 46,
+            "family_recall": 0.6956521739130435,
+            "exact_accuracy": 0.6956521739130435
+          },
+          "refresh": {
+            "count": 149,
+            "family_recall": 0.6040268456375839,
+            "exact_accuracy": 0.6040268456375839
+          }
+        },
+        "predicted_counts": {
+          "pass": 652,
+          "level": 102,
+          "refresh": 153,
+          "buy": 79,
+          "item": 22,
+          "move": 16
+        },
+        "illegal_count": 0
+      },
+      "test": {
+        "samples": 1024,
+        "exact_accuracy": 0.677734375,
+        "family_accuracy": 0.7255859375,
+        "per_family": {
+          "move": {
+            "count": 19,
+            "family_recall": 0.6842105263157895,
+            "exact_accuracy": 0.0
+          },
+          "item": {
+            "count": 21,
+            "family_recall": 0.9523809523809523,
+            "exact_accuracy": 0.38095238095238093
+          },
+          "buy": {
+            "count": 44,
+            "family_recall": 0.75,
+            "exact_accuracy": 0.20454545454545456
+          },
+          "pass": {
+            "count": 755,
+            "family_recall": 0.7298013245033113,
+            "exact_accuracy": 0.7298013245033113
+          },
+          "level": {
+            "count": 38,
+            "family_recall": 0.6578947368421053,
+            "exact_accuracy": 0.6578947368421053
+          },
+          "refresh": {
+            "count": 147,
+            "family_recall": 0.6870748299319728,
+            "exact_accuracy": 0.6870748299319728
+          }
+        },
+        "predicted_counts": {
+          "refresh": 213,
+          "pass": 586,
+          "buy": 76,
+          "level": 94,
+          "item": 30,
+          "move": 25
+        },
+        "illegal_count": 0
+      }
+    },
+    "hier_diffusion": {
+      "updates": 1200,
+      "losses": [
+        {
+          "step": 200,
+          "loss": 0.5874590873718262
+        },
+        {
+          "step": 400,
+          "loss": 0.4251808822154999
+        },
+        {
+          "step": 600,
+          "loss": 0.24930834770202637
+        },
+        {
+          "step": 800,
+          "loss": 0.381603866815567
+        },
+        {
+          "step": 1000,
+          "loss": 0.19739305973052979
+        },
+        {
+          "step": 1200,
+          "loss": 0.19479228556156158
+        }
+      ],
+      "validation": {
+        "samples": 1024,
+        "exact_accuracy": 0.7568359375,
+        "family_accuracy": 0.8037109375,
+        "per_family": {
+          "move": {
+            "count": 14,
+            "family_recall": 0.7857142857142857,
+            "exact_accuracy": 0.0
+          },
+          "item": {
+            "count": 22,
+            "family_recall": 0.9090909090909091,
+            "exact_accuracy": 0.22727272727272727
+          },
+          "buy": {
+            "count": 41,
+            "family_recall": 0.7560975609756098,
+            "exact_accuracy": 0.21951219512195122
+          },
+          "pass": {
+            "count": 752,
+            "family_recall": 0.8444148936170213,
+            "exact_accuracy": 0.8444148936170213
+          },
+          "level": {
+            "count": 46,
+            "family_recall": 0.7608695652173914,
+            "exact_accuracy": 0.7608695652173914
+          },
+          "refresh": {
+            "count": 149,
+            "family_recall": 0.610738255033557,
+            "exact_accuracy": 0.610738255033557
+          }
+        },
+        "predicted_counts": {
+          "pass": 673,
+          "level": 104,
+          "refresh": 149,
+          "buy": 57,
+          "item": 24,
+          "move": 17
+        },
+        "illegal_count": 0
+      },
+      "test": {
+        "samples": 1024,
+        "exact_accuracy": 0.6767578125,
+        "family_accuracy": 0.724609375,
+        "per_family": {
+          "move": {
+            "count": 19,
+            "family_recall": 0.6842105263157895,
+            "exact_accuracy": 0.0
+          },
+          "item": {
+            "count": 21,
+            "family_recall": 0.8095238095238095,
+            "exact_accuracy": 0.19047619047619047
+          },
+          "buy": {
+            "count": 44,
+            "family_recall": 0.7272727272727273,
+            "exact_accuracy": 0.20454545454545456
+          },
+          "pass": {
+            "count": 755,
+            "family_recall": 0.743046357615894,
+            "exact_accuracy": 0.743046357615894
+          },
+          "level": {
+            "count": 38,
+            "family_recall": 0.7894736842105263,
+            "exact_accuracy": 0.7894736842105263
+          },
+          "refresh": {
+            "count": 147,
+            "family_recall": 0.6054421768707483,
+            "exact_accuracy": 0.6054421768707483
+          }
+        },
+        "predicted_counts": {
+          "refresh": 189,
+          "pass": 600,
+          "buy": 59,
+          "level": 122,
+          "item": 28,
+          "move": 25,
+          "sell": 1
+        },
+        "illegal_count": 0
+      }
+    }
+  },
+  "evaluation": [
+    {
+      "seed": 44001,
+      "seat": 1,
+      "kind": "hier_bc",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 2,
+      "ranks": {
+        "player_0": 8,
+        "player_5": 7,
+        "player_3": 6,
+        "player_4": 5,
+        "player_2": 4,
+        "player_7": 3,
+        "player_1": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 9,
+        "move": 20,
+        "buy": 15,
+        "pass": 306,
+        "refresh": 60,
+        "level": 25
+      },
+      "elapsed_seconds": 17.38
+    },
+    {
+      "seed": 44002,
+      "seat": 2,
+      "kind": "hier_bc",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 7,
+      "ranks": {
+        "player_1": 8,
+        "player_2": 7,
+        "player_6": 6,
+        "player_3": 5,
+        "player_5": 4,
+        "player_4": 3,
+        "player_0": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 5,
+        "move": 11,
+        "buy": 15,
+        "pass": 199,
+        "refresh": 21,
+        "level": 19
+      },
+      "elapsed_seconds": 18.93
+    },
+    {
+      "seed": 44003,
+      "seat": 3,
+      "kind": "hier_bc",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 6,
+      "ranks": {
+        "player_4": 8,
+        "player_5": 7,
+        "player_3": 6,
+        "player_7": 5,
+        "player_0": 4,
+        "player_6": 3,
+        "player_1": 2,
+        "player_2": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 11,
+        "item": 10,
+        "buy": 13,
+        "pass": 206,
+        "refresh": 34,
+        "level": 11
+      },
+      "elapsed_seconds": 21.02
+    },
+    {
+      "seed": 44004,
+      "seat": 4,
+      "kind": "hier_bc",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 6,
+      "ranks": {
+        "player_6": 8,
+        "player_0": 7,
+        "player_4": 6,
+        "player_3": 5,
+        "player_2": 4,
+        "player_7": 3,
+        "player_1": 2,
+        "player_5": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 8,
+        "buy": 9,
+        "pass": 296,
+        "refresh": 45,
+        "item": 4,
+        "level": 13
+      },
+      "elapsed_seconds": 22.96
+    },
+    {
+      "seed": 44005,
+      "seat": 5,
+      "kind": "hier_bc",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 3,
+      "ranks": {
+        "player_3": 8,
+        "player_1": 7,
+        "player_4": 6,
+        "player_2": 5,
+        "player_0": 4,
+        "player_5": 3,
+        "player_6": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 14,
+        "item": 7,
+        "buy": 19,
+        "pass": 303,
+        "refresh": 46,
+        "level": 31
+      },
+      "elapsed_seconds": 17.51
+    },
+    {
+      "seed": 44007,
+      "seat": 7,
+      "kind": "hier_bc",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 7,
+      "ranks": {
+        "player_2": 8,
+        "player_7": 7,
+        "player_3": 6,
+        "player_5": 5,
+        "player_1": 4,
+        "player_4": 3,
+        "player_0": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "buy": 18,
+        "move": 8,
+        "pass": 183,
+        "item": 6,
+        "refresh": 32,
+        "level": 8
+      },
+      "elapsed_seconds": 21.8
+    },
+    {
+      "seed": 44008,
+      "seat": 0,
+      "kind": "hier_bc",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 3,
+      "ranks": {
+        "player_1": 8,
+        "player_6": 7,
+        "player_7": 6,
+        "player_2": 5,
+        "player_5": 4,
+        "player_0": 3,
+        "player_3": 1,
+        "player_4": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 5,
+        "buy": 16,
+        "pass": 306,
+        "item": 15,
+        "refresh": 40,
+        "level": 22,
+        "sell": 1
+      },
+      "elapsed_seconds": 22.85
+    },
+    {
+      "seed": 44006,
+      "seat": 6,
+      "kind": "hier_bc",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 1,
+      "ranks": {
+        "player_5": 8,
+        "player_7": 7,
+        "player_3": 6,
+        "player_0": 5,
+        "player_2": 4,
+        "player_1": 3,
+        "player_4": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 1,
+      "internal_warning_examples": [
+        "Did not buy champion successfully"
+      ],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 9,
+        "buy": 18,
+        "pass": 380,
+        "item": 18,
+        "refresh": 60,
+        "level": 25
+      },
+      "elapsed_seconds": 30.17
+    },
+    {
+      "seed": 44009,
+      "seat": 1,
+      "kind": "hier_bc",
+      "reason": "natural_end",
+      "steps": 555,
+      "rank": 1,
+      "ranks": {
+        "player_6": 8,
+        "player_7": 7,
+        "player_3": 6,
+        "player_4": 5,
+        "player_2": 4,
+        "player_0": 3,
+        "player_1": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 8,
+        "buy": 20,
+        "pass": 408,
+        "refresh": 72,
+        "item": 16,
+        "level": 31
+      },
+      "elapsed_seconds": 20.41
+    },
+    {
+      "seed": 44010,
+      "seat": 2,
+      "kind": "hier_bc",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 7,
+      "ranks": {
+        "player_4": 8,
+        "player_2": 7,
+        "player_1": 6,
+        "player_5": 5,
+        "player_3": 4,
+        "player_0": 3,
+        "player_6": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "buy": 15,
+        "item": 13,
+        "move": 5,
+        "pass": 224,
+        "refresh": 50,
+        "level": 8
+      },
+      "elapsed_seconds": 20.34
+    },
+    {
+      "seed": 44011,
+      "seat": 3,
+      "kind": "hier_bc",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 5,
+      "ranks": {
+        "player_2": 8,
+        "player_7": 7,
+        "player_5": 6,
+        "player_3": 5,
+        "player_4": 4,
+        "player_1": 3,
+        "player_0": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 8,
+        "buy": 13,
+        "pass": 264,
+        "item": 7,
+        "refresh": 50,
+        "level": 18
+      },
+      "elapsed_seconds": 18.37
+    },
+    {
+      "seed": 44012,
+      "seat": 4,
+      "kind": "hier_bc",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 3,
+      "ranks": {
+        "player_0": 8,
+        "player_1": 7,
+        "player_2": 6,
+        "player_6": 5,
+        "player_3": 4,
+        "player_4": 3,
+        "player_5": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 13,
+        "item": 16,
+        "buy": 21,
+        "pass": 308,
+        "refresh": 56,
+        "level": 21
+      },
+      "elapsed_seconds": 17.69
+    },
+    {
+      "seed": 44013,
+      "seat": 5,
+      "kind": "hier_bc",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 3,
+      "ranks": {
+        "player_2": 8,
+        "player_1": 7,
+        "player_0": 6,
+        "player_7": 5,
+        "player_3": 4,
+        "player_5": 3,
+        "player_4": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 9,
+        "buy": 10,
+        "pass": 314,
+        "item": 14,
+        "refresh": 54,
+        "level": 19
+      },
+      "elapsed_seconds": 18.26
+    },
+    {
+      "seed": 44014,
+      "seat": 6,
+      "kind": "hier_bc",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 1,
+      "ranks": {
+        "player_4": 8,
+        "player_0": 7,
+        "player_7": 6,
+        "player_5": 5,
+        "player_1": 4,
+        "player_2": 3,
+        "player_3": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 17,
+        "buy": 20,
+        "move": 10,
+        "pass": 311,
+        "refresh": 50,
+        "level": 27
+      },
+      "elapsed_seconds": 15.55
+    },
+    {
+      "seed": 44015,
+      "seat": 7,
+      "kind": "hier_bc",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 4,
+      "ranks": {
+        "player_0": 8,
+        "player_1": 7,
+        "player_2": 6,
+        "player_5": 5,
+        "player_7": 4,
+        "player_3": 3,
+        "player_4": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "buy": 19,
+        "move": 6,
+        "pass": 326,
+        "item": 10,
+        "refresh": 62,
+        "level": 11,
+        "sell": 1
+      },
+      "elapsed_seconds": 20.99
+    },
+    {
+      "seed": 44016,
+      "seat": 0,
+      "kind": "hier_bc",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 4,
+      "ranks": {
+        "player_3": 8,
+        "player_1": 7,
+        "player_7": 6,
+        "player_4": 5,
+        "player_0": 4,
+        "player_2": 3,
+        "player_5": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 1,
+      "internal_warning_examples": [
+        "Did not buy champion successfully"
+      ],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 18,
+        "item": 16,
+        "buy": 24,
+        "pass": 303,
+        "refresh": 20,
+        "level": 38,
+        "sell": 1
+      },
+      "elapsed_seconds": 18.87
+    },
+    {
+      "seed": 44001,
+      "seat": 1,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 6,
+      "ranks": {
+        "player_0": 8,
+        "player_5": 7,
+        "player_1": 6,
+        "player_4": 5,
+        "player_7": 4,
+        "player_2": 3,
+        "player_3": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 9,
+        "item": 3,
+        "buy": 10,
+        "pass": 254,
+        "refresh": 46,
+        "level": 8
+      },
+      "elapsed_seconds": 20.21
+    },
+    {
+      "seed": 44002,
+      "seat": 2,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 5,
+      "ranks": {
+        "player_1": 8,
+        "player_3": 7,
+        "player_6": 6,
+        "player_2": 5,
+        "player_0": 4,
+        "player_4": 3,
+        "player_5": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "buy": 21,
+        "move": 7,
+        "item": 11,
+        "pass": 265,
+        "refresh": 33,
+        "level": 23
+      },
+      "elapsed_seconds": 19.86
+    },
+    {
+      "seed": 44004,
+      "seat": 4,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 555,
+      "rank": 1,
+      "ranks": {
+        "player_6": 8,
+        "player_0": 7,
+        "player_5": 6,
+        "player_2": 5,
+        "player_1": 4,
+        "player_3": 3,
+        "player_4": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 1,
+      "internal_warning_examples": [
+        "Did not buy champion successfully"
+      ],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 8,
+        "buy": 10,
+        "pass": 400,
+        "refresh": 95,
+        "item": 20,
+        "level": 22
+      },
+      "elapsed_seconds": 23.17
+    },
+    {
+      "seed": 44005,
+      "seat": 5,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 1,
+      "ranks": {
+        "player_2": 8,
+        "player_1": 7,
+        "player_3": 6,
+        "player_4": 5,
+        "player_0": 4,
+        "player_7": 3,
+        "player_5": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 13,
+        "buy": 16,
+        "move": 16,
+        "pass": 361,
+        "refresh": 65,
+        "level": 24
+      },
+      "elapsed_seconds": 21.83
+    },
+    {
+      "seed": 44006,
+      "seat": 6,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 1,
+      "ranks": {
+        "player_2": 8,
+        "player_5": 7,
+        "player_0": 6,
+        "player_1": 5,
+        "player_3": 4,
+        "player_4": 3,
+        "player_6": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 8,
+        "buy": 19,
+        "item": 12,
+        "pass": 297,
+        "refresh": 93,
+        "level": 21
+      },
+      "elapsed_seconds": 22.5
+    },
+    {
+      "seed": 44003,
+      "seat": 3,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 1,
+      "ranks": {
+        "player_5": 8,
+        "player_4": 7,
+        "player_6": 6,
+        "player_1": 5,
+        "player_7": 4,
+        "player_2": 3,
+        "player_0": 2,
+        "player_3": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 12,
+        "move": 17,
+        "buy": 15,
+        "pass": 351,
+        "refresh": 77,
+        "level": 23
+      },
+      "elapsed_seconds": 36.19
+    },
+    {
+      "seed": 44007,
+      "seat": 7,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 1,
+      "ranks": {
+        "player_2": 8,
+        "player_0": 7,
+        "player_5": 6,
+        "player_4": 5,
+        "player_3": 4,
+        "player_6": 3,
+        "player_1": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "buy": 17,
+        "move": 16,
+        "pass": 323,
+        "item": 13,
+        "refresh": 51,
+        "level": 30
+      },
+      "elapsed_seconds": 18.66
+    },
+    {
+      "seed": 44008,
+      "seat": 0,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 3,
+      "ranks": {
+        "player_7": 8,
+        "player_5": 7,
+        "player_1": 6,
+        "player_6": 5,
+        "player_2": 4,
+        "player_0": 3,
+        "player_3": 2,
+        "player_4": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 11,
+        "buy": 14,
+        "pass": 302,
+        "item": 14,
+        "refresh": 59,
+        "level": 20
+      },
+      "elapsed_seconds": 18.54
+    },
+    {
+      "seed": 44010,
+      "seat": 2,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 5,
+      "ranks": {
+        "player_1": 8,
+        "player_4": 7,
+        "player_5": 6,
+        "player_2": 5,
+        "player_0": 4,
+        "player_6": 3,
+        "player_3": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 9,
+        "move": 8,
+        "buy": 15,
+        "pass": 225,
+        "refresh": 48,
+        "level": 10
+      },
+      "elapsed_seconds": 20.52
+    },
+    {
+      "seed": 44009,
+      "seat": 1,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 4,
+      "ranks": {
+        "player_6": 8,
+        "player_4": 7,
+        "player_5": 6,
+        "player_7": 5,
+        "player_1": 4,
+        "player_0": 3,
+        "player_2": 2,
+        "player_3": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 11,
+        "buy": 19,
+        "pass": 334,
+        "refresh": 41,
+        "item": 6,
+        "level": 24
+      },
+      "elapsed_seconds": 21.24
+    },
+    {
+      "seed": 44011,
+      "seat": 3,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 1,
+      "ranks": {
+        "player_2": 8,
+        "player_6": 7,
+        "player_5": 6,
+        "player_7": 5,
+        "player_4": 4,
+        "player_0": 3,
+        "player_1": 2,
+        "player_3": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 10,
+        "buy": 21,
+        "pass": 356,
+        "item": 13,
+        "refresh": 57,
+        "level": 38
+      },
+      "elapsed_seconds": 21.66
+    },
+    {
+      "seed": 44012,
+      "seat": 4,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 1,
+      "ranks": {
+        "player_1": 8,
+        "player_2": 7,
+        "player_0": 6,
+        "player_6": 5,
+        "player_7": 4,
+        "player_3": 3,
+        "player_4": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 16,
+        "move": 11,
+        "buy": 28,
+        "pass": 325,
+        "refresh": 95,
+        "level": 20
+      },
+      "elapsed_seconds": 19.8
+    },
+    {
+      "seed": 44013,
+      "seat": 5,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 3,
+      "ranks": {
+        "player_0": 8,
+        "player_1": 7,
+        "player_7": 6,
+        "player_4": 5,
+        "player_2": 4,
+        "player_5": 3,
+        "player_3": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 10,
+        "buy": 14,
+        "pass": 300,
+        "refresh": 51,
+        "item": 13,
+        "level": 17
+      },
+      "elapsed_seconds": 19.14
+    },
+    {
+      "seed": 44014,
+      "seat": 6,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 1,
+      "ranks": {
+        "player_0": 8,
+        "player_4": 7,
+        "player_7": 6,
+        "player_1": 5,
+        "player_3": 4,
+        "player_2": 3,
+        "player_5": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 20,
+        "move": 9,
+        "buy": 16,
+        "pass": 366,
+        "refresh": 76,
+        "level": 23
+      },
+      "elapsed_seconds": 24.12
+    },
+    {
+      "seed": 44015,
+      "seat": 7,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 3,
+      "ranks": {
+        "player_0": 8,
+        "player_4": 7,
+        "player_6": 6,
+        "player_2": 5,
+        "player_3": 4,
+        "player_7": 3,
+        "player_1": 2,
+        "player_5": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 8,
+        "buy": 13,
+        "pass": 307,
+        "item": 8,
+        "refresh": 77,
+        "level": 6,
+        "sell": 1
+      },
+      "elapsed_seconds": 19.11
+    },
+    {
+      "seed": 44016,
+      "seat": 0,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 5,
+      "ranks": {
+        "player_3": 8,
+        "player_6": 7,
+        "player_4": 6,
+        "player_0": 5,
+        "player_5": 4,
+        "player_7": 3,
+        "player_1": 2,
+        "player_2": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 11,
+        "item": 12,
+        "buy": 14,
+        "pass": 281,
+        "refresh": 28,
+        "level": 29
+      },
+      "elapsed_seconds": 19.49
+    },
+    {
+      "seed": 44002,
+      "seat": 2,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 2,
+      "ranks": {
+        "player_1": 8,
+        "player_3": 7,
+        "player_5": 6,
+        "player_6": 5,
+        "player_7": 4,
+        "player_0": 3,
+        "player_2": 2,
+        "player_4": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 11,
+        "buy": 14,
+        "move": 7,
+        "pass": 349,
+        "refresh": 93,
+        "level": 21
+      },
+      "elapsed_seconds": 15.84
+    },
+    {
+      "seed": 44001,
+      "seat": 1,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 1,
+      "ranks": {
+        "player_0": 8,
+        "player_5": 7,
+        "player_3": 6,
+        "player_4": 5,
+        "player_7": 4,
+        "player_2": 3,
+        "player_1": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 15,
+        "buy": 13,
+        "move": 7,
+        "pass": 356,
+        "refresh": 84,
+        "level": 20
+      },
+      "elapsed_seconds": 23.35
+    },
+    {
+      "seed": 44003,
+      "seat": 3,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 1,
+      "ranks": {
+        "player_5": 8,
+        "player_6": 7,
+        "player_7": 6,
+        "player_2": 5,
+        "player_4": 4,
+        "player_0": 3,
+        "player_1": 2,
+        "player_3": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 18,
+        "buy": 14,
+        "move": 7,
+        "pass": 358,
+        "refresh": 92,
+        "level": 21
+      },
+      "elapsed_seconds": 22.85
+    },
+    {
+      "seed": 44004,
+      "seat": 4,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 2,
+      "ranks": {
+        "player_0": 8,
+        "player_2": 7,
+        "player_3": 6,
+        "player_7": 5,
+        "player_5": 4,
+        "player_1": 3,
+        "player_4": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 13,
+        "pass": 329,
+        "refresh": 53,
+        "level": 20,
+        "item": 13
+      },
+      "elapsed_seconds": 21.03
+    },
+    {
+      "seed": 44005,
+      "seat": 5,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 6,
+      "ranks": {
+        "player_2": 8,
+        "player_4": 7,
+        "player_5": 6,
+        "player_3": 5,
+        "player_1": 4,
+        "player_7": 3,
+        "player_0": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 8,
+        "buy": 14,
+        "move": 6,
+        "pass": 249,
+        "refresh": 36,
+        "level": 17
+      },
+      "elapsed_seconds": 15.05
+    },
+    {
+      "seed": 44006,
+      "seat": 6,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 2,
+      "ranks": {
+        "player_1": 8,
+        "player_4": 7,
+        "player_0": 6,
+        "player_2": 5,
+        "player_5": 4,
+        "player_7": 3,
+        "player_3": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 15,
+        "pass": 349,
+        "item": 16,
+        "refresh": 87,
+        "level": 21
+      },
+      "elapsed_seconds": 26.83
+    },
+    {
+      "seed": 44009,
+      "seat": 1,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 2,
+      "ranks": {
+        "player_3": 8,
+        "player_6": 7,
+        "player_4": 6,
+        "player_7": 5,
+        "player_2": 4,
+        "player_0": 3,
+        "player_1": 2,
+        "player_5": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 11,
+        "pass": 344,
+        "item": 12,
+        "refresh": 99,
+        "level": 22
+      },
+      "elapsed_seconds": 16.02
+    },
+    {
+      "seed": 44007,
+      "seat": 7,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 2,
+      "ranks": {
+        "player_2": 8,
+        "player_0": 7,
+        "player_5": 6,
+        "player_1": 5,
+        "player_4": 4,
+        "player_3": 3,
+        "player_6": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "buy": 15,
+        "move": 7,
+        "pass": 360,
+        "item": 14,
+        "refresh": 78,
+        "level": 21
+      },
+      "elapsed_seconds": 26.64
+    },
+    {
+      "seed": 44008,
+      "seat": 0,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 2,
+      "ranks": {
+        "player_6": 8,
+        "player_3": 7,
+        "player_5": 6,
+        "player_1": 5,
+        "player_7": 4,
+        "player_2": 3,
+        "player_0": 2,
+        "player_4": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 15,
+        "pass": 347,
+        "item": 14,
+        "refresh": 91,
+        "level": 21
+      },
+      "elapsed_seconds": 25.56
+    },
+    {
+      "seed": 44010,
+      "seat": 2,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 420,
+      "rank": 6,
+      "ranks": {
+        "player_4": 8,
+        "player_5": 7,
+        "player_2": 6,
+        "player_0": 5,
+        "player_3": 4,
+        "player_6": 3,
+        "player_1": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 13,
+        "buy": 15,
+        "move": 6,
+        "pass": 225,
+        "refresh": 39,
+        "level": 17
+      },
+      "elapsed_seconds": 17.53
+    },
+    {
+      "seed": 44011,
+      "seat": 3,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 6,
+      "ranks": {
+        "player_7": 8,
+        "player_5": 7,
+        "player_3": 6,
+        "player_2": 5,
+        "player_6": 4,
+        "player_4": 3,
+        "player_0": 1,
+        "player_1": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 6,
+        "buy": 16,
+        "pass": 251,
+        "item": 5,
+        "refresh": 51,
+        "level": 16
+      },
+      "elapsed_seconds": 16.64
+    },
+    {
+      "seed": 44013,
+      "seat": 5,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 2,
+      "ranks": {
+        "player_7": 8,
+        "player_0": 7,
+        "player_1": 6,
+        "player_2": 5,
+        "player_4": 4,
+        "player_6": 3,
+        "player_3": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 11,
+        "pass": 327,
+        "refresh": 87,
+        "item": 12,
+        "level": 21
+      },
+      "elapsed_seconds": 12.32
+    },
+    {
+      "seed": 44012,
+      "seat": 4,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 540,
+      "rank": 4,
+      "ranks": {
+        "player_1": 8,
+        "player_0": 7,
+        "player_6": 6,
+        "player_2": 5,
+        "player_4": 4,
+        "player_5": 3,
+        "player_3": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 8,
+        "buy": 17,
+        "move": 6,
+        "pass": 261,
+        "refresh": 38,
+        "level": 15
+      },
+      "elapsed_seconds": 18.1
+    },
+    {
+      "seed": 44015,
+      "seat": 7,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 2,
+      "ranks": {
+        "player_6": 8,
+        "player_0": 7,
+        "player_1": 6,
+        "player_4": 5,
+        "player_3": 4,
+        "player_2": 3,
+        "player_5": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "buy": 15,
+        "move": 7,
+        "pass": 343,
+        "item": 14,
+        "refresh": 95,
+        "level": 21
+      },
+      "elapsed_seconds": 16.32
+    },
+    {
+      "seed": 44014,
+      "seat": 6,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 7,
+      "ranks": {
+        "player_0": 8,
+        "player_6": 7,
+        "player_1": 6,
+        "player_7": 5,
+        "player_4": 4,
+        "player_2": 3,
+        "player_3": 2,
+        "player_5": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 6,
+        "buy": 12,
+        "pass": 241,
+        "item": 7,
+        "refresh": 36,
+        "level": 13
+      },
+      "elapsed_seconds": 19.08
+    },
+    {
+      "seed": 44016,
+      "seat": 0,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 5,
+      "ranks": {
+        "player_3": 8,
+        "player_7": 7,
+        "player_1": 6,
+        "player_0": 5,
+        "player_4": 4,
+        "player_2": 1,
+        "player_5": 3,
+        "player_6": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 11,
+        "buy": 17,
+        "move": 7,
+        "pass": 257,
+        "refresh": 32,
+        "level": 21
+      },
+      "elapsed_seconds": 17.09
+    }
+  ],
+  "elapsed_seconds": 777.82
+}

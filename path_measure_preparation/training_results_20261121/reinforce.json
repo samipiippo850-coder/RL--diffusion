@@ -1,0 +1,197 @@
+{
+  "algorithm": "one_batch_REINFORCE_fixed_scripted_opponents",
+  "device_for_update": "cuda",
+  "training_seeds": [
+    201,
+    202,
+    203,
+    204
+  ],
+  "validation_seeds": [
+    1001,
+    1002,
+    1003
+  ],
+  "train_games": [
+    {
+      "seed": 201,
+      "reason": "natural_end",
+      "steps": 496,
+      "ranks": {
+        "player_7": 8.0,
+        "player_3": 6.5,
+        "player_5": 6.5,
+        "player_2": 5.0,
+        "player_1": 3.5,
+        "player_4": 3.5,
+        "player_6": 2.0,
+        "player_0": 1.0
+      },
+      "elapsed_seconds": 14.9
+    },
+    {
+      "seed": 202,
+      "reason": "natural_end",
+      "steps": 496,
+      "ranks": {
+        "player_3": 8.0,
+        "player_1": 7.0,
+        "player_6": 5.5,
+        "player_7": 5.5,
+        "player_2": 3.5,
+        "player_4": 3.5,
+        "player_0": 2.0,
+        "player_5": 1.0
+      },
+      "elapsed_seconds": 14.53
+    },
+    {
+      "seed": 203,
+      "reason": "natural_end",
+      "steps": 496,
+      "ranks": {
+        "player_6": 8.0,
+        "player_7": 7.0,
+        "player_5": 6.0,
+        "player_4": 5.0,
+        "player_3": 4.0,
+        "player_1": 3.0,
+        "player_2": 2.0,
+        "player_0": 1.0
+      },
+      "elapsed_seconds": 16.07
+    },
+    {
+      "seed": 204,
+      "reason": "natural_end",
+      "steps": 466,
+      "ranks": {
+        "player_4": 8.0,
+        "player_3": 6.5,
+        "player_5": 6.5,
+        "player_0": 5.0,
+        "player_6": 4.0,
+        "player_7": 3.0,
+        "player_1": 2.0,
+        "player_2": 1.0
+      },
+      "elapsed_seconds": 14.47
+    }
+  ],
+  "train_returns": [
+    1.0,
+    0.8571428656578064,
+    1.0,
+    0.4285714328289032
+  ],
+  "advantages": [
+    0.238095223903656,
+    0.0476190447807312,
+    0.238095223903656,
+    -0.523809552192688
+  ],
+  "loss": 45.2557373046875,
+  "gradient_norm_before_clip": 91.32989501953125,
+  "before": [
+    {
+      "seed": 1001,
+      "reason": "natural_end",
+      "steps": 451,
+      "ranks": {
+        "player_3": 8.0,
+        "player_2": 7.0,
+        "player_4": 6.0,
+        "player_5": 5.0,
+        "player_1": 3.5,
+        "player_7": 3.5,
+        "player_6": 2.0,
+        "player_0": 1.0
+      },
+      "elapsed_seconds": 16.26
+    },
+    {
+      "seed": 1002,
+      "reason": "natural_end",
+      "steps": 436,
+      "ranks": {
+        "player_3": 8.0,
+        "player_5": 7.0,
+        "player_4": 6.0,
+        "player_2": 4.5,
+        "player_7": 4.5,
+        "player_6": 3.0,
+        "player_0": 2.0,
+        "player_1": 1.0
+      },
+      "elapsed_seconds": 15.55
+    },
+    {
+      "seed": 1003,
+      "reason": "natural_end",
+      "steps": 436,
+      "ranks": {
+        "player_0": 7.5,
+        "player_1": 7.5,
+        "player_6": 6.0,
+        "player_4": 5.0,
+        "player_2": 4.0,
+        "player_7": 3.0,
+        "player_3": 2.0,
+        "player_5": 1.0
+      },
+      "elapsed_seconds": 14.29
+    }
+  ],
+  "after": [
+    {
+      "seed": 1001,
+      "reason": "natural_end",
+      "steps": 451,
+      "ranks": {
+        "player_3": 8.0,
+        "player_2": 7.0,
+        "player_4": 6.0,
+        "player_5": 5.0,
+        "player_1": 3.5,
+        "player_7": 3.5,
+        "player_6": 2.0,
+        "player_0": 1.0
+      },
+      "elapsed_seconds": 16.3
+    },
+    {
+      "seed": 1002,
+      "reason": "natural_end",
+      "steps": 466,
+      "ranks": {
+        "player_3": 8.0,
+        "player_5": 7.0,
+        "player_7": 6.0,
+        "player_2": 4.5,
+        "player_4": 4.5,
+        "player_6": 3.0,
+        "player_0": 1.5,
+        "player_1": 1.5
+      },
+      "elapsed_seconds": 16.91
+    },
+    {
+      "seed": 1003,
+      "reason": "natural_end",
+      "steps": 436,
+      "ranks": {
+        "player_0": 7.5,
+        "player_1": 7.5,
+        "player_6": 6.0,
+        "player_4": 5.0,
+        "player_2": 4.0,
+        "player_7": 3.0,
+        "player_3": 2.0,
+        "player_5": 1.0
+      },
+      "elapsed_seconds": 14.28
+    }
+  ],
+  "opponent_version": "scripted_teacher_v1",
+  "note": "Tiny pilot; simultaneous deaths share midpoint rank; not diffusion or evidence of improvement."
+}

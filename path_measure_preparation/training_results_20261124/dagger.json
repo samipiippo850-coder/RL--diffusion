@@ -1,0 +1,7027 @@
+{
+  "status": "completed",
+  "splits": {
+    "dagger_train": [
+      49001,
+      49002,
+      49003,
+      49004,
+      49005,
+      49006,
+      49007,
+      49008,
+      49009,
+      49010,
+      49011,
+      49012,
+      49013,
+      49014,
+      49015,
+      49016,
+      49017,
+      49018,
+      49019,
+      49020,
+      49021,
+      49022,
+      49023,
+      49024,
+      49025,
+      49026,
+      49027,
+      49028,
+      49029,
+      49030,
+      49031,
+      49032
+    ],
+    "dagger_validation": [
+      50001,
+      50002,
+      50003,
+      50004,
+      50005,
+      50006,
+      50007,
+      50008
+    ],
+    "fresh_teacher": [
+      51001,
+      51002,
+      51003,
+      51004,
+      51005,
+      51006,
+      51007,
+      51008,
+      51009,
+      51010,
+      51011,
+      51012,
+      51013,
+      51014,
+      51015,
+      51016,
+      51017,
+      51018,
+      51019,
+      51020,
+      51021,
+      51022,
+      51023,
+      51024,
+      51025,
+      51026,
+      51027,
+      51028,
+      51029,
+      51030,
+      51031,
+      51032
+    ]
+  },
+  "eval_seeds": [
+    52001,
+    52002,
+    52003,
+    52004,
+    52005,
+    52006,
+    52007,
+    52008,
+    52009,
+    52010,
+    52011,
+    52012,
+    52013,
+    52014,
+    52015,
+    52016,
+    52017,
+    52018,
+    52019,
+    52020,
+    52021,
+    52022,
+    52023,
+    52024
+  ],
+  "games": [
+    {
+      "split": "dagger_train",
+      "seed": 49002,
+      "seat": 2,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 1,
+      "ranks": {
+        "player_6": 8,
+        "player_3": 7,
+        "player_1": 6,
+        "player_7": 5,
+        "player_0": 4,
+        "player_4": 3,
+        "player_2": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 14,
+        "move": 14,
+        "buy": 22,
+        "pass": 321,
+        "level": 40,
+        "refresh": 24
+      },
+      "dagger_count": 435,
+      "dagger_exact_agree": 236,
+      "elapsed_seconds": 17.59,
+      "rejection": null
+    },
+    {
+      "split": "dagger_train",
+      "seed": 49003,
+      "seat": 3,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 2,
+      "ranks": {
+        "player_5": 8,
+        "player_1": 7,
+        "player_2": 6,
+        "player_6": 5,
+        "player_4": 4,
+        "player_7": 3,
+        "player_0": 1,
+        "player_3": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 8,
+        "buy": 16,
+        "pass": 346,
+        "item": 14,
+        "refresh": 89,
+        "level": 22
+      },
+      "dagger_count": 495,
+      "dagger_exact_agree": 254,
+      "elapsed_seconds": 22.81,
+      "rejection": null
+    },
+    {
+      "split": "dagger_train",
+      "seed": 49004,
+      "seat": 4,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 3,
+      "ranks": {
+        "player_6": 8,
+        "player_1": 7,
+        "player_7": 6,
+        "player_3": 5,
+        "player_0": 4,
+        "player_2": 1,
+        "player_4": 3,
+        "player_5": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 13,
+        "item": 10,
+        "pass": 350,
+        "refresh": 39,
+        "level": 31
+      },
+      "dagger_count": 450,
+      "dagger_exact_agree": 224,
+      "elapsed_seconds": 25.66,
+      "rejection": null
+    },
+    {
+      "split": "dagger_train",
+      "seed": 49001,
+      "seat": 1,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 3,
+      "ranks": {
+        "player_4": 8,
+        "player_6": 7,
+        "player_5": 6,
+        "player_7": 5,
+        "player_2": 4,
+        "player_1": 3,
+        "player_0": 2,
+        "player_3": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 18,
+        "pass": 312,
+        "item": 13,
+        "refresh": 91,
+        "level": 9
+      },
+      "dagger_count": 450,
+      "dagger_exact_agree": 161,
+      "elapsed_seconds": 28.66,
+      "rejection": null
+    },
+    {
+      "split": "dagger_train",
+      "seed": 49005,
+      "seat": 5,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 5,
+      "ranks": {
+        "player_7": 8,
+        "player_1": 7,
+        "player_3": 6,
+        "player_5": 5,
+        "player_6": 4,
+        "player_0": 3,
+        "player_2": 1,
+        "player_4": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 15,
+        "move": 20,
+        "buy": 16,
+        "pass": 249,
+        "refresh": 42,
+        "level": 17,
+        "sell": 1
+      },
+      "dagger_count": 360,
+      "dagger_exact_agree": 247,
+      "elapsed_seconds": 17.35,
+      "rejection": null
+    },
+    {
+      "split": "dagger_train",
+      "seed": 49006,
+      "seat": 6,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 6,
+      "ranks": {
+        "player_2": 8,
+        "player_1": 7,
+        "player_6": 6,
+        "player_4": 5,
+        "player_3": 4,
+        "player_5": 3,
+        "player_0": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 10,
+        "pass": 254,
+        "item": 9,
+        "level": 17,
+        "refresh": 33
+      },
+      "dagger_count": 330,
+      "dagger_exact_agree": 256,
+      "elapsed_seconds": 23.71,
+      "rejection": null
+    },
+    {
+      "split": "dagger_train",
+      "seed": 49007,
+      "seat": 7,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 525,
+      "rank": 2,
+      "ranks": {
+        "player_2": 8,
+        "player_6": 7,
+        "player_1": 6,
+        "player_4": 5,
+        "player_5": 4,
+        "player_3": 3,
+        "player_0": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 13,
+        "item": 18,
+        "buy": 17,
+        "pass": 377,
+        "refresh": 79,
+        "level": 21
+      },
+      "dagger_count": 525,
+      "dagger_exact_agree": 335,
+      "elapsed_seconds": 22.19,
+      "rejection": null
+    },
+    {
+      "split": "dagger_train",
+      "seed": 49008,
+      "seat": 0,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 3,
+      "ranks": {
+        "player_7": 8,
+        "player_5": 7,
+        "player_3": 6,
+        "player_4": 5,
+        "player_6": 4,
+        "player_0": 3,
+        "player_1": 2,
+        "player_2": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 12,
+        "buy": 19,
+        "move": 14,
+        "pass": 288,
+        "sell": 3,
+        "refresh": 56,
+        "level": 13
+      },
+      "dagger_count": 405,
+      "dagger_exact_agree": 219,
+      "elapsed_seconds": 19.53,
+      "rejection": null
+    },
+    {
+      "split": "dagger_train",
+      "seed": 49009,
+      "seat": 1,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 3,
+      "ranks": {
+        "player_3": 8,
+        "player_2": 7,
+        "player_4": 6,
+        "player_7": 5,
+        "player_6": 4,
+        "player_1": 3,
+        "player_0": 2,
+        "player_5": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "item": 10,
+        "buy": 18,
+        "pass": 326,
+        "refresh": 55,
+        "level": 19
+      },
+      "dagger_count": 435,
+      "dagger_exact_agree": 281,
+      "elapsed_seconds": 20.09,
+      "rejection": null
+    },
+    {
+      "split": "dagger_train",
+      "seed": 49012,
+      "seat": 4,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 1,
+      "ranks": {
+        "player_0": 8,
+        "player_5": 7,
+        "player_6": 6,
+        "player_7": 5,
+        "player_3": 4,
+        "player_1": 3,
+        "player_2": 2,
+        "player_4": 1
+      },
+      "internal_warning_count": 1,
+      "internal_warning_examples": [
+        "Did not buy champion successfully"
+      ],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 9,
+        "buy": 19,
+        "pass": 360,
+        "refresh": 86,
+        "level": 21,
+        "item": 15
+      },
+      "dagger_count": 510,
+      "dagger_exact_agree": 326,
+      "elapsed_seconds": 21.41,
+      "rejection": "simulator_warning"
+    },
+    {
+      "split": "dagger_train",
+      "seed": 49011,
+      "seat": 3,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 3,
+      "ranks": {
+        "player_1": 8,
+        "player_6": 7,
+        "player_2": 6,
+        "player_4": 5,
+        "player_7": 4,
+        "player_3": 3,
+        "player_0": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 13,
+        "buy": 21,
+        "pass": 336,
+        "item": 10,
+        "refresh": 38,
+        "level": 32
+      },
+      "dagger_count": 450,
+      "dagger_exact_agree": 303,
+      "elapsed_seconds": 21.97,
+      "rejection": null
+    },
+    {
+      "split": "dagger_train",
+      "seed": 49010,
+      "seat": 2,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 3,
+      "ranks": {
+        "player_6": 8,
+        "player_3": 7,
+        "player_7": 6,
+        "player_4": 5,
+        "player_1": 4,
+        "player_2": 3,
+        "player_0": 2,
+        "player_5": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 22,
+        "buy": 23,
+        "pass": 363,
+        "item": 12,
+        "refresh": 37,
+        "level": 38
+      },
+      "dagger_count": 495,
+      "dagger_exact_agree": 207,
+      "elapsed_seconds": 27.84,
+      "rejection": null
+    },
+    {
+      "split": "dagger_train",
+      "seed": 49013,
+      "seat": 5,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 5,
+      "ranks": {
+        "player_2": 8,
+        "player_1": 7,
+        "player_0": 6,
+        "player_5": 5,
+        "player_6": 4,
+        "player_4": 3,
+        "player_3": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 10,
+        "buy": 14,
+        "pass": 306,
+        "item": 7,
+        "refresh": 11,
+        "level": 27
+      },
+      "dagger_count": 375,
+      "dagger_exact_agree": 208,
+      "elapsed_seconds": 22.99,
+      "rejection": null
+    },
+    {
+      "split": "dagger_train",
+      "seed": 49015,
+      "seat": 7,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 420,
+      "rank": 1,
+      "ranks": {
+        "player_2": 8,
+        "player_6": 7,
+        "player_5": 6,
+        "player_0": 5,
+        "player_1": 4,
+        "player_3": 3,
+        "player_4": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 10,
+        "buy": 23,
+        "pass": 281,
+        "item": 14,
+        "refresh": 72,
+        "level": 20
+      },
+      "dagger_count": 420,
+      "dagger_exact_agree": 301,
+      "elapsed_seconds": 23.97,
+      "rejection": null
+    },
+    {
+      "split": "dagger_train",
+      "seed": 49016,
+      "seat": 0,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 4,
+      "ranks": {
+        "player_4": 8,
+        "player_7": 7,
+        "player_2": 6,
+        "player_5": 5,
+        "player_0": 4,
+        "player_1": 3,
+        "player_3": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 8,
+        "buy": 11,
+        "pass": 263,
+        "item": 10,
+        "refresh": 60,
+        "level": 8
+      },
+      "dagger_count": 360,
+      "dagger_exact_agree": 193,
+      "elapsed_seconds": 19.55,
+      "rejection": null
+    },
+    {
+      "split": "dagger_train",
+      "seed": 49017,
+      "seat": 1,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 1,
+      "ranks": {
+        "player_3": 8,
+        "player_2": 7,
+        "player_5": 6,
+        "player_0": 5,
+        "player_6": 4,
+        "player_7": 3,
+        "player_1": 1,
+        "player_4": 2
+      },
+      "internal_warning_count": 1,
+      "internal_warning_examples": [
+        "Did not buy champion successfully"
+      ],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 11,
+        "buy": 10,
+        "pass": 334,
+        "refresh": 64,
+        "item": 12,
+        "level": 19
+      },
+      "dagger_count": 450,
+      "dagger_exact_agree": 304,
+      "elapsed_seconds": 20.78,
+      "rejection": "simulator_warning"
+    },
+    {
+      "split": "dagger_train",
+      "seed": 49014,
+      "seat": 6,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 3,
+      "ranks": {
+        "player_2": 8,
+        "player_7": 7,
+        "player_0": 6,
+        "player_3": 5,
+        "player_1": 4,
+        "player_6": 3,
+        "player_4": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "buy": 23,
+        "move": 8,
+        "pass": 320,
+        "item": 14,
+        "refresh": 35,
+        "level": 20
+      },
+      "dagger_count": 420,
+      "dagger_exact_agree": 269,
+      "elapsed_seconds": 29.59,
+      "rejection": null
+    },
+    {
+      "split": "dagger_train",
+      "seed": 49018,
+      "seat": 2,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 525,
+      "rank": 8,
+      "ranks": {
+        "player_2": 8,
+        "player_3": 7,
+        "player_0": 6,
+        "player_6": 5,
+        "player_4": 4,
+        "player_7": 3,
+        "player_1": 2,
+        "player_5": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 8,
+        "move": 9,
+        "buy": 14,
+        "pass": 193,
+        "refresh": 18,
+        "level": 13
+      },
+      "dagger_count": 255,
+      "dagger_exact_agree": 143,
+      "elapsed_seconds": 17.88,
+      "rejection": null
+    },
+    {
+      "split": "dagger_train",
+      "seed": 49019,
+      "seat": 3,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 6,
+      "ranks": {
+        "player_5": 8,
+        "player_0": 7,
+        "player_3": 6,
+        "player_1": 5,
+        "player_2": 4,
+        "player_4": 3,
+        "player_6": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 11,
+        "buy": 11,
+        "pass": 231,
+        "item": 10,
+        "refresh": 41,
+        "level": 11
+      },
+      "dagger_count": 315,
+      "dagger_exact_agree": 201,
+      "elapsed_seconds": 21.54,
+      "rejection": null
+    },
+    {
+      "split": "dagger_train",
+      "seed": 49021,
+      "seat": 5,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 5,
+      "ranks": {
+        "player_1": 8,
+        "player_6": 7,
+        "player_4": 6,
+        "player_5": 5,
+        "player_0": 4,
+        "player_7": 3,
+        "player_2": 1,
+        "player_3": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 9,
+        "buy": 23,
+        "item": 14,
+        "pass": 267,
+        "refresh": 46,
+        "level": 15,
+        "sell": 1
+      },
+      "dagger_count": 375,
+      "dagger_exact_agree": 241,
+      "elapsed_seconds": 17.51,
+      "rejection": null
+    },
+    {
+      "split": "dagger_train",
+      "seed": 49020,
+      "seat": 4,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 555,
+      "rank": 2,
+      "ranks": {
+        "player_3": 8,
+        "player_5": 7,
+        "player_1": 6,
+        "player_2": 5,
+        "player_0": 4,
+        "player_6": 3,
+        "player_4": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 15,
+        "item": 20,
+        "buy": 19,
+        "pass": 382,
+        "refresh": 99,
+        "level": 20
+      },
+      "dagger_count": 555,
+      "dagger_exact_agree": 329,
+      "elapsed_seconds": 24.59,
+      "rejection": null
+    },
+    {
+      "split": "dagger_train",
+      "seed": 49022,
+      "seat": 6,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 4,
+      "ranks": {
+        "player_4": 8,
+        "player_2": 7,
+        "player_0": 6,
+        "player_3": 5,
+        "player_6": 4,
+        "player_5": 3,
+        "player_1": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 7,
+        "move": 12,
+        "buy": 10,
+        "pass": 285,
+        "refresh": 25,
+        "level": 21
+      },
+      "dagger_count": 360,
+      "dagger_exact_agree": 205,
+      "elapsed_seconds": 22.29,
+      "rejection": null
+    },
+    {
+      "split": "dagger_train",
+      "seed": 49024,
+      "seat": 0,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 525,
+      "rank": 7,
+      "ranks": {
+        "player_4": 8,
+        "player_0": 7,
+        "player_1": 6,
+        "player_5": 5,
+        "player_6": 4,
+        "player_2": 3,
+        "player_3": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 9,
+        "buy": 10,
+        "pass": 270,
+        "refresh": 33,
+        "item": 5,
+        "level": 18
+      },
+      "dagger_count": 345,
+      "dagger_exact_agree": 223,
+      "elapsed_seconds": 19.29,
+      "rejection": null
+    },
+    {
+      "split": "dagger_train",
+      "seed": 49023,
+      "seat": 7,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 6,
+      "ranks": {
+        "player_5": 8,
+        "player_6": 7,
+        "player_7": 6,
+        "player_2": 5,
+        "player_3": 4,
+        "player_1": 3,
+        "player_0": 1,
+        "player_4": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 5,
+        "buy": 8,
+        "pass": 211,
+        "refresh": 53,
+        "item": 1,
+        "level": 7
+      },
+      "dagger_count": 285,
+      "dagger_exact_agree": 139,
+      "elapsed_seconds": 21.83,
+      "rejection": null
+    },
+    {
+      "split": "dagger_train",
+      "seed": 49025,
+      "seat": 1,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 5,
+      "ranks": {
+        "player_5": 8,
+        "player_6": 7,
+        "player_7": 6,
+        "player_1": 5,
+        "player_2": 4,
+        "player_0": 1,
+        "player_3": 3,
+        "player_4": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "item": 7,
+        "buy": 14,
+        "pass": 265,
+        "refresh": 20,
+        "level": 17
+      },
+      "dagger_count": 330,
+      "dagger_exact_agree": 201,
+      "elapsed_seconds": 19.97,
+      "rejection": null
+    },
+    {
+      "split": "dagger_train",
+      "seed": 49027,
+      "seat": 3,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 7,
+      "ranks": {
+        "player_2": 8,
+        "player_3": 7,
+        "player_7": 6,
+        "player_0": 5,
+        "player_1": 4,
+        "player_6": 3,
+        "player_4": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 13,
+        "pass": 206,
+        "item": 7,
+        "refresh": 38,
+        "level": 14
+      },
+      "dagger_count": 285,
+      "dagger_exact_agree": 187,
+      "elapsed_seconds": 18.04,
+      "rejection": null
+    },
+    {
+      "split": "dagger_train",
+      "seed": 49028,
+      "seat": 4,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 3,
+      "ranks": {
+        "player_7": 8,
+        "player_0": 7,
+        "player_2": 6,
+        "player_1": 5,
+        "player_3": 4,
+        "player_4": 3,
+        "player_5": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 14,
+        "item": 11,
+        "buy": 14,
+        "pass": 272,
+        "refresh": 47,
+        "level": 17
+      },
+      "dagger_count": 375,
+      "dagger_exact_agree": 147,
+      "elapsed_seconds": 17.48,
+      "rejection": null
+    },
+    {
+      "split": "dagger_train",
+      "seed": 49026,
+      "seat": 2,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 525,
+      "rank": 7,
+      "ranks": {
+        "player_0": 8,
+        "player_2": 7,
+        "player_4": 6,
+        "player_6": 5,
+        "player_5": 4,
+        "player_1": 3,
+        "player_3": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 4,
+        "buy": 16,
+        "move": 9,
+        "pass": 198,
+        "refresh": 38,
+        "level": 5
+      },
+      "dagger_count": 270,
+      "dagger_exact_agree": 204,
+      "elapsed_seconds": 24.97,
+      "rejection": null
+    },
+    {
+      "split": "dagger_train",
+      "seed": 49031,
+      "seat": 7,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 6,
+      "ranks": {
+        "player_6": 8,
+        "player_4": 7,
+        "player_7": 6,
+        "player_2": 5,
+        "player_1": 4,
+        "player_0": 3,
+        "player_3": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 10,
+        "buy": 7,
+        "pass": 252,
+        "refresh": 43,
+        "item": 4,
+        "level": 13,
+        "sell": 1
+      },
+      "dagger_count": 330,
+      "dagger_exact_agree": 170,
+      "elapsed_seconds": 18.36,
+      "rejection": null
+    },
+    {
+      "split": "dagger_train",
+      "seed": 49029,
+      "seat": 5,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 540,
+      "rank": 1,
+      "ranks": {
+        "player_4": 8,
+        "player_2": 7,
+        "player_0": 6,
+        "player_1": 5,
+        "player_6": 4,
+        "player_7": 3,
+        "player_3": 2,
+        "player_5": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 8,
+        "buy": 12,
+        "pass": 412,
+        "item": 10,
+        "refresh": 61,
+        "level": 37
+      },
+      "dagger_count": 540,
+      "dagger_exact_agree": 209,
+      "elapsed_seconds": 30.12,
+      "rejection": null
+    },
+    {
+      "split": "dagger_train",
+      "seed": 49030,
+      "seat": 6,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 1,
+      "ranks": {
+        "player_4": 8,
+        "player_0": 7,
+        "player_1": 6,
+        "player_7": 5,
+        "player_2": 4,
+        "player_5": 3,
+        "player_3": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 1,
+      "internal_warning_examples": [
+        "Did not buy champion successfully"
+      ],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 16,
+        "item": 17,
+        "buy": 23,
+        "pass": 338,
+        "refresh": 79,
+        "level": 19,
+        "sell": 3
+      },
+      "dagger_count": 495,
+      "dagger_exact_agree": 309,
+      "elapsed_seconds": 22.17,
+      "rejection": "simulator_warning"
+    },
+    {
+      "split": "dagger_train",
+      "seed": 49032,
+      "seat": 0,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 540,
+      "rank": 1,
+      "ranks": {
+        "player_2": 8,
+        "player_4": 7,
+        "player_7": 6,
+        "player_6": 5,
+        "player_1": 4,
+        "player_5": 3,
+        "player_0": 1,
+        "player_3": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 9,
+        "buy": 11,
+        "pass": 409,
+        "refresh": 56,
+        "item": 19,
+        "level": 36
+      },
+      "dagger_count": 540,
+      "dagger_exact_agree": 272,
+      "elapsed_seconds": 29.02,
+      "rejection": null
+    },
+    {
+      "split": "dagger_validation",
+      "seed": 50001,
+      "seat": 1,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 1,
+      "ranks": {
+        "player_0": 8,
+        "player_7": 7,
+        "player_3": 6,
+        "player_5": 5,
+        "player_6": 4,
+        "player_2": 3,
+        "player_1": 1,
+        "player_4": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 10,
+        "buy": 23,
+        "pass": 333,
+        "item": 17,
+        "refresh": 91,
+        "level": 20,
+        "sell": 1
+      },
+      "dagger_count": 495,
+      "dagger_exact_agree": 363,
+      "elapsed_seconds": 17.26,
+      "rejection": null
+    },
+    {
+      "split": "dagger_validation",
+      "seed": 50002,
+      "seat": 2,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 2,
+      "ranks": {
+        "player_4": 8,
+        "player_0": 7,
+        "player_1": 6,
+        "player_7": 5,
+        "player_6": 4,
+        "player_5": 3,
+        "player_2": 2,
+        "player_3": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 12,
+        "move": 10,
+        "buy": 18,
+        "pass": 332,
+        "refresh": 56,
+        "level": 22
+      },
+      "dagger_count": 450,
+      "dagger_exact_agree": 194,
+      "elapsed_seconds": 19.83,
+      "rejection": null
+    },
+    {
+      "split": "dagger_validation",
+      "seed": 50003,
+      "seat": 3,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 525,
+      "rank": 1,
+      "ranks": {
+        "player_5": 8,
+        "player_2": 7,
+        "player_0": 6,
+        "player_6": 5,
+        "player_1": 4,
+        "player_4": 3,
+        "player_3": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 11,
+        "buy": 14,
+        "pass": 371,
+        "item": 12,
+        "refresh": 92,
+        "level": 25
+      },
+      "dagger_count": 525,
+      "dagger_exact_agree": 369,
+      "elapsed_seconds": 21.78,
+      "rejection": null
+    },
+    {
+      "split": "dagger_validation",
+      "seed": 50004,
+      "seat": 4,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 4,
+      "ranks": {
+        "player_0": 8,
+        "player_7": 7,
+        "player_1": 6,
+        "player_2": 5,
+        "player_4": 4,
+        "player_6": 3,
+        "player_3": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 1,
+      "internal_warning_examples": [
+        "Did not buy champion successfully"
+      ],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 16,
+        "buy": 19,
+        "pass": 308,
+        "refresh": 76,
+        "item": 10,
+        "level": 21
+      },
+      "dagger_count": 450,
+      "dagger_exact_agree": 295,
+      "elapsed_seconds": 21.54,
+      "rejection": "simulator_warning"
+    },
+    {
+      "split": "dagger_validation",
+      "seed": 50005,
+      "seat": 5,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 1,
+      "ranks": {
+        "player_7": 8,
+        "player_6": 7,
+        "player_0": 6,
+        "player_1": 5,
+        "player_3": 4,
+        "player_4": 3,
+        "player_2": 2,
+        "player_5": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 16,
+        "buy": 20,
+        "pass": 364,
+        "item": 14,
+        "refresh": 75,
+        "level": 21
+      },
+      "dagger_count": 510,
+      "dagger_exact_agree": 370,
+      "elapsed_seconds": 21.11,
+      "rejection": null
+    },
+    {
+      "split": "dagger_validation",
+      "seed": 50007,
+      "seat": 7,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 2,
+      "ranks": {
+        "player_2": 8,
+        "player_3": 7,
+        "player_5": 6,
+        "player_1": 5,
+        "player_0": 4,
+        "player_4": 3,
+        "player_6": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 9,
+        "buy": 13,
+        "pass": 347,
+        "item": 12,
+        "refresh": 64,
+        "level": 20
+      },
+      "dagger_count": 465,
+      "dagger_exact_agree": 294,
+      "elapsed_seconds": 20.2,
+      "rejection": null
+    },
+    {
+      "split": "dagger_validation",
+      "seed": 50006,
+      "seat": 6,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 1,
+      "ranks": {
+        "player_3": 8,
+        "player_2": 7,
+        "player_0": 6,
+        "player_1": 5,
+        "player_5": 4,
+        "player_7": 3,
+        "player_4": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 13,
+        "buy": 21,
+        "pass": 345,
+        "item": 11,
+        "refresh": 22,
+        "level": 38
+      },
+      "dagger_count": 450,
+      "dagger_exact_agree": 275,
+      "elapsed_seconds": 24.99,
+      "rejection": null
+    },
+    {
+      "split": "fresh_teacher",
+      "seed": 51001,
+      "seat": 1,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 8,
+      "ranks": {
+        "player_1": 8,
+        "player_0": 7,
+        "player_5": 6,
+        "player_4": 5,
+        "player_7": 4,
+        "player_2": 3,
+        "player_3": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 5,
+        "buy": 9,
+        "pass": 195,
+        "refresh": 37,
+        "item": 2,
+        "level": 7
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 14.93,
+      "rejection": null
+    },
+    {
+      "split": "fresh_teacher",
+      "seed": 51003,
+      "seat": 3,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 420,
+      "rank": 3,
+      "ranks": {
+        "player_7": 8,
+        "player_0": 7,
+        "player_6": 6,
+        "player_4": 5,
+        "player_1": 4,
+        "player_2": 1,
+        "player_3": 3,
+        "player_5": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 12,
+        "buy": 14,
+        "move": 7,
+        "pass": 319,
+        "refresh": 47,
+        "level": 21
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 17.54,
+      "rejection": null
+    },
+    {
+      "split": "dagger_validation",
+      "seed": 50008,
+      "seat": 0,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 1,
+      "ranks": {
+        "player_6": 8,
+        "player_1": 7,
+        "player_2": 6,
+        "player_3": 5,
+        "player_7": 4,
+        "player_0": 1,
+        "player_4": 3,
+        "player_5": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 14,
+        "buy": 19,
+        "pass": 303,
+        "item": 16,
+        "refresh": 61,
+        "level": 22
+      },
+      "dagger_count": 435,
+      "dagger_exact_agree": 286,
+      "elapsed_seconds": 27.06,
+      "rejection": null
+    },
+    {
+      "split": "fresh_teacher",
+      "seed": 51002,
+      "seat": 2,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 5,
+      "ranks": {
+        "player_4": 8,
+        "player_5": 7,
+        "player_3": 6,
+        "player_2": 5,
+        "player_7": 4,
+        "player_0": 3,
+        "player_1": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 6,
+        "buy": 8,
+        "pass": 270,
+        "item": 10,
+        "refresh": 36,
+        "level": 15
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 19.44,
+      "rejection": null
+    },
+    {
+      "split": "fresh_teacher",
+      "seed": 51004,
+      "seat": 4,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 555,
+      "rank": 5,
+      "ranks": {
+        "player_7": 8,
+        "player_3": 7,
+        "player_1": 6,
+        "player_4": 5,
+        "player_6": 4,
+        "player_5": 3,
+        "player_0": 2,
+        "player_2": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 6,
+        "buy": 8,
+        "pass": 286,
+        "item": 6,
+        "refresh": 36,
+        "level": 18
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 19.02,
+      "rejection": null
+    },
+    {
+      "split": "fresh_teacher",
+      "seed": 51005,
+      "seat": 5,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 420,
+      "rank": 1,
+      "ranks": {
+        "player_2": 8,
+        "player_1": 7,
+        "player_4": 6,
+        "player_3": 5,
+        "player_6": 4,
+        "player_0": 3,
+        "player_5": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "buy": 15,
+        "move": 7,
+        "pass": 288,
+        "refresh": 79,
+        "item": 10,
+        "level": 21
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 16.67,
+      "rejection": null
+    },
+    {
+      "split": "fresh_teacher",
+      "seed": 51006,
+      "seat": 6,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 3,
+      "ranks": {
+        "player_1": 8,
+        "player_3": 7,
+        "player_4": 6,
+        "player_7": 5,
+        "player_0": 4,
+        "player_6": 3,
+        "player_2": 2,
+        "player_5": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 13,
+        "pass": 290,
+        "item": 6,
+        "refresh": 39,
+        "level": 20
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 18.49,
+      "rejection": null
+    },
+    {
+      "split": "fresh_teacher",
+      "seed": 51007,
+      "seat": 7,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 8,
+      "ranks": {
+        "player_7": 8,
+        "player_0": 7,
+        "player_2": 6,
+        "player_1": 5,
+        "player_6": 4,
+        "player_5": 3,
+        "player_3": 1,
+        "player_4": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 5,
+        "buy": 11,
+        "pass": 188,
+        "item": 6,
+        "refresh": 39,
+        "level": 6
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 25.42,
+      "rejection": null
+    },
+    {
+      "split": "fresh_teacher",
+      "seed": 51008,
+      "seat": 0,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 5,
+      "ranks": {
+        "player_5": 8,
+        "player_6": 7,
+        "player_7": 6,
+        "player_0": 5,
+        "player_4": 4,
+        "player_3": 3,
+        "player_1": 1,
+        "player_2": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 7,
+        "buy": 13,
+        "move": 6,
+        "pass": 286,
+        "refresh": 31,
+        "level": 17
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 18.04,
+      "rejection": null
+    },
+    {
+      "split": "fresh_teacher",
+      "seed": 51009,
+      "seat": 1,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 4,
+      "ranks": {
+        "player_0": 8,
+        "player_3": 7,
+        "player_5": 6,
+        "player_6": 5,
+        "player_1": 4,
+        "player_2": 3,
+        "player_4": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 6,
+        "buy": 12,
+        "pass": 260,
+        "item": 7,
+        "refresh": 45,
+        "level": 15
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 18.04,
+      "rejection": null
+    },
+    {
+      "split": "fresh_teacher",
+      "seed": 51010,
+      "seat": 2,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 420,
+      "rank": 8,
+      "ranks": {
+        "player_2": 8,
+        "player_3": 7,
+        "player_6": 6,
+        "player_1": 5,
+        "player_7": 4,
+        "player_5": 3,
+        "player_0": 1,
+        "player_4": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 12,
+        "pass": 251,
+        "item": 9,
+        "refresh": 37,
+        "level": 14
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 19.06,
+      "rejection": null
+    },
+    {
+      "split": "fresh_teacher",
+      "seed": 51012,
+      "seat": 4,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 5,
+      "ranks": {
+        "player_1": 8,
+        "player_2": 7,
+        "player_6": 6,
+        "player_4": 5,
+        "player_3": 4,
+        "player_0": 3,
+        "player_5": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 6,
+        "buy": 9,
+        "pass": 235,
+        "item": 7,
+        "refresh": 44,
+        "level": 14
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 18.32,
+      "rejection": null
+    },
+    {
+      "split": "fresh_teacher",
+      "seed": 51011,
+      "seat": 3,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 540,
+      "rank": 6,
+      "ranks": {
+        "player_2": 8,
+        "player_7": 7,
+        "player_3": 6,
+        "player_4": 5,
+        "player_0": 4,
+        "player_1": 3,
+        "player_5": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 6,
+        "buy": 13,
+        "pass": 271,
+        "refresh": 48,
+        "item": 4,
+        "level": 18
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 24.2,
+      "rejection": null
+    },
+    {
+      "split": "fresh_teacher",
+      "seed": 51013,
+      "seat": 5,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 2,
+      "ranks": {
+        "player_4": 8,
+        "player_6": 7,
+        "player_3": 6,
+        "player_0": 5,
+        "player_1": 4,
+        "player_2": 3,
+        "player_5": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "item": 14,
+        "buy": 11,
+        "pass": 331,
+        "refresh": 67,
+        "level": 20
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 20.21,
+      "rejection": null
+    },
+    {
+      "split": "fresh_teacher",
+      "seed": 51014,
+      "seat": 6,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 6,
+      "ranks": {
+        "player_7": 8,
+        "player_4": 7,
+        "player_6": 6,
+        "player_3": 5,
+        "player_2": 4,
+        "player_5": 3,
+        "player_0": 1,
+        "player_1": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 6,
+        "buy": 13,
+        "pass": 260,
+        "item": 7,
+        "refresh": 31,
+        "level": 13
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 18.68,
+      "rejection": null
+    },
+    {
+      "split": "fresh_teacher",
+      "seed": 51015,
+      "seat": 7,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 7,
+      "ranks": {
+        "player_4": 8,
+        "player_7": 7,
+        "player_1": 6,
+        "player_6": 5,
+        "player_3": 4,
+        "player_0": 3,
+        "player_2": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 7,
+        "buy": 15,
+        "move": 6,
+        "pass": 260,
+        "refresh": 28,
+        "level": 14
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 19.63,
+      "rejection": null
+    },
+    {
+      "split": "fresh_teacher",
+      "seed": 51016,
+      "seat": 0,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 8,
+      "ranks": {
+        "player_0": 8,
+        "player_7": 7,
+        "player_6": 6,
+        "player_1": 5,
+        "player_5": 4,
+        "player_3": 3,
+        "player_2": 1,
+        "player_4": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 4,
+        "buy": 13,
+        "move": 5,
+        "pass": 210,
+        "refresh": 29,
+        "level": 9
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 15.23,
+      "rejection": null
+    },
+    {
+      "split": "fresh_teacher",
+      "seed": 51018,
+      "seat": 2,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 540,
+      "rank": 7,
+      "ranks": {
+        "player_7": 8,
+        "player_2": 7,
+        "player_3": 6,
+        "player_6": 5,
+        "player_1": 4,
+        "player_4": 3,
+        "player_0": 2,
+        "player_5": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 6,
+        "item": 8,
+        "buy": 9,
+        "pass": 241,
+        "refresh": 39,
+        "level": 12
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 18.8,
+      "rejection": null
+    },
+    {
+      "split": "fresh_teacher",
+      "seed": 51017,
+      "seat": 1,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 4,
+      "ranks": {
+        "player_7": 8,
+        "player_0": 7,
+        "player_4": 6,
+        "player_3": 5,
+        "player_1": 4,
+        "player_5": 3,
+        "player_2": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 13,
+        "buy": 15,
+        "move": 9,
+        "pass": 309,
+        "refresh": 54,
+        "level": 20
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 21.53,
+      "rejection": null
+    },
+    {
+      "split": "fresh_teacher",
+      "seed": 51020,
+      "seat": 4,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 540,
+      "rank": 1,
+      "ranks": {
+        "player_0": 8,
+        "player_3": 7,
+        "player_2": 6,
+        "player_1": 5,
+        "player_7": 4,
+        "player_5": 3,
+        "player_4": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 18,
+        "pass": 399,
+        "item": 18,
+        "refresh": 78,
+        "level": 20
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 16.34,
+      "rejection": null
+    },
+    {
+      "split": "fresh_teacher",
+      "seed": 51019,
+      "seat": 3,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 4,
+      "ranks": {
+        "player_5": 8,
+        "player_4": 7,
+        "player_7": 6,
+        "player_0": 5,
+        "player_3": 4,
+        "player_1": 3,
+        "player_2": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "item": 10,
+        "buy": 15,
+        "pass": 290,
+        "refresh": 62,
+        "level": 21
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 19.12,
+      "rejection": null
+    },
+    {
+      "split": "fresh_teacher",
+      "seed": 51022,
+      "seat": 6,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 7,
+      "ranks": {
+        "player_2": 8,
+        "player_6": 7,
+        "player_3": 6,
+        "player_7": 5,
+        "player_0": 4,
+        "player_1": 3,
+        "player_4": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 5,
+        "buy": 7,
+        "pass": 189,
+        "refresh": 44,
+        "item": 4,
+        "level": 6
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 15.79,
+      "rejection": null
+    },
+    {
+      "split": "fresh_teacher",
+      "seed": 51021,
+      "seat": 5,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 6,
+      "ranks": {
+        "player_3": 8,
+        "player_0": 7,
+        "player_5": 6,
+        "player_1": 5,
+        "player_2": 4,
+        "player_6": 3,
+        "player_4": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "buy": 12,
+        "move": 6,
+        "pass": 203,
+        "refresh": 52,
+        "item": 3,
+        "level": 9
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 23.23,
+      "rejection": null
+    },
+    {
+      "split": "fresh_teacher",
+      "seed": 51024,
+      "seat": 0,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 1,
+      "ranks": {
+        "player_3": 8,
+        "player_4": 7,
+        "player_6": 6,
+        "player_7": 5,
+        "player_1": 4,
+        "player_5": 3,
+        "player_0": 1,
+        "player_2": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 14,
+        "buy": 20,
+        "move": 7,
+        "pass": 319,
+        "refresh": 69,
+        "level": 21
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 20.35,
+      "rejection": null
+    },
+    {
+      "split": "fresh_teacher",
+      "seed": 51023,
+      "seat": 7,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 8,
+      "ranks": {
+        "player_7": 8,
+        "player_6": 7,
+        "player_2": 6,
+        "player_1": 5,
+        "player_4": 4,
+        "player_5": 3,
+        "player_0": 2,
+        "player_3": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 6,
+        "buy": 8,
+        "pass": 191,
+        "refresh": 50,
+        "item": 5,
+        "level": 10
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 22.83,
+      "rejection": null
+    },
+    {
+      "split": "fresh_teacher",
+      "seed": 51025,
+      "seat": 1,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 3,
+      "ranks": {
+        "player_6": 8,
+        "player_0": 7,
+        "player_4": 6,
+        "player_7": 5,
+        "player_5": 4,
+        "player_1": 3,
+        "player_2": 1,
+        "player_3": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 11,
+        "pass": 347,
+        "item": 9,
+        "refresh": 56,
+        "level": 20
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 16.65,
+      "rejection": null
+    },
+    {
+      "split": "fresh_teacher",
+      "seed": 51026,
+      "seat": 2,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 1,
+      "ranks": {
+        "player_6": 8,
+        "player_5": 7,
+        "player_7": 6,
+        "player_0": 5,
+        "player_1": 4,
+        "player_4": 3,
+        "player_2": 1,
+        "player_3": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 15,
+        "pass": 333,
+        "item": 15,
+        "refresh": 74,
+        "level": 21
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 16.1,
+      "rejection": null
+    },
+    {
+      "split": "fresh_teacher",
+      "seed": 51028,
+      "seat": 4,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 7,
+      "ranks": {
+        "player_2": 8,
+        "player_4": 7,
+        "player_7": 6,
+        "player_0": 5,
+        "player_6": 4,
+        "player_3": 3,
+        "player_1": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 6,
+        "buy": 6,
+        "pass": 241,
+        "refresh": 46,
+        "item": 4,
+        "level": 12
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 17.29,
+      "rejection": null
+    },
+    {
+      "split": "fresh_teacher",
+      "seed": 51027,
+      "seat": 3,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 1,
+      "ranks": {
+        "player_1": 8,
+        "player_2": 7,
+        "player_0": 6,
+        "player_7": 5,
+        "player_4": 4,
+        "player_3": 1,
+        "player_5": 3,
+        "player_6": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 14,
+        "pass": 335,
+        "item": 15,
+        "refresh": 73,
+        "level": 21
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 18.11,
+      "rejection": null
+    },
+    {
+      "split": "fresh_teacher",
+      "seed": 51030,
+      "seat": 6,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 4,
+      "ranks": {
+        "player_1": 8,
+        "player_3": 7,
+        "player_5": 6,
+        "player_7": 5,
+        "player_6": 4,
+        "player_0": 3,
+        "player_2": 1,
+        "player_4": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 8,
+        "buy": 14,
+        "pass": 304,
+        "refresh": 52,
+        "item": 6,
+        "level": 21
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 17.41,
+      "rejection": null
+    },
+    {
+      "split": "fresh_teacher",
+      "seed": 51029,
+      "seat": 5,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 8,
+      "ranks": {
+        "player_5": 8,
+        "player_6": 7,
+        "player_2": 6,
+        "player_7": 5,
+        "player_0": 4,
+        "player_1": 3,
+        "player_3": 2,
+        "player_4": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "buy": 8,
+        "move": 5,
+        "pass": 198,
+        "refresh": 35,
+        "item": 2,
+        "level": 7
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 23.93,
+      "rejection": null
+    },
+    {
+      "split": "fresh_teacher",
+      "seed": 51032,
+      "seat": 0,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 1,
+      "ranks": {
+        "player_7": 8,
+        "player_4": 7,
+        "player_1": 6,
+        "player_2": 5,
+        "player_5": 4,
+        "player_3": 3,
+        "player_0": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 10,
+        "buy": 12,
+        "move": 7,
+        "pass": 373,
+        "refresh": 88,
+        "level": 20
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 26.56,
+      "rejection": null
+    },
+    {
+      "split": "fresh_teacher",
+      "seed": 51031,
+      "seat": 7,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 4,
+      "ranks": {
+        "player_3": 8,
+        "player_5": 7,
+        "player_6": 6,
+        "player_4": 5,
+        "player_7": 4,
+        "player_0": 3,
+        "player_1": 1,
+        "player_2": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 11,
+        "pass": 311,
+        "refresh": 47,
+        "item": 9,
+        "level": 20
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 27.29,
+      "rejection": null
+    }
+  ],
+  "accepted": {
+    "dagger_train": [
+      {
+        "seed": 49002,
+        "count": 435,
+        "family_counts": {
+          "item": 15,
+          "buy": 53,
+          "move": 18,
+          "pass": 212,
+          "refresh": 137
+        },
+        "exact_agreement": 0.542528735632184
+      },
+      {
+        "seed": 49003,
+        "count": 495,
+        "family_counts": {
+          "move": 41,
+          "buy": 63,
+          "pass": 168,
+          "item": 17,
+          "refresh": 150,
+          "level": 56
+        },
+        "exact_agreement": 0.5131313131313131
+      },
+      {
+        "seed": 49004,
+        "count": 450,
+        "family_counts": {
+          "move": 9,
+          "item": 20,
+          "pass": 186,
+          "buy": 48,
+          "refresh": 167,
+          "level": 20
+        },
+        "exact_agreement": 0.49777777777777776
+      },
+      {
+        "seed": 49001,
+        "count": 450,
+        "family_counts": {
+          "move": 11,
+          "buy": 111,
+          "pass": 144,
+          "item": 19,
+          "refresh": 10,
+          "level": 155
+        },
+        "exact_agreement": 0.35777777777777775
+      },
+      {
+        "seed": 49005,
+        "count": 360,
+        "family_counts": {
+          "item": 30,
+          "buy": 24,
+          "move": 13,
+          "pass": 249,
+          "refresh": 17,
+          "level": 27
+        },
+        "exact_agreement": 0.6861111111111111
+      },
+      {
+        "seed": 49006,
+        "count": 330,
+        "family_counts": {
+          "move": 22,
+          "pass": 227,
+          "item": 7,
+          "buy": 25,
+          "refresh": 41,
+          "level": 8
+        },
+        "exact_agreement": 0.7757575757575758
+      },
+      {
+        "seed": 49007,
+        "count": 525,
+        "family_counts": {
+          "move": 21,
+          "pass": 300,
+          "item": 17,
+          "buy": 25,
+          "refresh": 128,
+          "level": 34
+        },
+        "exact_agreement": 0.638095238095238
+      },
+      {
+        "seed": 49008,
+        "count": 405,
+        "family_counts": {
+          "move": 23,
+          "pass": 211,
+          "buy": 28,
+          "item": 23,
+          "refresh": 32,
+          "level": 88
+        },
+        "exact_agreement": 0.5407407407407407
+      },
+      {
+        "seed": 49009,
+        "count": 435,
+        "family_counts": {
+          "move": 8,
+          "item": 9,
+          "buy": 34,
+          "pass": 252,
+          "refresh": 47,
+          "level": 85
+        },
+        "exact_agreement": 0.6459770114942529
+      },
+      {
+        "seed": 49011,
+        "count": 450,
+        "family_counts": {
+          "buy": 18,
+          "move": 13,
+          "item": 24,
+          "pass": 279,
+          "refresh": 99,
+          "level": 17
+        },
+        "exact_agreement": 0.6733333333333333
+      },
+      {
+        "seed": 49010,
+        "count": 495,
+        "family_counts": {
+          "buy": 60,
+          "move": 28,
+          "item": 48,
+          "pass": 168,
+          "refresh": 162,
+          "level": 29
+        },
+        "exact_agreement": 0.41818181818181815
+      },
+      {
+        "seed": 49013,
+        "count": 375,
+        "family_counts": {
+          "move": 11,
+          "buy": 96,
+          "pass": 199,
+          "item": 16,
+          "refresh": 50,
+          "level": 3
+        },
+        "exact_agreement": 0.5546666666666666
+      },
+      {
+        "seed": 49015,
+        "count": 420,
+        "family_counts": {
+          "buy": 31,
+          "move": 21,
+          "pass": 289,
+          "item": 15,
+          "refresh": 30,
+          "level": 34
+        },
+        "exact_agreement": 0.7166666666666667
+      },
+      {
+        "seed": 49016,
+        "count": 360,
+        "family_counts": {
+          "move": 10,
+          "buy": 10,
+          "pass": 177,
+          "item": 33,
+          "refresh": 46,
+          "level": 84
+        },
+        "exact_agreement": 0.5361111111111111
+      },
+      {
+        "seed": 49014,
+        "count": 420,
+        "family_counts": {
+          "buy": 75,
+          "move": 22,
+          "pass": 239,
+          "item": 26,
+          "refresh": 48,
+          "level": 10
+        },
+        "exact_agreement": 0.6404761904761904
+      },
+      {
+        "seed": 49018,
+        "count": 255,
+        "family_counts": {
+          "item": 20,
+          "buy": 45,
+          "move": 18,
+          "pass": 130,
+          "refresh": 24,
+          "level": 18
+        },
+        "exact_agreement": 0.5607843137254902
+      },
+      {
+        "seed": 49019,
+        "count": 315,
+        "family_counts": {
+          "move": 9,
+          "pass": 192,
+          "item": 22,
+          "buy": 32,
+          "refresh": 45,
+          "level": 15
+        },
+        "exact_agreement": 0.638095238095238
+      },
+      {
+        "seed": 49021,
+        "count": 375,
+        "family_counts": {
+          "item": 15,
+          "move": 17,
+          "buy": 70,
+          "pass": 241,
+          "refresh": 8,
+          "level": 24
+        },
+        "exact_agreement": 0.6426666666666667
+      },
+      {
+        "seed": 49020,
+        "count": 555,
+        "family_counts": {
+          "item": 23,
+          "move": 19,
+          "buy": 78,
+          "pass": 288,
+          "refresh": 76,
+          "level": 71
+        },
+        "exact_agreement": 0.5927927927927928
+      },
+      {
+        "seed": 49022,
+        "count": 360,
+        "family_counts": {
+          "buy": 75,
+          "move": 47,
+          "pass": 205,
+          "refresh": 26,
+          "item": 4,
+          "level": 3
+        },
+        "exact_agreement": 0.5694444444444444
+      },
+      {
+        "seed": 49024,
+        "count": 345,
+        "family_counts": {
+          "move": 6,
+          "buy": 28,
+          "pass": 184,
+          "refresh": 111,
+          "item": 5,
+          "level": 11
+        },
+        "exact_agreement": 0.6463768115942029
+      },
+      {
+        "seed": 49023,
+        "count": 285,
+        "family_counts": {
+          "move": 10,
+          "pass": 124,
+          "buy": 60,
+          "refresh": 14,
+          "item": 1,
+          "level": 76
+        },
+        "exact_agreement": 0.48771929824561405
+      },
+      {
+        "seed": 49025,
+        "count": 330,
+        "family_counts": {
+          "move": 11,
+          "item": 19,
+          "buy": 62,
+          "pass": 194,
+          "refresh": 34,
+          "level": 10
+        },
+        "exact_agreement": 0.6090909090909091
+      },
+      {
+        "seed": 49027,
+        "count": 285,
+        "family_counts": {
+          "move": 11,
+          "pass": 155,
+          "item": 6,
+          "buy": 21,
+          "refresh": 54,
+          "level": 38
+        },
+        "exact_agreement": 0.656140350877193
+      },
+      {
+        "seed": 49028,
+        "count": 375,
+        "family_counts": {
+          "item": 9,
+          "buy": 69,
+          "move": 38,
+          "pass": 117,
+          "refresh": 44,
+          "level": 98
+        },
+        "exact_agreement": 0.392
+      },
+      {
+        "seed": 49026,
+        "count": 270,
+        "family_counts": {
+          "item": 4,
+          "buy": 28,
+          "move": 8,
+          "pass": 210,
+          "refresh": 9,
+          "level": 11
+        },
+        "exact_agreement": 0.7555555555555555
+      },
+      {
+        "seed": 49031,
+        "count": 330,
+        "family_counts": {
+          "move": 13,
+          "buy": 39,
+          "pass": 142,
+          "refresh": 50,
+          "item": 17,
+          "level": 69
+        },
+        "exact_agreement": 0.5151515151515151
+      },
+      {
+        "seed": 49029,
+        "count": 540,
+        "family_counts": {
+          "move": 32,
+          "buy": 105,
+          "pass": 148,
+          "item": 11,
+          "refresh": 144,
+          "level": 100
+        },
+        "exact_agreement": 0.387037037037037
+      },
+      {
+        "seed": 49032,
+        "count": 540,
+        "family_counts": {
+          "move": 12,
+          "buy": 18,
+          "pass": 208,
+          "item": 47,
+          "refresh": 238,
+          "level": 17
+        },
+        "exact_agreement": 0.5037037037037037
+      }
+    ],
+    "dagger_validation": [
+      {
+        "seed": 50001,
+        "count": 495,
+        "family_counts": {
+          "move": 19,
+          "buy": 14,
+          "pass": 304,
+          "item": 34,
+          "refresh": 92,
+          "level": 32
+        },
+        "exact_agreement": 0.7333333333333333
+      },
+      {
+        "seed": 50002,
+        "count": 450,
+        "family_counts": {
+          "move": 27,
+          "buy": 133,
+          "pass": 153,
+          "item": 10,
+          "refresh": 75,
+          "level": 52
+        },
+        "exact_agreement": 0.4311111111111111
+      },
+      {
+        "seed": 50003,
+        "count": 525,
+        "family_counts": {
+          "move": 7,
+          "buy": 27,
+          "pass": 311,
+          "item": 14,
+          "refresh": 166
+        },
+        "exact_agreement": 0.7028571428571428
+      },
+      {
+        "seed": 50005,
+        "count": 510,
+        "family_counts": {
+          "buy": 48,
+          "move": 12,
+          "item": 14,
+          "pass": 364,
+          "refresh": 45,
+          "level": 27
+        },
+        "exact_agreement": 0.7254901960784313
+      },
+      {
+        "seed": 50007,
+        "count": 465,
+        "family_counts": {
+          "move": 31,
+          "buy": 57,
+          "pass": 242,
+          "item": 12,
+          "refresh": 102,
+          "level": 21
+        },
+        "exact_agreement": 0.632258064516129
+      },
+      {
+        "seed": 50006,
+        "count": 450,
+        "family_counts": {
+          "move": 22,
+          "buy": 67,
+          "pass": 273,
+          "item": 36,
+          "refresh": 50,
+          "level": 2
+        },
+        "exact_agreement": 0.6111111111111112
+      },
+      {
+        "seed": 50008,
+        "count": 435,
+        "family_counts": {
+          "buy": 54,
+          "move": 22,
+          "pass": 259,
+          "item": 17,
+          "refresh": 78,
+          "level": 5
+        },
+        "exact_agreement": 0.6574712643678161
+      }
+    ],
+    "fresh_teacher": [
+      {
+        "seed": 51001,
+        "count": 255,
+        "family_counts": {
+          "move": 5,
+          "buy": 9,
+          "pass": 195,
+          "refresh": 37,
+          "item": 2,
+          "level": 7
+        },
+        "exact_agreement": null
+      },
+      {
+        "seed": 51003,
+        "count": 420,
+        "family_counts": {
+          "item": 12,
+          "buy": 14,
+          "move": 7,
+          "pass": 319,
+          "refresh": 47,
+          "level": 21
+        },
+        "exact_agreement": null
+      },
+      {
+        "seed": 51002,
+        "count": 345,
+        "family_counts": {
+          "move": 6,
+          "buy": 8,
+          "pass": 270,
+          "item": 10,
+          "refresh": 36,
+          "level": 15
+        },
+        "exact_agreement": null
+      },
+      {
+        "seed": 51004,
+        "count": 360,
+        "family_counts": {
+          "move": 6,
+          "buy": 8,
+          "pass": 286,
+          "item": 6,
+          "refresh": 36,
+          "level": 18
+        },
+        "exact_agreement": null
+      },
+      {
+        "seed": 51005,
+        "count": 420,
+        "family_counts": {
+          "buy": 15,
+          "move": 7,
+          "pass": 288,
+          "refresh": 79,
+          "item": 10,
+          "level": 21
+        },
+        "exact_agreement": null
+      },
+      {
+        "seed": 51006,
+        "count": 375,
+        "family_counts": {
+          "move": 7,
+          "buy": 13,
+          "pass": 290,
+          "item": 6,
+          "refresh": 39,
+          "level": 20
+        },
+        "exact_agreement": null
+      },
+      {
+        "seed": 51007,
+        "count": 255,
+        "family_counts": {
+          "move": 5,
+          "buy": 11,
+          "pass": 188,
+          "item": 6,
+          "refresh": 39,
+          "level": 6
+        },
+        "exact_agreement": null
+      },
+      {
+        "seed": 51008,
+        "count": 360,
+        "family_counts": {
+          "item": 7,
+          "buy": 13,
+          "move": 6,
+          "pass": 286,
+          "refresh": 31,
+          "level": 17
+        },
+        "exact_agreement": null
+      },
+      {
+        "seed": 51009,
+        "count": 345,
+        "family_counts": {
+          "move": 6,
+          "buy": 12,
+          "pass": 260,
+          "item": 7,
+          "refresh": 45,
+          "level": 15
+        },
+        "exact_agreement": null
+      },
+      {
+        "seed": 51010,
+        "count": 330,
+        "family_counts": {
+          "move": 7,
+          "buy": 12,
+          "pass": 251,
+          "item": 9,
+          "refresh": 37,
+          "level": 14
+        },
+        "exact_agreement": null
+      },
+      {
+        "seed": 51012,
+        "count": 315,
+        "family_counts": {
+          "move": 6,
+          "buy": 9,
+          "pass": 235,
+          "item": 7,
+          "refresh": 44,
+          "level": 14
+        },
+        "exact_agreement": null
+      },
+      {
+        "seed": 51011,
+        "count": 360,
+        "family_counts": {
+          "move": 6,
+          "buy": 13,
+          "pass": 271,
+          "refresh": 48,
+          "item": 4,
+          "level": 18
+        },
+        "exact_agreement": null
+      },
+      {
+        "seed": 51013,
+        "count": 450,
+        "family_counts": {
+          "move": 7,
+          "item": 14,
+          "buy": 11,
+          "pass": 331,
+          "refresh": 67,
+          "level": 20
+        },
+        "exact_agreement": null
+      },
+      {
+        "seed": 51014,
+        "count": 330,
+        "family_counts": {
+          "move": 6,
+          "buy": 13,
+          "pass": 260,
+          "item": 7,
+          "refresh": 31,
+          "level": 13
+        },
+        "exact_agreement": null
+      },
+      {
+        "seed": 51015,
+        "count": 330,
+        "family_counts": {
+          "item": 7,
+          "buy": 15,
+          "move": 6,
+          "pass": 260,
+          "refresh": 28,
+          "level": 14
+        },
+        "exact_agreement": null
+      },
+      {
+        "seed": 51016,
+        "count": 270,
+        "family_counts": {
+          "item": 4,
+          "buy": 13,
+          "move": 5,
+          "pass": 210,
+          "refresh": 29,
+          "level": 9
+        },
+        "exact_agreement": null
+      },
+      {
+        "seed": 51018,
+        "count": 315,
+        "family_counts": {
+          "move": 6,
+          "item": 8,
+          "buy": 9,
+          "pass": 241,
+          "refresh": 39,
+          "level": 12
+        },
+        "exact_agreement": null
+      },
+      {
+        "seed": 51017,
+        "count": 420,
+        "family_counts": {
+          "item": 13,
+          "buy": 15,
+          "move": 9,
+          "pass": 309,
+          "refresh": 54,
+          "level": 20
+        },
+        "exact_agreement": null
+      },
+      {
+        "seed": 51020,
+        "count": 540,
+        "family_counts": {
+          "move": 7,
+          "buy": 18,
+          "pass": 399,
+          "item": 18,
+          "refresh": 78,
+          "level": 20
+        },
+        "exact_agreement": null
+      },
+      {
+        "seed": 51019,
+        "count": 405,
+        "family_counts": {
+          "move": 7,
+          "item": 10,
+          "buy": 15,
+          "pass": 290,
+          "refresh": 62,
+          "level": 21
+        },
+        "exact_agreement": null
+      },
+      {
+        "seed": 51022,
+        "count": 255,
+        "family_counts": {
+          "move": 5,
+          "buy": 7,
+          "pass": 189,
+          "refresh": 44,
+          "item": 4,
+          "level": 6
+        },
+        "exact_agreement": null
+      },
+      {
+        "seed": 51021,
+        "count": 285,
+        "family_counts": {
+          "buy": 12,
+          "move": 6,
+          "pass": 203,
+          "refresh": 52,
+          "item": 3,
+          "level": 9
+        },
+        "exact_agreement": null
+      },
+      {
+        "seed": 51024,
+        "count": 450,
+        "family_counts": {
+          "item": 14,
+          "buy": 20,
+          "move": 7,
+          "pass": 319,
+          "refresh": 69,
+          "level": 21
+        },
+        "exact_agreement": null
+      },
+      {
+        "seed": 51023,
+        "count": 270,
+        "family_counts": {
+          "move": 6,
+          "buy": 8,
+          "pass": 191,
+          "refresh": 50,
+          "item": 5,
+          "level": 10
+        },
+        "exact_agreement": null
+      },
+      {
+        "seed": 51025,
+        "count": 450,
+        "family_counts": {
+          "move": 7,
+          "buy": 11,
+          "pass": 347,
+          "item": 9,
+          "refresh": 56,
+          "level": 20
+        },
+        "exact_agreement": null
+      },
+      {
+        "seed": 51026,
+        "count": 465,
+        "family_counts": {
+          "move": 7,
+          "buy": 15,
+          "pass": 333,
+          "item": 15,
+          "refresh": 74,
+          "level": 21
+        },
+        "exact_agreement": null
+      },
+      {
+        "seed": 51028,
+        "count": 315,
+        "family_counts": {
+          "move": 6,
+          "buy": 6,
+          "pass": 241,
+          "refresh": 46,
+          "item": 4,
+          "level": 12
+        },
+        "exact_agreement": null
+      },
+      {
+        "seed": 51027,
+        "count": 465,
+        "family_counts": {
+          "move": 7,
+          "buy": 14,
+          "pass": 335,
+          "item": 15,
+          "refresh": 73,
+          "level": 21
+        },
+        "exact_agreement": null
+      },
+      {
+        "seed": 51030,
+        "count": 405,
+        "family_counts": {
+          "move": 8,
+          "buy": 14,
+          "pass": 304,
+          "refresh": 52,
+          "item": 6,
+          "level": 21
+        },
+        "exact_agreement": null
+      },
+      {
+        "seed": 51029,
+        "count": 255,
+        "family_counts": {
+          "buy": 8,
+          "move": 5,
+          "pass": 198,
+          "refresh": 35,
+          "item": 2,
+          "level": 7
+        },
+        "exact_agreement": null
+      },
+      {
+        "seed": 51032,
+        "count": 510,
+        "family_counts": {
+          "item": 10,
+          "buy": 12,
+          "move": 7,
+          "pass": 373,
+          "refresh": 88,
+          "level": 20
+        },
+        "exact_agreement": null
+      },
+      {
+        "seed": 51031,
+        "count": 405,
+        "family_counts": {
+          "move": 7,
+          "buy": 11,
+          "pass": 311,
+          "refresh": 47,
+          "item": 9,
+          "level": 20
+        },
+        "exact_agreement": null
+      }
+    ]
+  },
+  "rejected": [
+    {
+      "seed": 49012,
+      "split": "dagger_train",
+      "reason": "simulator_warning"
+    },
+    {
+      "seed": 49017,
+      "split": "dagger_train",
+      "reason": "simulator_warning"
+    },
+    {
+      "seed": 49030,
+      "split": "dagger_train",
+      "reason": "simulator_warning"
+    },
+    {
+      "seed": 50004,
+      "split": "dagger_validation",
+      "reason": "simulator_warning"
+    }
+  ],
+  "notes": [
+    "teacher is economy script, not human or proven expert",
+    "on-policy labels use scripted simulator info; learner observes encoded fields",
+    "training is natural frequency; no assumed useless move or pass is deleted",
+    "same game seed does not force identical future after different actions",
+    "fresh-teacher control matches number of added games when all pass cleaning",
+    "single initialization and small number of games; not proof of improvement"
+  ],
+  "data_summary": {
+    "base_games": 64,
+    "added_games_each": 29,
+    "accepted_games": {
+      "dagger_train": 29,
+      "dagger_validation": 7,
+      "fresh_teacher": 32
+    },
+    "samples_by_split": {
+      "dagger_train": 11565,
+      "dagger_validation": 3330,
+      "fresh_teacher": 11730
+    },
+    "dagger_labels": {
+      "item": 522,
+      "buy": 1431,
+      "move": 522,
+      "pass": 5838,
+      "refresh": 2041,
+      "level": 1211
+    }
+  },
+  "on_policy_validation": {
+    "original": {
+      "samples": 448,
+      "exact_accuracy": 0.6584821428571429,
+      "family_accuracy": 0.734375,
+      "per_family": {
+        "move": {
+          "count": 23,
+          "family_recall": 0.34782608695652173,
+          "exact_accuracy": 0.0
+        },
+        "item": {
+          "count": 20,
+          "family_recall": 0.6,
+          "exact_accuracy": 0.1
+        },
+        "buy": {
+          "count": 51,
+          "family_recall": 0.3333333333333333,
+          "exact_accuracy": 0.0196078431372549
+        },
+        "pass": {
+          "count": 255,
+          "family_recall": 0.9294117647058824,
+          "exact_accuracy": 0.9294117647058824
+        },
+        "level": {
+          "count": 21,
+          "family_recall": 0.3333333333333333,
+          "exact_accuracy": 0.3333333333333333
+        },
+        "refresh": {
+          "count": 78,
+          "family_recall": 0.6153846153846154,
+          "exact_accuracy": 0.6153846153846154
+        }
+      },
+      "predicted_counts": {
+        "pass": 310,
+        "refresh": 72,
+        "item": 13,
+        "move": 8,
+        "level": 20,
+        "buy": 25
+      },
+      "illegal_count": 0
+    },
+    "dagger": {
+      "samples": 448,
+      "exact_accuracy": 0.6227678571428571,
+      "family_accuracy": 0.7209821428571429,
+      "per_family": {
+        "move": {
+          "count": 23,
+          "family_recall": 0.6521739130434783,
+          "exact_accuracy": 0.0
+        },
+        "item": {
+          "count": 20,
+          "family_recall": 0.8,
+          "exact_accuracy": 0.2
+        },
+        "buy": {
+          "count": 51,
+          "family_recall": 0.4117647058823529,
+          "exact_accuracy": 0.0784313725490196
+        },
+        "pass": {
+          "count": 255,
+          "family_recall": 0.8666666666666667,
+          "exact_accuracy": 0.8666666666666667
+        },
+        "level": {
+          "count": 21,
+          "family_recall": 0.42857142857142855,
+          "exact_accuracy": 0.42857142857142855
+        },
+        "refresh": {
+          "count": 78,
+          "family_recall": 0.5256410256410257,
+          "exact_accuracy": 0.5256410256410257
+        }
+      },
+      "predicted_counts": {
+        "pass": 267,
+        "refresh": 75,
+        "item": 17,
+        "move": 16,
+        "level": 45,
+        "buy": 27,
+        "sell": 1
+      },
+      "illegal_count": 0
+    },
+    "fresh_teacher": {
+      "samples": 448,
+      "exact_accuracy": 0.6696428571428571,
+      "family_accuracy": 0.7209821428571429,
+      "per_family": {
+        "move": {
+          "count": 23,
+          "family_recall": 0.30434782608695654,
+          "exact_accuracy": 0.0
+        },
+        "item": {
+          "count": 20,
+          "family_recall": 0.55,
+          "exact_accuracy": 0.2
+        },
+        "buy": {
+          "count": 51,
+          "family_recall": 0.21568627450980393,
+          "exact_accuracy": 0.0392156862745098
+        },
+        "pass": {
+          "count": 255,
+          "family_recall": 0.9568627450980393,
+          "exact_accuracy": 0.9568627450980393
+        },
+        "level": {
+          "count": 21,
+          "family_recall": 0.3333333333333333,
+          "exact_accuracy": 0.3333333333333333
+        },
+        "refresh": {
+          "count": 78,
+          "family_recall": 0.5512820512820513,
+          "exact_accuracy": 0.5512820512820513
+        }
+      },
+      "predicted_counts": {
+        "pass": 321,
+        "refresh": 70,
+        "item": 12,
+        "move": 8,
+        "level": 19,
+        "buy": 18
+      },
+      "illegal_count": 0
+    }
+  },
+  "training": {
+    "dagger": {
+      "losses": [
+        {
+          "step": 200,
+          "loss": 0.6750386953353882
+        },
+        {
+          "step": 400,
+          "loss": 0.6294232606887817
+        },
+        {
+          "step": 600,
+          "loss": 0.4610515236854553
+        },
+        {
+          "step": 800,
+          "loss": 0.502470850944519
+        },
+        {
+          "step": 1000,
+          "loss": 0.46284353733062744
+        },
+        {
+          "step": 1200,
+          "loss": 0.42093777656555176
+        }
+      ],
+      "updates": 1200
+    },
+    "fresh_teacher": {
+      "losses": [
+        {
+          "step": 200,
+          "loss": 0.4399234652519226
+        },
+        {
+          "step": 400,
+          "loss": 0.44591233134269714
+        },
+        {
+          "step": 600,
+          "loss": 0.3124937117099762
+        },
+        {
+          "step": 800,
+          "loss": 0.3441237211227417
+        },
+        {
+          "step": 1000,
+          "loss": 0.39755648374557495
+        },
+        {
+          "step": 1200,
+          "loss": 0.2060408592224121
+        }
+      ],
+      "updates": 1200
+    }
+  },
+  "evaluation": [
+    {
+      "arm": "original",
+      "seed": 52002,
+      "seat": 2,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 6,
+      "ranks": {
+        "player_7": 8,
+        "player_1": 7,
+        "player_2": 6,
+        "player_0": 5,
+        "player_3": 4,
+        "player_4": 3,
+        "player_5": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 9,
+        "buy": 12,
+        "pass": 205,
+        "refresh": 37,
+        "item": 6,
+        "level": 16
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 20.63
+    },
+    {
+      "arm": "original",
+      "seed": 52003,
+      "seat": 3,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 1,
+      "ranks": {
+        "player_1": 8,
+        "player_0": 7,
+        "player_2": 6,
+        "player_4": 5,
+        "player_5": 4,
+        "player_6": 3,
+        "player_3": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 14,
+        "buy": 20,
+        "pass": 355,
+        "item": 14,
+        "refresh": 51,
+        "level": 41
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 21.01
+    },
+    {
+      "arm": "original",
+      "seed": 52001,
+      "seat": 1,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 3,
+      "ranks": {
+        "player_0": 8,
+        "player_4": 7,
+        "player_7": 6,
+        "player_2": 5,
+        "player_3": 4,
+        "player_1": 3,
+        "player_5": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 12,
+        "buy": 14,
+        "pass": 309,
+        "item": 14,
+        "refresh": 70,
+        "level": 14,
+        "sell": 2
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 21.55
+    },
+    {
+      "arm": "original",
+      "seed": 52004,
+      "seat": 4,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 1,
+      "ranks": {
+        "player_5": 8,
+        "player_3": 7,
+        "player_6": 6,
+        "player_0": 5,
+        "player_7": 4,
+        "player_2": 3,
+        "player_1": 2,
+        "player_4": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 17,
+        "buy": 18,
+        "pass": 323,
+        "item": 17,
+        "refresh": 52,
+        "level": 21,
+        "sell": 2
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 24.45
+    },
+    {
+      "arm": "original",
+      "seed": 52006,
+      "seat": 6,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 3,
+      "ranks": {
+        "player_2": 8,
+        "player_4": 7,
+        "player_7": 6,
+        "player_0": 5,
+        "player_3": 4,
+        "player_6": 3,
+        "player_1": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 6,
+        "move": 11,
+        "buy": 13,
+        "pass": 344,
+        "refresh": 43,
+        "level": 18
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 16.75
+    },
+    {
+      "arm": "original",
+      "seed": 52007,
+      "seat": 7,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 2,
+      "ranks": {
+        "player_6": 8,
+        "player_0": 7,
+        "player_3": 6,
+        "player_2": 5,
+        "player_5": 4,
+        "player_1": 3,
+        "player_4": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 15,
+        "pass": 350,
+        "refresh": 94,
+        "item": 12,
+        "level": 16,
+        "sell": 1
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 23.24
+    },
+    {
+      "arm": "original",
+      "seed": 52005,
+      "seat": 5,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 1,
+      "ranks": {
+        "player_0": 8,
+        "player_4": 7,
+        "player_7": 6,
+        "player_1": 5,
+        "player_6": 4,
+        "player_3": 3,
+        "player_2": 2,
+        "player_5": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 13,
+        "buy": 19,
+        "pass": 356,
+        "item": 18,
+        "refresh": 82,
+        "level": 21,
+        "sell": 1
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 25.8
+    },
+    {
+      "arm": "original",
+      "seed": 52008,
+      "seat": 0,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 1,
+      "ranks": {
+        "player_6": 8,
+        "player_2": 7,
+        "player_7": 6,
+        "player_5": 5,
+        "player_3": 4,
+        "player_4": 3,
+        "player_0": 1,
+        "player_1": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 16,
+        "pass": 321,
+        "item": 12,
+        "refresh": 42,
+        "level": 36,
+        "sell": 1
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 23.51
+    },
+    {
+      "arm": "original",
+      "seed": 52009,
+      "seat": 1,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 525,
+      "rank": 1,
+      "ranks": {
+        "player_2": 8,
+        "player_3": 7,
+        "player_4": 6,
+        "player_6": 5,
+        "player_5": 4,
+        "player_7": 3,
+        "player_0": 2,
+        "player_1": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 23,
+        "buy": 24,
+        "pass": 383,
+        "item": 19,
+        "refresh": 37,
+        "level": 39
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 25.45
+    },
+    {
+      "arm": "original",
+      "seed": 52012,
+      "seat": 4,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 6,
+      "ranks": {
+        "player_1": 8,
+        "player_3": 7,
+        "player_4": 6,
+        "player_2": 5,
+        "player_6": 4,
+        "player_0": 3,
+        "player_5": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 9,
+        "buy": 11,
+        "pass": 222,
+        "item": 8,
+        "refresh": 57,
+        "level": 8
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 15.59
+    },
+    {
+      "arm": "original",
+      "seed": 52011,
+      "seat": 3,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 5,
+      "ranks": {
+        "player_2": 8,
+        "player_0": 7,
+        "player_1": 6,
+        "player_3": 5,
+        "player_5": 4,
+        "player_6": 3,
+        "player_4": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 9,
+        "buy": 11,
+        "pass": 261,
+        "item": 7,
+        "refresh": 60,
+        "level": 12
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 20.64
+    },
+    {
+      "arm": "original",
+      "seed": 52010,
+      "seat": 2,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 2,
+      "ranks": {
+        "player_4": 8,
+        "player_5": 7,
+        "player_1": 6,
+        "player_3": 5,
+        "player_6": 4,
+        "player_0": 3,
+        "player_2": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 1,
+      "internal_warning_examples": [
+        "Did not buy champion successfully"
+      ],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 11,
+        "buy": 23,
+        "pass": 338,
+        "level": 33,
+        "refresh": 44,
+        "item": 15,
+        "sell": 1
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 26.44
+    },
+    {
+      "arm": "original",
+      "seed": 52014,
+      "seat": 6,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 1,
+      "ranks": {
+        "player_2": 8,
+        "player_4": 7,
+        "player_7": 6,
+        "player_1": 5,
+        "player_0": 4,
+        "player_5": 3,
+        "player_3": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 13,
+        "move": 8,
+        "buy": 21,
+        "pass": 341,
+        "refresh": 91,
+        "level": 21
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 22.82
+    },
+    {
+      "arm": "original",
+      "seed": 52013,
+      "seat": 5,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 2,
+      "ranks": {
+        "player_6": 8,
+        "player_0": 7,
+        "player_1": 6,
+        "player_3": 5,
+        "player_7": 4,
+        "player_2": 3,
+        "player_4": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 10,
+        "buy": 11,
+        "item": 11,
+        "pass": 341,
+        "refresh": 39,
+        "level": 38
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 25.91
+    },
+    {
+      "arm": "original",
+      "seed": 52015,
+      "seat": 7,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 2,
+      "ranks": {
+        "player_5": 8,
+        "player_0": 7,
+        "player_1": 6,
+        "player_3": 5,
+        "player_2": 4,
+        "player_6": 3,
+        "player_4": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 18,
+        "pass": 352,
+        "item": 19,
+        "level": 34,
+        "refresh": 35
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 24.84
+    },
+    {
+      "arm": "original",
+      "seed": 52016,
+      "seat": 0,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 1,
+      "ranks": {
+        "player_7": 8,
+        "player_6": 7,
+        "player_2": 6,
+        "player_5": 5,
+        "player_4": 4,
+        "player_3": 3,
+        "player_0": 1,
+        "player_1": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 11,
+        "buy": 16,
+        "pass": 330,
+        "item": 11,
+        "refresh": 79,
+        "level": 18
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 21.58
+    },
+    {
+      "arm": "original",
+      "seed": 52017,
+      "seat": 1,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 4,
+      "ranks": {
+        "player_4": 8,
+        "player_5": 7,
+        "player_2": 6,
+        "player_6": 5,
+        "player_1": 4,
+        "player_7": 3,
+        "player_0": 1,
+        "player_3": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 9,
+        "buy": 19,
+        "pass": 302,
+        "item": 11,
+        "refresh": 43,
+        "level": 20,
+        "sell": 1
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 18.22
+    },
+    {
+      "arm": "original",
+      "seed": 52018,
+      "seat": 2,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 7,
+      "ranks": {
+        "player_1": 8,
+        "player_2": 7,
+        "player_4": 6,
+        "player_6": 5,
+        "player_0": 4,
+        "player_5": 3,
+        "player_3": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 9,
+        "buy": 17,
+        "pass": 238,
+        "item": 7,
+        "refresh": 28,
+        "level": 16
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 17.49
+    },
+    {
+      "arm": "original",
+      "seed": 52019,
+      "seat": 3,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 1,
+      "ranks": {
+        "player_0": 8,
+        "player_6": 7,
+        "player_1": 6,
+        "player_4": 5,
+        "player_2": 4,
+        "player_5": 3,
+        "player_3": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 20,
+        "move": 11,
+        "buy": 23,
+        "pass": 304,
+        "refresh": 84,
+        "level": 21,
+        "sell": 2
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 21.12
+    },
+    {
+      "arm": "original",
+      "seed": 52020,
+      "seat": 4,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 3,
+      "ranks": {
+        "player_3": 8,
+        "player_1": 7,
+        "player_0": 6,
+        "player_2": 5,
+        "player_7": 4,
+        "player_4": 3,
+        "player_5": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 12,
+        "move": 16,
+        "buy": 22,
+        "pass": 319,
+        "refresh": 29,
+        "level": 36,
+        "sell": 1
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 25.53
+    },
+    {
+      "arm": "original",
+      "seed": 52021,
+      "seat": 5,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 6,
+      "ranks": {
+        "player_4": 8,
+        "player_2": 7,
+        "player_5": 6,
+        "player_7": 5,
+        "player_0": 4,
+        "player_1": 3,
+        "player_3": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 6,
+        "buy": 10,
+        "pass": 265,
+        "item": 6,
+        "refresh": 27,
+        "level": 16
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 18.99
+    },
+    {
+      "arm": "original",
+      "seed": 52022,
+      "seat": 6,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 2,
+      "ranks": {
+        "player_0": 8,
+        "player_1": 7,
+        "player_4": 6,
+        "player_5": 5,
+        "player_2": 4,
+        "player_7": 3,
+        "player_3": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 10,
+        "item": 12,
+        "buy": 15,
+        "pass": 329,
+        "refresh": 61,
+        "level": 23
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 22.71
+    },
+    {
+      "arm": "original",
+      "seed": 52024,
+      "seat": 0,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 1,
+      "ranks": {
+        "player_4": 8,
+        "player_1": 7,
+        "player_5": 6,
+        "player_3": 5,
+        "player_2": 4,
+        "player_7": 3,
+        "player_0": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 10,
+        "item": 11,
+        "buy": 12,
+        "pass": 366,
+        "refresh": 90,
+        "level": 20,
+        "sell": 1
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 22.09
+    },
+    {
+      "arm": "original",
+      "seed": 52023,
+      "seat": 7,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 2,
+      "ranks": {
+        "player_3": 8,
+        "player_1": 7,
+        "player_6": 6,
+        "player_2": 5,
+        "player_5": 4,
+        "player_0": 3,
+        "player_4": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 22,
+        "move": 13,
+        "buy": 16,
+        "pass": 332,
+        "sell": 1,
+        "refresh": 43,
+        "level": 38
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 28.04
+    },
+    {
+      "arm": "dagger",
+      "seed": 52001,
+      "seat": 1,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 1,
+      "ranks": {
+        "player_0": 8,
+        "player_4": 7,
+        "player_7": 6,
+        "player_2": 5,
+        "player_3": 4,
+        "player_1": 1,
+        "player_5": 3,
+        "player_6": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 11,
+        "buy": 17,
+        "pass": 345,
+        "item": 16,
+        "refresh": 86,
+        "level": 18,
+        "sell": 2
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 23.42
+    },
+    {
+      "arm": "dagger",
+      "seed": 52002,
+      "seat": 2,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 5,
+      "ranks": {
+        "player_7": 8,
+        "player_0": 7,
+        "player_3": 6,
+        "player_2": 5,
+        "player_1": 4,
+        "player_6": 3,
+        "player_4": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 16,
+        "buy": 23,
+        "pass": 275,
+        "refresh": 59,
+        "item": 11,
+        "level": 20,
+        "sell": 1
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 29.87
+    },
+    {
+      "arm": "dagger",
+      "seed": 52003,
+      "seat": 3,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 3,
+      "ranks": {
+        "player_1": 8,
+        "player_2": 7,
+        "player_4": 6,
+        "player_5": 5,
+        "player_0": 4,
+        "player_3": 3,
+        "player_6": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 12,
+        "buy": 16,
+        "pass": 312,
+        "item": 12,
+        "refresh": 56,
+        "level": 12
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 19.09
+    },
+    {
+      "arm": "dagger",
+      "seed": 52004,
+      "seat": 4,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 3,
+      "ranks": {
+        "player_7": 8,
+        "player_0": 7,
+        "player_3": 6,
+        "player_5": 5,
+        "player_6": 4,
+        "player_4": 3,
+        "player_1": 2,
+        "player_2": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 13,
+        "pass": 313,
+        "item": 6,
+        "refresh": 77,
+        "level": 4
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 23.94
+    },
+    {
+      "arm": "dagger",
+      "seed": 52005,
+      "seat": 5,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 525,
+      "rank": 2,
+      "ranks": {
+        "player_7": 8,
+        "player_0": 7,
+        "player_1": 6,
+        "player_4": 5,
+        "player_6": 4,
+        "player_3": 3,
+        "player_2": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 11,
+        "buy": 18,
+        "pass": 385,
+        "item": 16,
+        "refresh": 76,
+        "level": 18,
+        "sell": 1
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 19.74
+    },
+    {
+      "arm": "dagger",
+      "seed": 52006,
+      "seat": 6,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 4,
+      "ranks": {
+        "player_7": 8,
+        "player_4": 7,
+        "player_2": 6,
+        "player_3": 5,
+        "player_6": 4,
+        "player_0": 3,
+        "player_1": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 8,
+        "move": 12,
+        "buy": 20,
+        "pass": 313,
+        "refresh": 23,
+        "level": 29
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 16.99
+    },
+    {
+      "arm": "dagger",
+      "seed": 52007,
+      "seat": 7,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 525,
+      "rank": 6,
+      "ranks": {
+        "player_0": 8,
+        "player_6": 7,
+        "player_7": 6,
+        "player_1": 5,
+        "player_2": 4,
+        "player_4": 3,
+        "player_3": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 11,
+        "pass": 267,
+        "refresh": 43,
+        "level": 10,
+        "sell": 2,
+        "item": 5
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 25.49
+    },
+    {
+      "arm": "dagger",
+      "seed": 52008,
+      "seat": 0,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 540,
+      "rank": 1,
+      "ranks": {
+        "player_6": 8,
+        "player_2": 7,
+        "player_5": 6,
+        "player_4": 5,
+        "player_1": 4,
+        "player_7": 3,
+        "player_0": 1,
+        "player_3": 2
+      },
+      "internal_warning_count": 1,
+      "internal_warning_examples": [
+        "Did not buy champion successfully"
+      ],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 9,
+        "buy": 20,
+        "pass": 383,
+        "item": 14,
+        "refresh": 96,
+        "level": 17,
+        "sell": 1
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 22.11
+    },
+    {
+      "arm": "dagger",
+      "seed": 52009,
+      "seat": 1,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 405,
+      "rank": 1,
+      "ranks": {
+        "player_2": 8,
+        "player_3": 7,
+        "player_0": 6,
+        "player_4": 5,
+        "player_6": 4,
+        "player_1": 1,
+        "player_5": 3,
+        "player_7": 2
+      },
+      "internal_warning_count": 1,
+      "internal_warning_examples": [
+        "Did not buy champion successfully"
+      ],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 11,
+        "buy": 25,
+        "pass": 284,
+        "item": 18,
+        "level": 38,
+        "refresh": 29
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 24.14
+    },
+    {
+      "arm": "dagger",
+      "seed": 52010,
+      "seat": 2,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 2,
+      "ranks": {
+        "player_1": 8,
+        "player_4": 7,
+        "player_3": 6,
+        "player_5": 5,
+        "player_6": 4,
+        "player_7": 3,
+        "player_0": 1,
+        "player_2": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 6,
+        "buy": 25,
+        "pass": 360,
+        "refresh": 67,
+        "item": 15,
+        "level": 21,
+        "sell": 1
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 19.31
+    },
+    {
+      "arm": "dagger",
+      "seed": 52012,
+      "seat": 4,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 3,
+      "ranks": {
+        "player_1": 8,
+        "player_2": 7,
+        "player_3": 6,
+        "player_7": 5,
+        "player_6": 4,
+        "player_4": 3,
+        "player_0": 2,
+        "player_5": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 9,
+        "buy": 18,
+        "pass": 330,
+        "item": 14,
+        "refresh": 57,
+        "level": 22
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 17.31
+    },
+    {
+      "arm": "dagger",
+      "seed": 52011,
+      "seat": 3,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 2,
+      "ranks": {
+        "player_7": 8,
+        "player_6": 7,
+        "player_5": 6,
+        "player_1": 5,
+        "player_2": 4,
+        "player_4": 3,
+        "player_0": 1,
+        "player_3": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 11,
+        "buy": 19,
+        "pass": 355,
+        "item": 11,
+        "refresh": 63,
+        "level": 36
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 21.77
+    },
+    {
+      "arm": "dagger",
+      "seed": 52013,
+      "seat": 5,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 8,
+      "ranks": {
+        "player_5": 8,
+        "player_0": 7,
+        "player_7": 6,
+        "player_6": 5,
+        "player_1": 4,
+        "player_3": 3,
+        "player_2": 1,
+        "player_4": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 6,
+        "buy": 11,
+        "item": 7,
+        "pass": 202,
+        "refresh": 27,
+        "level": 17
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 18.77
+    },
+    {
+      "arm": "dagger",
+      "seed": 52014,
+      "seat": 6,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 6,
+      "ranks": {
+        "player_7": 8,
+        "player_4": 7,
+        "player_6": 6,
+        "player_5": 5,
+        "player_0": 4,
+        "player_3": 3,
+        "player_1": 2,
+        "player_2": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 9,
+        "item": 6,
+        "buy": 15,
+        "pass": 254,
+        "refresh": 60,
+        "level": 15,
+        "sell": 1
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 23.87
+    },
+    {
+      "arm": "dagger",
+      "seed": 52015,
+      "seat": 7,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 1,
+      "ranks": {
+        "player_0": 8,
+        "player_5": 7,
+        "player_1": 6,
+        "player_2": 5,
+        "player_3": 4,
+        "player_6": 3,
+        "player_4": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 8,
+        "buy": 20,
+        "pass": 340,
+        "item": 19,
+        "refresh": 83,
+        "level": 25
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 19.72
+    },
+    {
+      "arm": "dagger",
+      "seed": 52017,
+      "seat": 1,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 5,
+      "ranks": {
+        "player_4": 8,
+        "player_5": 7,
+        "player_6": 6,
+        "player_1": 5,
+        "player_2": 4,
+        "player_7": 3,
+        "player_0": 1,
+        "player_3": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 5,
+        "buy": 10,
+        "pass": 260,
+        "item": 6,
+        "refresh": 34,
+        "level": 15
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 18.28
+    },
+    {
+      "arm": "dagger",
+      "seed": 52016,
+      "seat": 0,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 1,
+      "ranks": {
+        "player_7": 8,
+        "player_2": 7,
+        "player_4": 6,
+        "player_1": 5,
+        "player_6": 4,
+        "player_5": 3,
+        "player_0": 1,
+        "player_3": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 13,
+        "buy": 16,
+        "pass": 303,
+        "item": 11,
+        "refresh": 86,
+        "level": 21
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 26.86
+    },
+    {
+      "arm": "dagger",
+      "seed": 52018,
+      "seat": 2,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 4,
+      "ranks": {
+        "player_0": 8,
+        "player_5": 7,
+        "player_1": 6,
+        "player_4": 5,
+        "player_2": 4,
+        "player_3": 3,
+        "player_6": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 14,
+        "buy": 22,
+        "pass": 279,
+        "item": 13,
+        "refresh": 25,
+        "level": 22
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 21.78
+    },
+    {
+      "arm": "dagger",
+      "seed": 52019,
+      "seat": 3,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 2,
+      "ranks": {
+        "player_0": 8,
+        "player_4": 7,
+        "player_6": 6,
+        "player_5": 5,
+        "player_1": 4,
+        "player_7": 3,
+        "player_2": 1,
+        "player_3": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 39,
+        "buy": 19,
+        "item": 22,
+        "pass": 310,
+        "refresh": 73,
+        "level": 29,
+        "sell": 3
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 20.47
+    },
+    {
+      "arm": "dagger",
+      "seed": 52020,
+      "seat": 4,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 5,
+      "ranks": {
+        "player_3": 8,
+        "player_6": 7,
+        "player_1": 6,
+        "player_4": 5,
+        "player_0": 4,
+        "player_2": 3,
+        "player_5": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 2,
+        "move": 12,
+        "buy": 13,
+        "pass": 238,
+        "refresh": 59,
+        "level": 6
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 21.6
+    },
+    {
+      "arm": "dagger",
+      "seed": 52021,
+      "seat": 5,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 2,
+      "ranks": {
+        "player_7": 8,
+        "player_0": 7,
+        "player_2": 6,
+        "player_6": 5,
+        "player_3": 4,
+        "player_4": 3,
+        "player_1": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 18,
+        "buy": 17,
+        "pass": 331,
+        "item": 13,
+        "refresh": 59,
+        "level": 26,
+        "sell": 1
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 19.4
+    },
+    {
+      "arm": "dagger",
+      "seed": 52022,
+      "seat": 6,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 4,
+      "ranks": {
+        "player_0": 8,
+        "player_3": 7,
+        "player_1": 6,
+        "player_7": 5,
+        "player_6": 4,
+        "player_2": 3,
+        "player_4": 2,
+        "player_5": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 5,
+        "move": 9,
+        "buy": 11,
+        "pass": 275,
+        "refresh": 49,
+        "level": 11
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 17.43
+    },
+    {
+      "arm": "dagger",
+      "seed": 52023,
+      "seat": 7,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 3,
+      "ranks": {
+        "player_1": 8,
+        "player_2": 7,
+        "player_3": 6,
+        "player_5": 5,
+        "player_0": 4,
+        "player_7": 3,
+        "player_4": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 14,
+        "move": 30,
+        "buy": 18,
+        "pass": 292,
+        "refresh": 45,
+        "level": 19,
+        "sell": 2
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 23.07
+    },
+    {
+      "arm": "dagger",
+      "seed": 52024,
+      "seat": 0,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 1,
+      "ranks": {
+        "player_1": 8,
+        "player_2": 7,
+        "player_4": 6,
+        "player_5": 5,
+        "player_3": 4,
+        "player_6": 3,
+        "player_0": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 12,
+        "item": 13,
+        "buy": 14,
+        "pass": 357,
+        "refresh": 88,
+        "level": 11
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 26.07
+    },
+    {
+      "arm": "fresh_teacher",
+      "seed": 52001,
+      "seat": 1,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 4,
+      "ranks": {
+        "player_4": 8,
+        "player_0": 7,
+        "player_2": 6,
+        "player_7": 5,
+        "player_1": 4,
+        "player_3": 3,
+        "player_5": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 10,
+        "buy": 9,
+        "pass": 281,
+        "item": 9,
+        "refresh": 54,
+        "level": 10,
+        "sell": 2
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 25.64
+    },
+    {
+      "arm": "fresh_teacher",
+      "seed": 52002,
+      "seat": 2,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 6,
+      "ranks": {
+        "player_0": 8,
+        "player_1": 7,
+        "player_2": 6,
+        "player_7": 5,
+        "player_4": 4,
+        "player_6": 3,
+        "player_3": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 8,
+        "buy": 9,
+        "pass": 248,
+        "refresh": 24,
+        "item": 3,
+        "level": 23
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 22.85
+    },
+    {
+      "arm": "fresh_teacher",
+      "seed": 52003,
+      "seat": 3,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 1,
+      "ranks": {
+        "player_0": 8,
+        "player_2": 7,
+        "player_1": 6,
+        "player_4": 5,
+        "player_5": 4,
+        "player_6": 3,
+        "player_3": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 11,
+        "buy": 21,
+        "pass": 300,
+        "item": 11,
+        "refresh": 87,
+        "level": 20
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 17.6
+    },
+    {
+      "arm": "fresh_teacher",
+      "seed": 52004,
+      "seat": 4,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 1,
+      "ranks": {
+        "player_5": 8,
+        "player_3": 7,
+        "player_6": 6,
+        "player_0": 5,
+        "player_1": 4,
+        "player_2": 3,
+        "player_4": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 8,
+        "buy": 14,
+        "pass": 338,
+        "item": 15,
+        "refresh": 52,
+        "level": 23
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 24.11
+    },
+    {
+      "arm": "fresh_teacher",
+      "seed": 52005,
+      "seat": 5,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 6,
+      "ranks": {
+        "player_7": 8,
+        "player_0": 7,
+        "player_5": 6,
+        "player_6": 5,
+        "player_4": 4,
+        "player_3": 3,
+        "player_1": 1,
+        "player_2": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 9,
+        "buy": 10,
+        "pass": 222,
+        "item": 3,
+        "refresh": 27,
+        "level": 14
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 21.13
+    },
+    {
+      "arm": "fresh_teacher",
+      "seed": 52006,
+      "seat": 6,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 4,
+      "ranks": {
+        "player_2": 8,
+        "player_4": 7,
+        "player_5": 6,
+        "player_3": 5,
+        "player_6": 4,
+        "player_0": 3,
+        "player_1": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 7,
+        "move": 8,
+        "buy": 15,
+        "pass": 333,
+        "refresh": 33,
+        "level": 24
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 19.67
+    },
+    {
+      "arm": "fresh_teacher",
+      "seed": 52007,
+      "seat": 7,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 540,
+      "rank": 3,
+      "ranks": {
+        "player_5": 8,
+        "player_2": 7,
+        "player_6": 6,
+        "player_0": 5,
+        "player_4": 4,
+        "player_7": 3,
+        "player_1": 1,
+        "player_3": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 6,
+        "buy": 10,
+        "pass": 376,
+        "refresh": 68,
+        "item": 15,
+        "level": 19,
+        "sell": 1
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 22.54
+    },
+    {
+      "arm": "fresh_teacher",
+      "seed": 52008,
+      "seat": 0,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 6,
+      "ranks": {
+        "player_6": 8,
+        "player_4": 7,
+        "player_0": 6,
+        "player_5": 5,
+        "player_1": 4,
+        "player_2": 3,
+        "player_3": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 1,
+      "internal_warning_examples": [
+        "Did not buy champion successfully"
+      ],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 13,
+        "buy": 21,
+        "pass": 253,
+        "item": 13,
+        "refresh": 47,
+        "level": 13
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 17.89
+    },
+    {
+      "arm": "fresh_teacher",
+      "seed": 52009,
+      "seat": 1,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 1,
+      "ranks": {
+        "player_3": 8,
+        "player_2": 7,
+        "player_6": 6,
+        "player_5": 5,
+        "player_7": 4,
+        "player_4": 3,
+        "player_0": 2,
+        "player_1": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 11,
+        "buy": 20,
+        "pass": 316,
+        "item": 15,
+        "refresh": 71,
+        "level": 32
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 20.03
+    },
+    {
+      "arm": "fresh_teacher",
+      "seed": 52010,
+      "seat": 2,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 525,
+      "rank": 1,
+      "ranks": {
+        "player_1": 8,
+        "player_4": 7,
+        "player_3": 6,
+        "player_5": 5,
+        "player_6": 4,
+        "player_7": 3,
+        "player_0": 2,
+        "player_2": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 14,
+        "buy": 28,
+        "pass": 373,
+        "level": 36,
+        "refresh": 52,
+        "item": 21,
+        "sell": 1
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 24.88
+    },
+    {
+      "arm": "fresh_teacher",
+      "seed": 52011,
+      "seat": 3,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 3,
+      "ranks": {
+        "player_0": 8,
+        "player_6": 7,
+        "player_2": 6,
+        "player_4": 5,
+        "player_5": 4,
+        "player_3": 3,
+        "player_1": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 5,
+        "buy": 8,
+        "pass": 291,
+        "item": 5,
+        "refresh": 89,
+        "level": 7
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 24.53
+    },
+    {
+      "arm": "fresh_teacher",
+      "seed": 52012,
+      "seat": 4,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 4,
+      "ranks": {
+        "player_2": 8,
+        "player_1": 7,
+        "player_6": 6,
+        "player_7": 5,
+        "player_4": 4,
+        "player_3": 3,
+        "player_0": 2,
+        "player_5": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 8,
+        "buy": 11,
+        "pass": 285,
+        "item": 10,
+        "refresh": 42,
+        "level": 19
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 21.19
+    },
+    {
+      "arm": "fresh_teacher",
+      "seed": 52013,
+      "seat": 5,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 1,
+      "ranks": {
+        "player_6": 8,
+        "player_0": 7,
+        "player_1": 6,
+        "player_3": 5,
+        "player_7": 4,
+        "player_2": 3,
+        "player_4": 2,
+        "player_5": 1
+      },
+      "internal_warning_count": 1,
+      "internal_warning_examples": [
+        "Did not buy champion successfully"
+      ],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 8,
+        "buy": 18,
+        "pass": 363,
+        "item": 19,
+        "refresh": 56,
+        "level": 31
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 25.62
+    },
+    {
+      "arm": "fresh_teacher",
+      "seed": 52014,
+      "seat": 6,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 5,
+      "ranks": {
+        "player_3": 8,
+        "player_0": 7,
+        "player_1": 6,
+        "player_6": 5,
+        "player_2": 4,
+        "player_4": 3,
+        "player_5": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 9,
+        "item": 7,
+        "buy": 10,
+        "pass": 311,
+        "refresh": 37,
+        "level": 31
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 23.59
+    },
+    {
+      "arm": "fresh_teacher",
+      "seed": 52016,
+      "seat": 0,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 6,
+      "ranks": {
+        "player_7": 8,
+        "player_6": 7,
+        "player_0": 6,
+        "player_1": 5,
+        "player_2": 4,
+        "player_3": 1,
+        "player_4": 3,
+        "player_5": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 12,
+        "buy": 10,
+        "pass": 243,
+        "item": 6,
+        "refresh": 53,
+        "level": 6
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 21.72
+    },
+    {
+      "arm": "fresh_teacher",
+      "seed": 52015,
+      "seat": 7,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 1,
+      "ranks": {
+        "player_1": 8,
+        "player_5": 7,
+        "player_2": 6,
+        "player_4": 5,
+        "player_3": 4,
+        "player_6": 3,
+        "player_0": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 9,
+        "buy": 19,
+        "pass": 366,
+        "item": 19,
+        "refresh": 61,
+        "level": 21
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 29.43
+    },
+    {
+      "arm": "fresh_teacher",
+      "seed": 52017,
+      "seat": 1,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 5,
+      "ranks": {
+        "player_2": 8,
+        "player_4": 7,
+        "player_5": 6,
+        "player_1": 5,
+        "player_7": 4,
+        "player_3": 3,
+        "player_0": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 15,
+        "pass": 276,
+        "item": 7,
+        "refresh": 42,
+        "level": 13
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 20.22
+    },
+    {
+      "arm": "fresh_teacher",
+      "seed": 52018,
+      "seat": 2,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 3,
+      "ranks": {
+        "player_4": 8,
+        "player_3": 7,
+        "player_5": 6,
+        "player_6": 5,
+        "player_7": 4,
+        "player_2": 3,
+        "player_0": 1,
+        "player_1": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 10,
+        "buy": 20,
+        "pass": 288,
+        "item": 13,
+        "refresh": 62,
+        "level": 12
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 21.46
+    },
+    {
+      "arm": "fresh_teacher",
+      "seed": 52019,
+      "seat": 3,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 2,
+      "ranks": {
+        "player_0": 8,
+        "player_2": 7,
+        "player_4": 6,
+        "player_6": 5,
+        "player_1": 4,
+        "player_7": 3,
+        "player_3": 2,
+        "player_5": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 11,
+        "buy": 18,
+        "item": 15,
+        "pass": 348,
+        "refresh": 80,
+        "level": 22,
+        "sell": 1
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 21.41
+    },
+    {
+      "arm": "fresh_teacher",
+      "seed": 52021,
+      "seat": 5,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 1,
+      "ranks": {
+        "player_0": 8,
+        "player_3": 7,
+        "player_7": 6,
+        "player_4": 5,
+        "player_6": 4,
+        "player_1": 3,
+        "player_2": 2,
+        "player_5": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 12,
+        "pass": 334,
+        "item": 16,
+        "refresh": 74,
+        "level": 22
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 21.54
+    },
+    {
+      "arm": "fresh_teacher",
+      "seed": 52020,
+      "seat": 4,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 4,
+      "ranks": {
+        "player_3": 8,
+        "player_1": 7,
+        "player_6": 6,
+        "player_5": 5,
+        "player_4": 4,
+        "player_7": 3,
+        "player_0": 2,
+        "player_2": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 8,
+        "move": 13,
+        "buy": 13,
+        "pass": 323,
+        "refresh": 40,
+        "level": 23
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 33.97
+    },
+    {
+      "arm": "fresh_teacher",
+      "seed": 52022,
+      "seat": 6,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 8,
+      "ranks": {
+        "player_6": 8,
+        "player_4": 7,
+        "player_0": 6,
+        "player_1": 5,
+        "player_2": 4,
+        "player_7": 3,
+        "player_3": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 10,
+        "item": 4,
+        "buy": 11,
+        "pass": 217,
+        "refresh": 36,
+        "level": 7
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 25.26
+    },
+    {
+      "arm": "fresh_teacher",
+      "seed": 52023,
+      "seat": 7,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 5,
+      "ranks": {
+        "player_1": 8,
+        "player_0": 7,
+        "player_4": 6,
+        "player_7": 5,
+        "player_5": 4,
+        "player_3": 3,
+        "player_2": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 12,
+        "move": 14,
+        "buy": 12,
+        "pass": 265,
+        "refresh": 53,
+        "level": 17,
+        "sell": 2
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 22.92
+    },
+    {
+      "arm": "fresh_teacher",
+      "seed": 52024,
+      "seat": 0,
+      "kind": "hier_diffusion",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 1,
+      "ranks": {
+        "player_4": 8,
+        "player_1": 7,
+        "player_5": 6,
+        "player_7": 5,
+        "player_3": 4,
+        "player_2": 3,
+        "player_0": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 12,
+        "item": 15,
+        "buy": 13,
+        "pass": 353,
+        "refresh": 82,
+        "level": 20
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 21.35
+    },
+    {
+      "arm": "econ",
+      "seed": 52002,
+      "seat": 2,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 4,
+      "ranks": {
+        "player_7": 8,
+        "player_0": 7,
+        "player_5": 6,
+        "player_3": 5,
+        "player_2": 4,
+        "player_4": 3,
+        "player_1": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 12,
+        "pass": 298,
+        "refresh": 61,
+        "item": 7,
+        "level": 20
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 16.27
+    },
+    {
+      "arm": "econ",
+      "seed": 52003,
+      "seat": 3,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 3,
+      "ranks": {
+        "player_1": 8,
+        "player_2": 7,
+        "player_0": 6,
+        "player_4": 5,
+        "player_5": 4,
+        "player_3": 3,
+        "player_6": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "buy": 14,
+        "move": 7,
+        "pass": 299,
+        "item": 9,
+        "refresh": 56,
+        "level": 20
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 14.91
+    },
+    {
+      "arm": "econ",
+      "seed": 52005,
+      "seat": 5,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 1,
+      "ranks": {
+        "player_0": 8,
+        "player_4": 7,
+        "player_2": 6,
+        "player_3": 5,
+        "player_1": 4,
+        "player_6": 3,
+        "player_5": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 14,
+        "pass": 314,
+        "item": 12,
+        "refresh": 96,
+        "level": 22
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 17.67
+    },
+    {
+      "arm": "econ",
+      "seed": 52004,
+      "seat": 4,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 525,
+      "rank": 1,
+      "ranks": {
+        "player_5": 8,
+        "player_3": 7,
+        "player_7": 6,
+        "player_6": 5,
+        "player_0": 4,
+        "player_2": 3,
+        "player_1": 2,
+        "player_4": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 15,
+        "pass": 388,
+        "item": 15,
+        "refresh": 80,
+        "level": 20
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 22.84
+    },
+    {
+      "arm": "econ",
+      "seed": 52001,
+      "seat": 1,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 2,
+      "ranks": {
+        "player_0": 8,
+        "player_4": 7,
+        "player_7": 6,
+        "player_2": 5,
+        "player_3": 4,
+        "player_5": 3,
+        "player_1": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 10,
+        "pass": 378,
+        "item": 16,
+        "refresh": 78,
+        "level": 21
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 36.64
+    },
+    {
+      "arm": "econ",
+      "seed": 52006,
+      "seat": 6,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 1,
+      "ranks": {
+        "player_1": 8,
+        "player_4": 7,
+        "player_2": 6,
+        "player_3": 5,
+        "player_5": 4,
+        "player_0": 3,
+        "player_6": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 16,
+        "pass": 313,
+        "item": 12,
+        "refresh": 81,
+        "level": 21
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 15.3
+    },
+    {
+      "arm": "econ",
+      "seed": 52008,
+      "seat": 0,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 3,
+      "ranks": {
+        "player_6": 8,
+        "player_1": 7,
+        "player_4": 6,
+        "player_5": 5,
+        "player_7": 4,
+        "player_0": 3,
+        "player_2": 2,
+        "player_3": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 14,
+        "pass": 319,
+        "item": 14,
+        "refresh": 60,
+        "level": 21
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 16.15
+    },
+    {
+      "arm": "econ",
+      "seed": 52007,
+      "seat": 7,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 2,
+      "ranks": {
+        "player_2": 8,
+        "player_6": 7,
+        "player_5": 6,
+        "player_3": 5,
+        "player_1": 4,
+        "player_4": 3,
+        "player_0": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 11,
+        "pass": 333,
+        "refresh": 83,
+        "item": 10,
+        "level": 21
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 19.2
+    },
+    {
+      "arm": "econ",
+      "seed": 52009,
+      "seat": 1,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 420,
+      "rank": 1,
+      "ranks": {
+        "player_2": 8,
+        "player_3": 7,
+        "player_6": 6,
+        "player_7": 5,
+        "player_4": 4,
+        "player_5": 3,
+        "player_0": 2,
+        "player_1": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 15,
+        "pass": 282,
+        "item": 13,
+        "refresh": 82,
+        "level": 21
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 18.82
+    },
+    {
+      "arm": "econ",
+      "seed": 52010,
+      "seat": 2,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 4,
+      "ranks": {
+        "player_4": 8,
+        "player_5": 7,
+        "player_3": 6,
+        "player_1": 5,
+        "player_2": 4,
+        "player_6": 3,
+        "player_0": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 17,
+        "pass": 298,
+        "refresh": 53,
+        "level": 20,
+        "item": 10
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 19.89
+    },
+    {
+      "arm": "econ",
+      "seed": 52012,
+      "seat": 4,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 8,
+      "ranks": {
+        "player_4": 8,
+        "player_1": 7,
+        "player_2": 6,
+        "player_6": 5,
+        "player_7": 4,
+        "player_0": 3,
+        "player_3": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 5,
+        "buy": 8,
+        "pass": 186,
+        "item": 6,
+        "refresh": 41,
+        "level": 9
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 14.53
+    },
+    {
+      "arm": "econ",
+      "seed": 52011,
+      "seat": 3,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 3,
+      "ranks": {
+        "player_2": 8,
+        "player_6": 7,
+        "player_0": 6,
+        "player_1": 5,
+        "player_5": 4,
+        "player_3": 3,
+        "player_4": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 9,
+        "buy": 13,
+        "pass": 298,
+        "item": 16,
+        "refresh": 48,
+        "level": 21
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 22.14
+    },
+    {
+      "arm": "econ",
+      "seed": 52013,
+      "seat": 5,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 8,
+      "ranks": {
+        "player_5": 8,
+        "player_0": 7,
+        "player_7": 6,
+        "player_3": 5,
+        "player_6": 4,
+        "player_1": 3,
+        "player_2": 2,
+        "player_4": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 5,
+        "item": 7,
+        "buy": 10,
+        "pass": 199,
+        "refresh": 40,
+        "level": 9
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 19.51
+    },
+    {
+      "arm": "econ",
+      "seed": 52014,
+      "seat": 6,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 1,
+      "ranks": {
+        "player_1": 8,
+        "player_3": 7,
+        "player_0": 6,
+        "player_2": 5,
+        "player_4": 4,
+        "player_7": 3,
+        "player_5": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "item": 16,
+        "buy": 13,
+        "pass": 330,
+        "refresh": 78,
+        "level": 21
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 16.42
+    },
+    {
+      "arm": "econ",
+      "seed": 52015,
+      "seat": 7,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 525,
+      "rank": 3,
+      "ranks": {
+        "player_1": 8,
+        "player_5": 7,
+        "player_0": 6,
+        "player_3": 5,
+        "player_2": 4,
+        "player_7": 3,
+        "player_4": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 16,
+        "pass": 298,
+        "item": 11,
+        "refresh": 53,
+        "level": 20
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 20.66
+    },
+    {
+      "arm": "econ",
+      "seed": 52016,
+      "seat": 0,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 525,
+      "rank": 4,
+      "ranks": {
+        "player_5": 8,
+        "player_7": 7,
+        "player_2": 6,
+        "player_4": 5,
+        "player_0": 4,
+        "player_1": 3,
+        "player_3": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 14,
+        "pass": 306,
+        "item": 9,
+        "refresh": 62,
+        "level": 22
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 17.07
+    },
+    {
+      "arm": "econ",
+      "seed": 52017,
+      "seat": 1,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 8,
+      "ranks": {
+        "player_1": 8,
+        "player_5": 7,
+        "player_6": 6,
+        "player_2": 5,
+        "player_4": 4,
+        "player_3": 3,
+        "player_0": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 6,
+        "buy": 13,
+        "pass": 240,
+        "item": 8,
+        "refresh": 36,
+        "level": 12
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 17.27
+    },
+    {
+      "arm": "econ",
+      "seed": 52018,
+      "seat": 2,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 3,
+      "ranks": {
+        "player_0": 8,
+        "player_4": 7,
+        "player_3": 6,
+        "player_5": 5,
+        "player_1": 4,
+        "player_2": 3,
+        "player_6": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 17,
+        "pass": 324,
+        "item": 10,
+        "refresh": 57,
+        "level": 20
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 20.02
+    },
+    {
+      "arm": "econ",
+      "seed": 52019,
+      "seat": 3,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 1,
+      "ranks": {
+        "player_0": 8,
+        "player_6": 7,
+        "player_1": 6,
+        "player_5": 5,
+        "player_4": 4,
+        "player_7": 3,
+        "player_2": 2,
+        "player_3": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 7,
+        "buy": 15,
+        "pass": 312,
+        "item": 15,
+        "refresh": 80,
+        "level": 21
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 16.59
+    },
+    {
+      "arm": "econ",
+      "seed": 52021,
+      "seat": 5,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 8,
+      "ranks": {
+        "player_5": 8,
+        "player_0": 7,
+        "player_6": 6,
+        "player_4": 5,
+        "player_7": 4,
+        "player_3": 3,
+        "player_1": 1,
+        "player_2": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "move": 5,
+        "buy": 9,
+        "pass": 209,
+        "item": 3,
+        "refresh": 35,
+        "level": 9
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 17.8
+    },
+    {
+      "arm": "econ",
+      "seed": 52022,
+      "seat": 6,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 8,
+      "ranks": {
+        "player_6": 8,
+        "player_1": 7,
+        "player_7": 6,
+        "player_2": 5,
+        "player_4": 4,
+        "player_0": 3,
+        "player_3": 2,
+        "player_5": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 5,
+        "buy": 14,
+        "move": 5,
+        "pass": 197,
+        "refresh": 41,
+        "level": 8
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 16.02
+    },
+    {
+      "arm": "econ",
+      "seed": 52020,
+      "seat": 4,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 7,
+      "ranks": {
+        "player_1": 8,
+        "player_4": 7,
+        "player_0": 6,
+        "player_3": 5,
+        "player_5": 4,
+        "player_6": 3,
+        "player_2": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 6,
+        "buy": 12,
+        "move": 6,
+        "pass": 240,
+        "refresh": 51,
+        "level": 15
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 26.12
+    },
+    {
+      "arm": "econ",
+      "seed": 52023,
+      "seat": 7,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 525,
+      "rank": 2,
+      "ranks": {
+        "player_2": 8,
+        "player_5": 7,
+        "player_0": 6,
+        "player_6": 5,
+        "player_4": 4,
+        "player_1": 3,
+        "player_3": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 32,
+        "move": 7,
+        "buy": 14,
+        "pass": 367,
+        "refresh": 85,
+        "level": 20
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 23.33
+    },
+    {
+      "arm": "econ",
+      "seed": 52024,
+      "seat": 0,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 540,
+      "rank": 4,
+      "ranks": {
+        "player_4": 8,
+        "player_2": 7,
+        "player_3": 6,
+        "player_5": 5,
+        "player_0": 4,
+        "player_7": 3,
+        "player_1": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "max_pending_items_per_player": 0,
+      "target_action_counts": {
+        "item": 10,
+        "buy": 19,
+        "move": 7,
+        "pass": 300,
+        "refresh": 49,
+        "level": 20
+      },
+      "dagger_count": 0,
+      "dagger_exact_agree": 0,
+      "elapsed_seconds": 20.14
+    }
+  ],
+  "summaries": {
+    "original": {
+      "attempted": 24,
+      "valid": 24,
+      "mean_rank": 2.6666666666666665,
+      "top4_rate": 0.7916666666666666,
+      "first_rate": 0.375,
+      "action_counts": {
+        "move": 262,
+        "buy": 396,
+        "pass": 7586,
+        "refresh": 1318,
+        "item": 303,
+        "level": 576,
+        "sell": 14
+      },
+      "action_fraction": {
+        "move": 0.0250597800095648,
+        "buy": 0.03787661406025825,
+        "pass": 0.725585844093735,
+        "refresh": 0.12606408417025347,
+        "item": 0.02898134863701578,
+        "level": 0.05509325681492109,
+        "sell": 0.0013390722142515542
+      },
+      "warning_games": 1
+    },
+    "dagger": {
+      "attempted": 24,
+      "valid": 24,
+      "mean_rank": 3.125,
+      "top4_rate": 0.75,
+      "first_rate": 0.25,
+      "action_counts": {
+        "move": 297,
+        "buy": 411,
+        "pass": 7363,
+        "item": 277,
+        "refresh": 1420,
+        "level": 462,
+        "sell": 15
+      },
+      "action_fraction": {
+        "move": 0.028989751098096633,
+        "buy": 0.04011713030746706,
+        "pass": 0.7186920448999512,
+        "item": 0.027037579306979014,
+        "refresh": 0.1386041971693509,
+        "level": 0.04509516837481698,
+        "sell": 0.0014641288433382138
+      },
+      "warning_games": 2
+    },
+    "fresh_teacher": {
+      "attempted": 24,
+      "valid": 24,
+      "mean_rank": 3.4166666666666665,
+      "top4_rate": 0.6666666666666666,
+      "first_rate": 0.3333333333333333,
+      "action_counts": {
+        "move": 233,
+        "buy": 347,
+        "pass": 7303,
+        "item": 268,
+        "refresh": 1322,
+        "level": 465,
+        "sell": 7
+      },
+      "action_fraction": {
+        "move": 0.02342885872297637,
+        "buy": 0.034891905480140775,
+        "pass": 0.7343388637506284,
+        "item": 0.026948215183509303,
+        "refresh": 0.13293112116641528,
+        "level": 0.04675716440422323,
+        "sell": 0.0007038712921065862
+      },
+      "warning_games": 2
+    },
+    "econ": {
+      "attempted": 24,
+      "valid": 24,
+      "mean_rank": 3.75,
+      "top4_rate": 0.75,
+      "first_rate": 0.25,
+      "action_counts": {
+        "move": 160,
+        "buy": 325,
+        "pass": 7028,
+        "refresh": 1486,
+        "item": 272,
+        "level": 434
+      },
+      "action_fraction": {
+        "move": 0.01648634724368882,
+        "buy": 0.033487892838742914,
+        "pass": 0.7241628026790314,
+        "refresh": 0.15311695002575992,
+        "item": 0.028026790314270994,
+        "level": 0.04471921689850592
+      },
+      "warning_games": 0
+    }
+  },
+  "elapsed_seconds": 956.86
+}

@@ -1,0 +1,172 @@
+{
+  "games": [
+    {
+      "seed": 7103,
+      "seat": 7,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 2,
+      "ranks": {
+        "player_1": 8,
+        "player_2": 7,
+        "player_6": 6,
+        "player_3": 5,
+        "player_5": 4,
+        "player_4": 3,
+        "player_0": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "elapsed_seconds": 15.25
+    },
+    {
+      "seed": 7102,
+      "seat": 6,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 420,
+      "rank": 1,
+      "ranks": {
+        "player_0": 8,
+        "player_7": 7,
+        "player_5": 6,
+        "player_1": 5,
+        "player_2": 4,
+        "player_4": 3,
+        "player_3": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "elapsed_seconds": 19.65
+    },
+    {
+      "seed": 7101,
+      "seat": 5,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 6,
+      "ranks": {
+        "player_1": 8,
+        "player_4": 7,
+        "player_5": 6,
+        "player_7": 5,
+        "player_3": 4,
+        "player_0": 3,
+        "player_2": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "elapsed_seconds": 24.12
+    },
+    {
+      "seed": 7104,
+      "seat": 0,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 5,
+      "ranks": {
+        "player_1": 8,
+        "player_2": 7,
+        "player_5": 6,
+        "player_0": 5,
+        "player_3": 4,
+        "player_7": 3,
+        "player_4": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "elapsed_seconds": 28.42
+    },
+    {
+      "seed": 7105,
+      "seat": 1,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 3,
+      "ranks": {
+        "player_3": 8,
+        "player_4": 7,
+        "player_5": 6,
+        "player_7": 5,
+        "player_0": 4,
+        "player_1": 3,
+        "player_2": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "elapsed_seconds": 23.65
+    },
+    {
+      "seed": 7107,
+      "seat": 3,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 2,
+      "ranks": {
+        "player_7": 8,
+        "player_2": 7,
+        "player_6": 6,
+        "player_4": 5,
+        "player_0": 4,
+        "player_1": 3,
+        "player_3": 2,
+        "player_5": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "elapsed_seconds": 20.86
+    },
+    {
+      "seed": 7108,
+      "seat": 4,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 6,
+      "ranks": {
+        "player_5": 8,
+        "player_1": 7,
+        "player_4": 6,
+        "player_6": 5,
+        "player_3": 4,
+        "player_7": 3,
+        "player_0": 1,
+        "player_2": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "elapsed_seconds": 16.58
+    },
+    {
+      "seed": 7106,
+      "seat": 2,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 555,
+      "rank": 4,
+      "ranks": {
+        "player_4": 8,
+        "player_3": 7,
+        "player_5": 6,
+        "player_1": 5,
+        "player_2": 4,
+        "player_0": 3,
+        "player_6": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "elapsed_seconds": 28.67
+    }
+  ]
+}

@@ -1,0 +1,449 @@
+{
+  "status": "completed",
+  "device": "cuda",
+  "data_games": 10,
+  "source": "/root/autodl-tmp/path_measure_preparation/tft_gibbs_multiseed_20261121/train_trajectories.npz",
+  "train_seed": 47,
+  "updates_each": 300,
+  "eval_seeds": [
+    1301,
+    1302,
+    1303
+  ],
+  "model": "4-step masked categorical single-action diffusion, alpha=0.1",
+  "initial_noise_note": "alpha_bar(T)=1e-4; uniform prior approximates, rather than exactly equals, forward marginal",
+  "diffusion_loss_last": 2.883174419403076,
+  "gibbs_diffusion_loss_last": 2.9046921730041504,
+  "weights": {
+    "uniform": {
+      "n": 10,
+      "beta": 0.0,
+      "ess": 9.999999999999998,
+      "ess_fraction": 0.9999999999999998,
+      "max_weight": 0.1,
+      "weighted_cost": 0.4,
+      "uniform_cost": 0.4,
+      "kl_to_uniform": 0.0
+    },
+    "gibbs_0.5": {
+      "n": 10,
+      "beta": 0.5,
+      "ess": 9.837809785446062,
+      "ess_fraction": 0.9837809785446062,
+      "max_weight": 0.12115216131732338,
+      "weighted_cost": 0.3674197946755521,
+      "uniform_cost": 0.4,
+      "kl_to_uniform": 0.008167203788459785
+    }
+  },
+  "crossfit_residuals": {
+    "global_game_balanced_mse": 0.06718050134772272,
+    "per_game": {
+      "0": {
+        "n": 128,
+        "mean_residual": 0.23159181649255944,
+        "mse": 0.06787062506893736
+      },
+      "1": {
+        "n": 128,
+        "mean_residual": 0.44637893752278124,
+        "mse": 0.20806034892526135
+      },
+      "2": {
+        "n": 128,
+        "mean_residual": -0.17519798144234128,
+        "mse": 0.04559280006877548
+      },
+      "3": {
+        "n": 128,
+        "mean_residual": -0.24553805286695363,
+        "mse": 0.07202777501189361
+      },
+      "4": {
+        "n": 128,
+        "mean_residual": -0.016755265825164872,
+        "mse": 0.006423516427516794
+      },
+      "5": {
+        "n": 128,
+        "mean_residual": -0.18608136840354436,
+        "mse": 0.03866011736360797
+      },
+      "6": {
+        "n": 128,
+        "mean_residual": -0.284148873716698,
+        "mse": 0.08539381651558055
+      },
+      "7": {
+        "n": 128,
+        "mean_residual": 0.17713424669483968,
+        "mse": 0.04715039833240618
+      },
+      "8": {
+        "n": 128,
+        "mean_residual": 0.21782485781707872,
+        "mse": 0.06805918593717171
+      },
+      "9": {
+        "n": 128,
+        "mean_residual": -0.1598733412869333,
+        "mse": 0.032566429826076077
+      }
+    },
+    "sample_count": 1280,
+    "family_counts": [
+      28,
+      39,
+      10,
+      21,
+      18,
+      21,
+      12,
+      14,
+      15,
+      25,
+      15,
+      19,
+      24,
+      17,
+      14,
+      10,
+      20,
+      14,
+      15,
+      19,
+      16,
+      17,
+      14,
+      30,
+      19,
+      14,
+      23,
+      18,
+      314,
+      134,
+      74,
+      34,
+      65,
+      29,
+      8,
+      23,
+      21,
+      14,
+      8,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      12,
+      4,
+      5,
+      0,
+      1,
+      1,
+      5,
+      3
+    ]
+  },
+  "opponent": "scripted_teacher_v1",
+  "groups": {
+    "bc": {
+      "games": [
+        {
+          "seed": 1301,
+          "reason": "natural_end",
+          "steps": 436,
+          "ranks": {
+            "player_2": 8,
+            "player_4": 7,
+            "player_1": 6,
+            "player_3": 5,
+            "player_5": 4,
+            "player_7": 3,
+            "player_0": 1,
+            "player_6": 2
+          },
+          "elapsed_seconds": 17.32
+        },
+        {
+          "seed": 1302,
+          "reason": "natural_end",
+          "steps": 451,
+          "ranks": {
+            "player_6": 8,
+            "player_2": 7,
+            "player_0": 6,
+            "player_5": 5,
+            "player_1": 4,
+            "player_4": 3,
+            "player_3": 2,
+            "player_7": 1
+          },
+          "elapsed_seconds": 16.1
+        },
+        {
+          "seed": 1303,
+          "reason": "natural_end",
+          "steps": 511,
+          "ranks": {
+            "player_3": 8,
+            "player_7": 7,
+            "player_5": 6,
+            "player_6": 5,
+            "player_1": 4,
+            "player_2": 3,
+            "player_0": 1,
+            "player_4": 2
+          },
+          "elapsed_seconds": 15.51
+        }
+      ],
+      "valid_games": 3,
+      "attempted_games": 3,
+      "mean_rank": 2.6666666666666665,
+      "top4_rate": 0.6666666666666666,
+      "first_rate": 0.6666666666666666
+    },
+    "diffusion": {
+      "games": [
+        {
+          "seed": 1301,
+          "reason": "natural_end",
+          "steps": 436,
+          "ranks": {
+            "player_2": 8,
+            "player_4": 7,
+            "player_6": 6,
+            "player_1": 5,
+            "player_3": 4,
+            "player_5": 3,
+            "player_0": 1,
+            "player_7": 2
+          },
+          "elapsed_seconds": 15.24
+        },
+        {
+          "seed": 1302,
+          "reason": "natural_end",
+          "steps": 466,
+          "ranks": {
+            "player_6": 8,
+            "player_2": 7,
+            "player_4": 6,
+            "player_0": 5,
+            "player_3": 4,
+            "player_7": 3,
+            "player_1": 1,
+            "player_5": 2
+          },
+          "elapsed_seconds": 15.37
+        },
+        {
+          "seed": 1303,
+          "reason": "natural_end",
+          "steps": 496,
+          "ranks": {
+            "player_3": 8,
+            "player_5": 7,
+            "player_6": 6,
+            "player_7": 5,
+            "player_2": 4,
+            "player_1": 3,
+            "player_0": 2,
+            "player_4": 1
+          },
+          "elapsed_seconds": 17.86
+        }
+      ],
+      "valid_games": 3,
+      "attempted_games": 3,
+      "mean_rank": 2.6666666666666665,
+      "top4_rate": 0.6666666666666666,
+      "first_rate": 0.3333333333333333
+    },
+    "diffusion_gibbs": {
+      "games": [
+        {
+          "seed": 1301,
+          "reason": "natural_end",
+          "steps": 496,
+          "ranks": {
+            "player_2": 8,
+            "player_4": 7,
+            "player_1": 6,
+            "player_6": 5,
+            "player_7": 4,
+            "player_5": 3,
+            "player_0": 1,
+            "player_3": 2
+          },
+          "elapsed_seconds": 15.98
+        },
+        {
+          "seed": 1302,
+          "reason": "natural_end",
+          "steps": 466,
+          "ranks": {
+            "player_1": 8,
+            "player_6": 7,
+            "player_7": 6,
+            "player_2": 5,
+            "player_3": 4,
+            "player_5": 3,
+            "player_0": 1,
+            "player_4": 2
+          },
+          "elapsed_seconds": 16.8
+        },
+        {
+          "seed": 1303,
+          "reason": "natural_end",
+          "steps": 511,
+          "ranks": {
+            "player_7": 8,
+            "player_2": 7,
+            "player_1": 6,
+            "player_6": 5,
+            "player_3": 4,
+            "player_5": 3,
+            "player_0": 1,
+            "player_4": 2
+          },
+          "elapsed_seconds": 17.58
+        }
+      ],
+      "valid_games": 3,
+      "attempted_games": 3,
+      "mean_rank": 1.0,
+      "top4_rate": 1.0,
+      "first_rate": 1.0
+    },
+    "diffusion_vector": {
+      "games": [
+        {
+          "seed": 1301,
+          "reason": "natural_end",
+          "steps": 511,
+          "ranks": {
+            "player_2": 8,
+            "player_5": 7,
+            "player_1": 6,
+            "player_6": 5,
+            "player_3": 4,
+            "player_4": 3,
+            "player_0": 1,
+            "player_7": 2
+          },
+          "elapsed_seconds": 17.03
+        },
+        {
+          "seed": 1302,
+          "reason": "natural_end",
+          "steps": 526,
+          "ranks": {
+            "player_5": 8,
+            "player_1": 7,
+            "player_7": 6,
+            "player_4": 5,
+            "player_6": 4,
+            "player_2": 3,
+            "player_0": 1,
+            "player_3": 2
+          },
+          "elapsed_seconds": 16.82
+        },
+        {
+          "seed": 1303,
+          "reason": "natural_end",
+          "steps": 496,
+          "ranks": {
+            "player_3": 8,
+            "player_5": 7,
+            "player_6": 6,
+            "player_7": 5,
+            "player_2": 4,
+            "player_1": 3,
+            "player_0": 1,
+            "player_4": 2
+          },
+          "elapsed_seconds": 17.6
+        }
+      ],
+      "valid_games": 3,
+      "attempted_games": 3,
+      "mean_rank": 1.0,
+      "top4_rate": 1.0,
+      "first_rate": 1.0
+    },
+    "diffusion_vector_residual": {
+      "games": [
+        {
+          "seed": 1301,
+          "reason": "natural_end",
+          "steps": 436,
+          "ranks": {
+            "player_2": 8,
+            "player_1": 7,
+            "player_6": 6,
+            "player_5": 5,
+            "player_3": 4,
+            "player_4": 3,
+            "player_0": 1,
+            "player_7": 2
+          },
+          "elapsed_seconds": 16.67
+        },
+        {
+          "seed": 1302,
+          "reason": "natural_end",
+          "steps": 466,
+          "ranks": {
+            "player_6": 8,
+            "player_4": 7,
+            "player_5": 6,
+            "player_1": 5,
+            "player_2": 4,
+            "player_3": 3,
+            "player_0": 1,
+            "player_7": 2
+          },
+          "elapsed_seconds": 15.55
+        },
+        {
+          "seed": 1303,
+          "reason": "natural_end",
+          "steps": 496,
+          "ranks": {
+            "player_3": 8,
+            "player_5": 7,
+            "player_6": 6,
+            "player_7": 5,
+            "player_2": 4,
+            "player_1": 3,
+            "player_0": 1,
+            "player_4": 2
+          },
+          "elapsed_seconds": 17.75
+        }
+      ],
+      "valid_games": 3,
+      "attempted_games": 3,
+      "mean_rank": 1.0,
+      "top4_rate": 1.0,
+      "first_rate": 1.0
+    }
+  },
+  "limitations": [
+    "estimated residuals are not proven martingale differences",
+    "RMSE by action family is heuristic, not conditional variance",
+    "vector field is an inference-time policy tilt, not an SDE drift or SB",
+    "Q fit from ten training games only; no hidden info intentionally used; simulator observation visibility not fully audited",
+    "single training seed and three evaluation seeds; no statistical validity claim",
+    "same environment seed does not ensure identical randomness across differing actions",
+    "upstream resolves simultaneous deaths by iteration order; seat bias not audited"
+  ]
+}

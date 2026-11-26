@@ -1,0 +1,165 @@
+diff --git a/Simulator/battle/ability.py b/Simulator/battle/ability.py
+index 9c24042..8abb16d 100755
+--- a/Simulator/battle/ability.py
++++ b/Simulator/battle/ability.py
+@@ -2754,6 +2754,10 @@ def yone_helper(champion):
+ 
+ def yuumi(champion):
+     default_ability_calls(champion)
++    # Ionic Spark can kill Yuumi during default_ability_calls. Dead casters
++    # must not enqueue the remainder of the heal/buff ability.
++    if champion.health <= 0:
++        return
+     champion.add_que('change_stat', -1, None, 'ability_active', True)
+     champion.add_que('change_stat', stats.ABILITY_LENGTH[champion.name], None, 'ability_active', False)
+ 
+diff --git a/Simulator/game/player.py b/Simulator/game/player.py
+index e0d3fb5..a1f3093 100644
+--- a/Simulator/game/player.py
++++ b/Simulator/game/player.py
+@@ -88,6 +88,7 @@ class Player:
+         # 10 slots for items
+         # | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+         self.item_bench = [None for _ in range(config.ITEM_BENCH_SIZE)]
++        self.pending_items = []
+ 
+         # --- Private Objects ---
+         # List of shop champions in string format
+@@ -643,8 +644,8 @@ class Player:
+             bool: True: Unit successful sold. False: Was unable to sell unit due to remove from triple catalog, return item or target dummy.
+         """
+         # Need to add the behavior that on carousel when bench is full, add to board.
+-        if not (self.remove_triple_catalog(s_champion, golden=golden) and self.return_item(s_champion) and not
+-                s_champion.target_dummy):
++        if not (not s_champion.target_dummy and self._can_return_items_safely(s_champion) and
++                self.remove_triple_catalog(s_champion, golden=golden) and self.return_item(s_champion)):
+             self.reward += self.mistake_reward
+             self.print("Could not sell champion " + s_champion.name)
+             if DEBUG:
+@@ -676,7 +677,8 @@ class Player:
+             bool: True: Unit successful sold. False: Was unable to sell unit due to remove from triple catalog, return item or target dummy.
+         """
+         if self.bench[location]:
+-            if not (self.remove_triple_catalog(self.bench[location], golden=golden) and
++            if not (self._can_return_items_safely(self.bench[location]) and
++                    self.remove_triple_catalog(self.bench[location], golden=golden) and
+                     self.return_item_from_bench(location)):
+                 self.print("Mistake in sell from bench with {} and level {}".format(self.bench[location],
+                                                                                     self.bench[location].stars))
+@@ -987,13 +989,21 @@ class Player:
+         Returns:
+             bool: True if action was performed successfully, False otherwise.
+         """
++        # Overflow is retained in FIFO order until a bench slot becomes free.
++        self.flush_pending_items()
+         if self.item_bench_full(1):
+-            if DEBUG:
+-                print("Failed to add item to item bench")
+-            return False
++            self.pending_items.append(item)
++        else:
++            self.item_bench[self.item_bench_vacancy()] = item
++        return True
+ 
+-        bench_loc = self.item_bench_vacancy()
+-        self.item_bench[bench_loc] = item
++    def flush_pending_items(self):
++        """Move pending items into free visible slots; return the number moved."""
++        moved = 0
++        while self.pending_items and not self.item_bench_full(1):
++            self.item_bench[self.item_bench_vacancy()] = self.pending_items.pop(0)
++            moved += 1
++        return moved
+ 
+     # --- Query Functions ---
+     def bench_full(self):
+@@ -1570,6 +1580,14 @@ class Player:
+ 
+     # TODO: Handle case where item_bench if full
+     # TODO: Thieves_gloves bug appeared again on self.thieves_gloves_loc.remove([x, -1])
++    def _can_return_items_safely(self, champ):
++        """Preflight before mutating a champion, catalog or item bench."""
++        if champ is None:
++            return False
++        items = champ.items
++        needed = 1 if items and items[0] == 'thieves_gloves' else len(items)
++        return not self.item_bench_full(needed)
++
+     def return_item_from_bench(self, x) -> bool:
+         """Returns item from a given champion.
+ 
+@@ -1581,12 +1599,15 @@ class Player:
+         """
+         # if the unit exists
+         if self.bench[x]:
++            if not self._can_return_items_safely(self.bench[x]):
++                return False
+             # skip if there are no items, trying to save a little processing time.
+             if self.bench[x].items:
+ 
+                 # thieves_gloves_loc_always needs to be cleared even if there's not enough room on bench
+                 if self.bench[x].items[0] == 'thieves_gloves':
+-                    self.thieves_gloves_loc.remove([x, -1])
++                    if [x, -1] in self.thieves_gloves_loc:
++                        self.thieves_gloves_loc.remove([x, -1])
+                     self.bench[x].items = ['thieves_gloves']
+ 
+                 # if I have enough space on the item bench for the number of items needed
+@@ -1598,7 +1619,7 @@ class Player:
+                         self.print("returning " + i + " to the item bench")
+                 # if there is only one or two spots left on the item_bench and thieves_gloves is removed
+                 elif not self.item_bench_full(1) and self.bench[x].items[0] == "thieves_gloves":
+-                    self.item_bench[self.item_bench_cvacancy()
++                    self.item_bench[self.item_bench_vacancy()
+                                     ] = self.bench[x].items[0]
+                     self.print(
+                         "returning " + str(self.bench[x].items[0]) + " to the item bench")
+@@ -1623,6 +1644,8 @@ class Player:
+         """
+         # if the unit exists
+         if a_champion:
++            if not self._can_return_items_safely(a_champion):
++                return False
+             # skip if there are no items, trying to save a little processing time.
+             if a_champion.items:
+                 # thieves_gloves_location needs to be removed whether there's room on the bench or not
+@@ -1666,6 +1689,7 @@ class Player:
+         self.bench = [None for _ in range(9)]
+         self.board = [[None for _ in range(4)] for _ in range(7)]
+         self.item_bench = [None for _ in range(10)]
++        self.pending_items = []
+         self.gold = 0
+         self.level = 1
+         self.exp = 0
+diff --git a/Simulator/game/player_manager.py b/Simulator/game/player_manager.py
+index ec2bcbc..497fa7d 100644
+--- a/Simulator/game/player_manager.py
++++ b/Simulator/game/player_manager.py
+@@ -130,6 +130,7 @@ class PlayerManager:
+         for player in self.players:
+             if not self.terminations[player]:
+                 self.player_states[player].actions_remaining = self.config.max_actions_per_round
++                self.player_states[player].flush_pending_items()
+                 self.observation_states[player].update_game_round()
+                 self.action_handlers[player].update_game_round()
+                 
+diff --git a/Simulator/game/step_function.py b/Simulator/game/step_function.py
+index 3cae5e6..386d8be 100644
+--- a/Simulator/game/step_function.py
++++ b/Simulator/game/step_function.py
+@@ -73,9 +73,15 @@ class Step_Function:
+         else:
+             player.print(f"Action Type is invalid: {action}")
+ 
++        restored_items = player.flush_pending_items()
+         player.actions_remaining -= 1
+         self.player_manager.observation_states[player_id].update_observation(action)
+         self.player_manager.action_handlers[player_id].update_action_mask(action)
++        if restored_items and action_type != 6:
++            observation = self.player_manager.observation_states[player_id]
++            handler = self.player_manager.action_handlers[player_id]
++            observation.item_bench_vector = observation.create_item_bench_vector(player)
++            handler.item_mask = handler.create_item_action_mask(player)
+ 
+     def perform_1d_action(self,  player_id, action):
+         action = self.player_manager.action_handlers[player_id].action_space_to_action(action)

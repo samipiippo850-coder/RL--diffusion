@@ -1,0 +1,936 @@
+{
+  "kind": "exploratory_multiseed_gibbs_imitation_not_diffusion",
+  "rank_rule": "upstream terminal reward minus accumulated player.reward; sequential tie ordering",
+  "train_data_seeds": [
+    401,
+    402,
+    403,
+    404,
+    405,
+    406,
+    407,
+    408,
+    409,
+    410
+  ],
+  "fine_tuning_seeds": [
+    17,
+    23,
+    37
+  ],
+  "eval_seeds": [
+    1201,
+    1202,
+    1203,
+    1204
+  ],
+  "beta_values": [
+    0.0,
+    0.5,
+    2.0
+  ],
+  "updates_each": 100,
+  "shared_initial_model": "tft_pilot_20261121/policy.pt",
+  "opponent": "scripted_teacher_v1",
+  "notes": [
+    "fine-tuning seeds share one behavior dataset and one initial checkpoint",
+    "same seed does not guarantee identical random events after policy divergence",
+    "small exploratory sample; no claims of statistical significance",
+    "ranking depends on upstream internal ordering for simultaneous deaths"
+  ],
+  "collection": [
+    {
+      "seed": 401,
+      "reason": "natural_end",
+      "steps": 466,
+      "ranks": {
+        "player_4": 8,
+        "player_1": 7,
+        "player_2": 6,
+        "player_5": 5,
+        "player_3": 4,
+        "player_7": 3,
+        "player_0": 2,
+        "player_6": 1
+      },
+      "elapsed_seconds": 16.03
+    },
+    {
+      "seed": 402,
+      "reason": "natural_end",
+      "steps": 466,
+      "ranks": {
+        "player_5": 8,
+        "player_2": 7,
+        "player_3": 6,
+        "player_4": 5,
+        "player_6": 4,
+        "player_7": 3,
+        "player_0": 1,
+        "player_1": 2
+      },
+      "elapsed_seconds": 14.84
+    },
+    {
+      "seed": 403,
+      "reason": "natural_end",
+      "steps": 511,
+      "ranks": {
+        "player_7": 8,
+        "player_5": 7,
+        "player_0": 6,
+        "player_1": 5,
+        "player_2": 4,
+        "player_6": 3,
+        "player_3": 2,
+        "player_4": 1
+      },
+      "elapsed_seconds": 14.55
+    },
+    {
+      "seed": 404,
+      "reason": "natural_end",
+      "steps": 496,
+      "ranks": {
+        "player_4": 8,
+        "player_3": 7,
+        "player_2": 6,
+        "player_0": 5,
+        "player_5": 4,
+        "player_6": 3,
+        "player_1": 1,
+        "player_7": 2
+      },
+      "elapsed_seconds": 20.43
+    },
+    {
+      "seed": 405,
+      "reason": "natural_end",
+      "steps": 451,
+      "ranks": {
+        "player_3": 8,
+        "player_4": 7,
+        "player_5": 6,
+        "player_7": 5,
+        "player_0": 4,
+        "player_1": 3,
+        "player_2": 2,
+        "player_6": 1
+      },
+      "elapsed_seconds": 13.96
+    },
+    {
+      "seed": 406,
+      "reason": "natural_end",
+      "steps": 496,
+      "ranks": {
+        "player_2": 8,
+        "player_3": 7,
+        "player_4": 6,
+        "player_0": 5,
+        "player_6": 4,
+        "player_7": 3,
+        "player_1": 2,
+        "player_5": 1
+      },
+      "elapsed_seconds": 18.04
+    },
+    {
+      "seed": 407,
+      "reason": "natural_end",
+      "steps": 451,
+      "ranks": {
+        "player_5": 8,
+        "player_3": 7,
+        "player_0": 6,
+        "player_6": 5,
+        "player_2": 4,
+        "player_1": 3,
+        "player_4": 1,
+        "player_7": 2
+      },
+      "elapsed_seconds": 14.3
+    },
+    {
+      "seed": 408,
+      "reason": "natural_end",
+      "steps": 496,
+      "ranks": {
+        "player_5": 8,
+        "player_4": 7,
+        "player_6": 6,
+        "player_1": 5,
+        "player_3": 4,
+        "player_7": 3,
+        "player_0": 2,
+        "player_2": 1
+      },
+      "elapsed_seconds": 15.61
+    },
+    {
+      "seed": 409,
+      "reason": "natural_end",
+      "steps": 511,
+      "ranks": {
+        "player_4": 8,
+        "player_2": 7,
+        "player_3": 6,
+        "player_6": 5,
+        "player_7": 4,
+        "player_1": 3,
+        "player_0": 2,
+        "player_5": 1
+      },
+      "elapsed_seconds": 17.36
+    },
+    {
+      "seed": 410,
+      "reason": "natural_end",
+      "steps": 466,
+      "ranks": {
+        "player_5": 8,
+        "player_2": 7,
+        "player_7": 6,
+        "player_0": 5,
+        "player_1": 4,
+        "player_4": 3,
+        "player_3": 2,
+        "player_6": 1
+      },
+      "elapsed_seconds": 14.62
+    }
+  ],
+  "models": [
+    {
+      "seed": 17,
+      "beta": 0.0,
+      "loss_last_minibatch": 3.4319405555725098,
+      "eval_games": [
+        {
+          "seed": 1201,
+          "reason": "natural_end",
+          "steps": 421,
+          "ranks": {
+            "player_7": 8,
+            "player_1": 7,
+            "player_5": 6,
+            "player_2": 5,
+            "player_3": 4,
+            "player_0": 1,
+            "player_4": 3,
+            "player_6": 2
+          },
+          "elapsed_seconds": 12.83
+        },
+        {
+          "seed": 1202,
+          "reason": "natural_end",
+          "steps": 496,
+          "ranks": {
+            "player_6": 8,
+            "player_1": 7,
+            "player_2": 6,
+            "player_0": 5,
+            "player_7": 4,
+            "player_3": 3,
+            "player_4": 2,
+            "player_5": 1
+          },
+          "elapsed_seconds": 19.44
+        },
+        {
+          "seed": 1203,
+          "reason": "natural_end",
+          "steps": 496,
+          "ranks": {
+            "player_4": 8,
+            "player_5": 7,
+            "player_2": 6,
+            "player_6": 5,
+            "player_1": 4,
+            "player_0": 3,
+            "player_3": 2,
+            "player_7": 1
+          },
+          "elapsed_seconds": 16.67
+        },
+        {
+          "seed": 1204,
+          "reason": "natural_end",
+          "steps": 496,
+          "ranks": {
+            "player_0": 8,
+            "player_6": 7,
+            "player_7": 6,
+            "player_3": 5,
+            "player_5": 4,
+            "player_4": 3,
+            "player_1": 1,
+            "player_2": 2
+          },
+          "elapsed_seconds": 14.57
+        }
+      ],
+      "valid_games": 4,
+      "attempted_games": 4,
+      "mean_rank": 4.25,
+      "top4_rate": 0.5,
+      "first_rate": 0.25
+    },
+    {
+      "seed": 17,
+      "beta": 0.5,
+      "loss_last_minibatch": 3.630509614944458,
+      "eval_games": [
+        {
+          "seed": 1201,
+          "reason": "natural_end",
+          "steps": 466,
+          "ranks": {
+            "player_7": 8,
+            "player_1": 7,
+            "player_2": 6,
+            "player_3": 5,
+            "player_6": 4,
+            "player_4": 3,
+            "player_0": 1,
+            "player_5": 2
+          },
+          "elapsed_seconds": 12.09
+        },
+        {
+          "seed": 1202,
+          "reason": "natural_end",
+          "steps": 466,
+          "ranks": {
+            "player_6": 8,
+            "player_1": 7,
+            "player_2": 6,
+            "player_7": 5,
+            "player_3": 4,
+            "player_5": 3,
+            "player_0": 1,
+            "player_4": 2
+          },
+          "elapsed_seconds": 17.98
+        },
+        {
+          "seed": 1203,
+          "reason": "natural_end",
+          "steps": 496,
+          "ranks": {
+            "player_4": 8,
+            "player_5": 7,
+            "player_0": 6,
+            "player_7": 5,
+            "player_1": 4,
+            "player_2": 3,
+            "player_3": 2,
+            "player_6": 1
+          },
+          "elapsed_seconds": 17.29
+        },
+        {
+          "seed": 1204,
+          "reason": "natural_end",
+          "steps": 496,
+          "ranks": {
+            "player_0": 8,
+            "player_6": 7,
+            "player_7": 6,
+            "player_3": 5,
+            "player_5": 4,
+            "player_4": 3,
+            "player_1": 1,
+            "player_2": 2
+          },
+          "elapsed_seconds": 14.76
+        }
+      ],
+      "valid_games": 4,
+      "attempted_games": 4,
+      "mean_rank": 4.0,
+      "top4_rate": 0.5,
+      "first_rate": 0.5
+    },
+    {
+      "seed": 17,
+      "beta": 2.0,
+      "loss_last_minibatch": 4.181540489196777,
+      "eval_games": [
+        {
+          "seed": 1201,
+          "reason": "natural_end",
+          "steps": 496,
+          "ranks": {
+            "player_1": 8,
+            "player_7": 7,
+            "player_2": 6,
+            "player_3": 5,
+            "player_0": 4,
+            "player_5": 3,
+            "player_4": 1,
+            "player_6": 2
+          },
+          "elapsed_seconds": 13.39
+        },
+        {
+          "seed": 1202,
+          "reason": "natural_end",
+          "steps": 466,
+          "ranks": {
+            "player_6": 8,
+            "player_1": 7,
+            "player_3": 6,
+            "player_7": 5,
+            "player_2": 4,
+            "player_4": 3,
+            "player_0": 1,
+            "player_5": 2
+          },
+          "elapsed_seconds": 18.37
+        },
+        {
+          "seed": 1203,
+          "reason": "natural_end",
+          "steps": 451,
+          "ranks": {
+            "player_5": 8,
+            "player_2": 7,
+            "player_4": 6,
+            "player_3": 5,
+            "player_0": 4,
+            "player_7": 3,
+            "player_1": 2,
+            "player_6": 1
+          },
+          "elapsed_seconds": 13.85
+        },
+        {
+          "seed": 1204,
+          "reason": "natural_end",
+          "steps": 496,
+          "ranks": {
+            "player_0": 8,
+            "player_6": 7,
+            "player_7": 6,
+            "player_3": 5,
+            "player_5": 4,
+            "player_4": 3,
+            "player_1": 1,
+            "player_2": 2
+          },
+          "elapsed_seconds": 15.12
+        }
+      ],
+      "valid_games": 4,
+      "attempted_games": 4,
+      "mean_rank": 4.25,
+      "top4_rate": 0.75,
+      "first_rate": 0.25
+    },
+    {
+      "seed": 23,
+      "beta": 0.0,
+      "loss_last_minibatch": 3.970752477645874,
+      "eval_games": [
+        {
+          "seed": 1201,
+          "reason": "natural_end",
+          "steps": 466,
+          "ranks": {
+            "player_1": 8,
+            "player_2": 7,
+            "player_7": 6,
+            "player_3": 5,
+            "player_6": 4,
+            "player_4": 3,
+            "player_0": 2,
+            "player_5": 1
+          },
+          "elapsed_seconds": 14.53
+        },
+        {
+          "seed": 1202,
+          "reason": "natural_end",
+          "steps": 496,
+          "ranks": {
+            "player_6": 8,
+            "player_7": 7,
+            "player_5": 6,
+            "player_4": 5,
+            "player_3": 4,
+            "player_0": 3,
+            "player_1": 1,
+            "player_2": 2
+          },
+          "elapsed_seconds": 17.25
+        },
+        {
+          "seed": 1203,
+          "reason": "natural_end",
+          "steps": 466,
+          "ranks": {
+            "player_4": 8,
+            "player_5": 7,
+            "player_1": 6,
+            "player_0": 5,
+            "player_7": 4,
+            "player_2": 3,
+            "player_3": 2,
+            "player_6": 1
+          },
+          "elapsed_seconds": 14.74
+        },
+        {
+          "seed": 1204,
+          "reason": "natural_end",
+          "steps": 451,
+          "ranks": {
+            "player_6": 8,
+            "player_5": 7,
+            "player_2": 6,
+            "player_3": 5,
+            "player_7": 4,
+            "player_4": 3,
+            "player_0": 2,
+            "player_1": 1
+          },
+          "elapsed_seconds": 13.76
+        }
+      ],
+      "valid_games": 4,
+      "attempted_games": 4,
+      "mean_rank": 3.0,
+      "top4_rate": 0.75,
+      "first_rate": 0.0
+    },
+    {
+      "seed": 23,
+      "beta": 0.5,
+      "loss_last_minibatch": 4.247791767120361,
+      "eval_games": [
+        {
+          "seed": 1201,
+          "reason": "natural_end",
+          "steps": 496,
+          "ranks": {
+            "player_1": 8,
+            "player_4": 7,
+            "player_7": 6,
+            "player_5": 5,
+            "player_2": 4,
+            "player_3": 3,
+            "player_0": 1,
+            "player_6": 2
+          },
+          "elapsed_seconds": 15.06
+        },
+        {
+          "seed": 1202,
+          "reason": "natural_end",
+          "steps": 496,
+          "ranks": {
+            "player_6": 8,
+            "player_7": 7,
+            "player_5": 6,
+            "player_4": 5,
+            "player_3": 4,
+            "player_0": 3,
+            "player_1": 1,
+            "player_2": 2
+          },
+          "elapsed_seconds": 17.13
+        },
+        {
+          "seed": 1203,
+          "reason": "natural_end",
+          "steps": 466,
+          "ranks": {
+            "player_4": 8,
+            "player_5": 7,
+            "player_1": 6,
+            "player_0": 5,
+            "player_7": 4,
+            "player_2": 3,
+            "player_3": 2,
+            "player_6": 1
+          },
+          "elapsed_seconds": 14.53
+        },
+        {
+          "seed": 1204,
+          "reason": "natural_end",
+          "steps": 496,
+          "ranks": {
+            "player_6": 8,
+            "player_5": 7,
+            "player_2": 6,
+            "player_3": 5,
+            "player_7": 4,
+            "player_4": 3,
+            "player_0": 2,
+            "player_1": 1
+          },
+          "elapsed_seconds": 13.8
+        }
+      ],
+      "valid_games": 4,
+      "attempted_games": 4,
+      "mean_rank": 2.75,
+      "top4_rate": 0.75,
+      "first_rate": 0.25
+    },
+    {
+      "seed": 23,
+      "beta": 2.0,
+      "loss_last_minibatch": 5.190047264099121,
+      "eval_games": [
+        {
+          "seed": 1201,
+          "reason": "natural_end",
+          "steps": 496,
+          "ranks": {
+            "player_7": 8,
+            "player_1": 7,
+            "player_5": 6,
+            "player_2": 5,
+            "player_6": 4,
+            "player_3": 3,
+            "player_0": 1,
+            "player_4": 2
+          },
+          "elapsed_seconds": 14.75
+        },
+        {
+          "seed": 1202,
+          "reason": "natural_end",
+          "steps": 466,
+          "ranks": {
+            "player_6": 8,
+            "player_3": 7,
+            "player_5": 6,
+            "player_2": 5,
+            "player_0": 4,
+            "player_7": 3,
+            "player_1": 1,
+            "player_4": 2
+          },
+          "elapsed_seconds": 18.14
+        },
+        {
+          "seed": 1203,
+          "reason": "natural_end",
+          "steps": 496,
+          "ranks": {
+            "player_5": 8,
+            "player_7": 7,
+            "player_0": 6,
+            "player_4": 5,
+            "player_1": 4,
+            "player_6": 3,
+            "player_2": 2,
+            "player_3": 1
+          },
+          "elapsed_seconds": 14.17
+        },
+        {
+          "seed": 1204,
+          "reason": "natural_end",
+          "steps": 466,
+          "ranks": {
+            "player_0": 8,
+            "player_3": 7,
+            "player_6": 6,
+            "player_5": 5,
+            "player_2": 4,
+            "player_4": 3,
+            "player_1": 2,
+            "player_7": 1
+          },
+          "elapsed_seconds": 14.24
+        }
+      ],
+      "valid_games": 4,
+      "attempted_games": 4,
+      "mean_rank": 4.75,
+      "top4_rate": 0.5,
+      "first_rate": 0.25
+    },
+    {
+      "seed": 37,
+      "beta": 0.0,
+      "loss_last_minibatch": 3.576262950897217,
+      "eval_games": [
+        {
+          "seed": 1201,
+          "reason": "natural_end",
+          "steps": 511,
+          "ranks": {
+            "player_7": 8,
+            "player_3": 7,
+            "player_6": 6,
+            "player_1": 5,
+            "player_0": 4,
+            "player_2": 3,
+            "player_4": 2,
+            "player_5": 1
+          },
+          "elapsed_seconds": 16.02
+        },
+        {
+          "seed": 1202,
+          "reason": "natural_end",
+          "steps": 466,
+          "ranks": {
+            "player_7": 8,
+            "player_4": 7,
+            "player_3": 6,
+            "player_6": 5,
+            "player_5": 4,
+            "player_0": 3,
+            "player_1": 1,
+            "player_2": 2
+          },
+          "elapsed_seconds": 17.35
+        },
+        {
+          "seed": 1203,
+          "reason": "natural_end",
+          "steps": 451,
+          "ranks": {
+            "player_4": 8,
+            "player_2": 7,
+            "player_7": 6,
+            "player_5": 5,
+            "player_6": 4,
+            "player_3": 3,
+            "player_0": 2,
+            "player_1": 1
+          },
+          "elapsed_seconds": 13.4
+        },
+        {
+          "seed": 1204,
+          "reason": "natural_end",
+          "steps": 496,
+          "ranks": {
+            "player_6": 8,
+            "player_7": 7,
+            "player_3": 6,
+            "player_0": 5,
+            "player_5": 4,
+            "player_2": 3,
+            "player_1": 1,
+            "player_4": 2
+          },
+          "elapsed_seconds": 15.39
+        }
+      ],
+      "valid_games": 4,
+      "attempted_games": 4,
+      "mean_rank": 3.5,
+      "top4_rate": 0.75,
+      "first_rate": 0.0
+    },
+    {
+      "seed": 37,
+      "beta": 0.5,
+      "loss_last_minibatch": 3.7023143768310547,
+      "eval_games": [
+        {
+          "seed": 1201,
+          "reason": "natural_end",
+          "steps": 511,
+          "ranks": {
+            "player_7": 8,
+            "player_3": 7,
+            "player_6": 6,
+            "player_1": 5,
+            "player_0": 4,
+            "player_2": 3,
+            "player_4": 2,
+            "player_5": 1
+          },
+          "elapsed_seconds": 16.04
+        },
+        {
+          "seed": 1202,
+          "reason": "natural_end",
+          "steps": 496,
+          "ranks": {
+            "player_7": 8,
+            "player_4": 7,
+            "player_3": 6,
+            "player_6": 5,
+            "player_2": 4,
+            "player_5": 3,
+            "player_0": 1,
+            "player_1": 2
+          },
+          "elapsed_seconds": 17.92
+        },
+        {
+          "seed": 1203,
+          "reason": "natural_end",
+          "steps": 451,
+          "ranks": {
+            "player_4": 8,
+            "player_2": 7,
+            "player_7": 6,
+            "player_5": 5,
+            "player_6": 4,
+            "player_3": 3,
+            "player_0": 2,
+            "player_1": 1
+          },
+          "elapsed_seconds": 13.48
+        },
+        {
+          "seed": 1204,
+          "reason": "natural_end",
+          "steps": 466,
+          "ranks": {
+            "player_0": 8,
+            "player_3": 7,
+            "player_6": 6,
+            "player_5": 5,
+            "player_2": 4,
+            "player_4": 3,
+            "player_1": 2,
+            "player_7": 1
+          },
+          "elapsed_seconds": 14.27
+        }
+      ],
+      "valid_games": 4,
+      "attempted_games": 4,
+      "mean_rank": 3.75,
+      "top4_rate": 0.75,
+      "first_rate": 0.25
+    },
+    {
+      "seed": 37,
+      "beta": 2.0,
+      "loss_last_minibatch": 3.9055557250976562,
+      "eval_games": [
+        {
+          "seed": 1201,
+          "reason": "natural_end",
+          "steps": 436,
+          "ranks": {
+            "player_7": 8,
+            "player_1": 7,
+            "player_5": 6,
+            "player_3": 5,
+            "player_6": 4,
+            "player_4": 3,
+            "player_0": 1,
+            "player_2": 2
+          },
+          "elapsed_seconds": 12.71
+        },
+        {
+          "seed": 1202,
+          "reason": "natural_end",
+          "steps": 496,
+          "ranks": {
+            "player_7": 8,
+            "player_5": 7,
+            "player_4": 6,
+            "player_0": 5,
+            "player_3": 4,
+            "player_6": 3,
+            "player_1": 2,
+            "player_2": 1
+          },
+          "elapsed_seconds": 14.45
+        },
+        {
+          "seed": 1203,
+          "reason": "natural_end",
+          "steps": 466,
+          "ranks": {
+            "player_2": 8,
+            "player_5": 7,
+            "player_1": 6,
+            "player_4": 5,
+            "player_7": 4,
+            "player_3": 3,
+            "player_0": 2,
+            "player_6": 1
+          },
+          "elapsed_seconds": 14.41
+        },
+        {
+          "seed": 1204,
+          "reason": "natural_end",
+          "steps": 451,
+          "ranks": {
+            "player_6": 8,
+            "player_5": 7,
+            "player_0": 6,
+            "player_3": 5,
+            "player_7": 4,
+            "player_2": 3,
+            "player_1": 2,
+            "player_4": 1
+          },
+          "elapsed_seconds": 14.52
+        }
+      ],
+      "valid_games": 4,
+      "attempted_games": 4,
+      "mean_rank": 3.5,
+      "top4_rate": 0.5,
+      "first_rate": 0.25
+    }
+  ],
+  "status": "completed",
+  "train_games_used": 10,
+  "train_costs": [
+    0.14285714285714285,
+    0.0,
+    0.7142857142857143,
+    0.5714285714285714,
+    0.42857142857142855,
+    0.5714285714285714,
+    0.7142857142857143,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.5714285714285714
+  ],
+  "weight_diagnostics": {
+    "0.0": {
+      "n": 10,
+      "beta": 0.0,
+      "ess": 9.999999999999998,
+      "ess_fraction": 0.9999999999999998,
+      "max_weight": 0.1,
+      "weighted_cost": 0.4,
+      "uniform_cost": 0.4,
+      "kl_to_uniform": 0.0
+    },
+    "0.5": {
+      "n": 10,
+      "beta": 0.5,
+      "ess": 9.837809785446062,
+      "ess_fraction": 0.9837809785446062,
+      "max_weight": 0.12115216131732338,
+      "weighted_cost": 0.3674197946755521,
+      "uniform_cost": 0.4,
+      "kl_to_uniform": 0.008167203788459785
+    },
+    "2.0": {
+      "n": 10,
+      "beta": 2.0,
+      "ess": 7.941631353940093,
+      "ess_fraction": 0.7941631353940093,
+      "max_weight": 0.19551005413625702,
+      "weighted_cost": 0.2723438147682777,
+      "uniform_cost": 0.4,
+      "kl_to_uniform": 0.12575399038535068
+    }
+  },
+  "device": "cuda"
+}

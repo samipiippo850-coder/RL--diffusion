@@ -1,0 +1,15 @@
+{
+  "status": "running",
+  "jobs": [],
+  "preselected": [
+    62106,
+    62103
+  ],
+  "notes": [
+    "postselected illustrative states; no population-level estimate",
+    "continuation seeds 4 onward disjoint from pilot seeds 0..3",
+    "identical observed features and legal mask do not prove equality of hidden state",
+    "one forced action then all players follow the same scripted policy",
+    "paired seeds do not synchronize future draws after actions diverge"
+  ]
+}

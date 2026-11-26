@@ -1,0 +1,6 @@
+# Version observations from the existing Linux Python 3.12 environment.
+# torch was 2.8.0+cu128; choose an appropriate official PyTorch wheel source.
+numpy==2.3.2
+gymnasium==1.4.0
+pettingzoo==1.27.0
+torch==2.8.0

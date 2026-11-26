@@ -1,0 +1,5346 @@
+{
+  "status": "completed",
+  "data_seeds": [
+    3001,
+    3002,
+    3003,
+    3004,
+    3005,
+    3006,
+    3007,
+    3008,
+    3009,
+    3010,
+    3011,
+    3012,
+    3013,
+    3014,
+    3015,
+    3016,
+    3017,
+    3018,
+    3019,
+    3020,
+    3021,
+    3022,
+    3023,
+    3024,
+    3025,
+    3026,
+    3027,
+    3028,
+    3029,
+    3030,
+    3031,
+    3032,
+    3033,
+    3034,
+    3035,
+    3036,
+    3037,
+    3038,
+    3039,
+    3040
+  ],
+  "calibration_seeds": [
+    4001,
+    4002,
+    4003,
+    4004,
+    4005,
+    4006,
+    4007,
+    4008
+  ],
+  "validation_seeds": [
+    5001,
+    5002,
+    5003,
+    5004,
+    5005,
+    5006,
+    5007,
+    5008
+  ],
+  "test_seeds": [
+    6001,
+    6002,
+    6003,
+    6004,
+    6005,
+    6006,
+    6007,
+    6008
+  ],
+  "training_seeds": [
+    47,
+    83
+  ],
+  "groups": [
+    "diffusion",
+    "diffusion_gibbs",
+    "diffusion_vector",
+    "diffusion_vector_residual"
+  ],
+  "workers": 4,
+  "rank_rule": "upstream sequential tie ordering",
+  "opponent": "seven econ_policy fixed across groups",
+  "train_games": [
+    {
+      "seed": 3002,
+      "seat": 2,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 4,
+      "ranks": {
+        "player_5": 8,
+        "player_4": 7,
+        "player_3": 6,
+        "player_1": 5,
+        "player_2": 4,
+        "player_0": 3,
+        "player_6": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 7,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['last_whisper'] from champion yuumi",
+        "Could not sell champion yuumi",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 22.57
+    },
+    {
+      "seed": 3001,
+      "seat": 1,
+      "kind": "teacher",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 6,
+      "ranks": {
+        "player_5": 8,
+        "player_0": 7,
+        "player_1": 6,
+        "player_6": 5,
+        "player_3": 4,
+        "player_2": 3,
+        "player_4": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 10,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['locket_of_the_iron_solari'] from champion yuumi",
+        "Could not sell champion yuumi",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 23.19
+    },
+    {
+      "seed": 3004,
+      "seat": 4,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 6,
+      "ranks": {
+        "player_5": 8,
+        "player_2": 7,
+        "player_4": 6,
+        "player_7": 5,
+        "player_3": 4,
+        "player_6": 3,
+        "player_0": 2,
+        "player_1": 1
+      },
+      "internal_warning_count": 20,
+      "internal_warning_examples": [
+        "Could not remove item ['recurve_bow'] from champion riven",
+        "Could not sell champion riven",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 26.45
+    },
+    {
+      "seed": 3003,
+      "seat": 3,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 5,
+      "ranks": {
+        "player_0": 8,
+        "player_4": 7,
+        "player_7": 6,
+        "player_3": 5,
+        "player_2": 4,
+        "player_1": 3,
+        "player_5": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 16,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['recurve_bow'] from champion ashe",
+        "Could not sell champion ashe",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 29.44
+    },
+    {
+      "seed": 3006,
+      "seat": 6,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 7,
+      "ranks": {
+        "player_4": 8,
+        "player_6": 7,
+        "player_1": 6,
+        "player_3": 5,
+        "player_2": 4,
+        "player_7": 3,
+        "player_0": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 10,
+      "internal_warning_examples": [
+        "Could not remove item ['runaans_hurricane'] from champion talon",
+        "Could not sell champion talon",
+        "Failed to add item to item bench",
+        "Could not remove item ['recurve_bow'] from champion leesin"
+      ],
+      "elapsed_seconds": 23.39
+    },
+    {
+      "seed": 3007,
+      "seat": 7,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 4,
+      "ranks": {
+        "player_2": 8,
+        "player_0": 7,
+        "player_4": 6,
+        "player_5": 5,
+        "player_7": 4,
+        "player_1": 3,
+        "player_3": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 15,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['sparring_gloves'] from champion warwick",
+        "Could not sell champion warwick",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 21.29
+    },
+    {
+      "seed": 3005,
+      "seat": 5,
+      "kind": "teacher",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 6,
+      "ranks": {
+        "player_4": 8,
+        "player_6": 7,
+        "player_5": 6,
+        "player_0": 5,
+        "player_3": 4,
+        "player_2": 3,
+        "player_1": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 9,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Could not remove item ['ionic_spark'] from champion shen",
+        "Could not sell champion shen"
+      ],
+      "elapsed_seconds": 26.63
+    },
+    {
+      "seed": 3008,
+      "seat": 0,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 5,
+      "ranks": {
+        "player_1": 8,
+        "player_4": 7,
+        "player_3": 6,
+        "player_0": 5,
+        "player_5": 4,
+        "player_7": 3,
+        "player_2": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 18,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 24.85
+    },
+    {
+      "seed": 3009,
+      "seat": 1,
+      "kind": "teacher",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 3,
+      "ranks": {
+        "player_5": 8,
+        "player_3": 7,
+        "player_4": 6,
+        "player_6": 5,
+        "player_0": 4,
+        "player_1": 3,
+        "player_2": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 5,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['last_whisper'] from champion ashe",
+        "Could not sell champion ashe",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 16.8
+    },
+    {
+      "seed": 3011,
+      "seat": 3,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 3,
+      "ranks": {
+        "player_6": 8,
+        "player_5": 7,
+        "player_2": 6,
+        "player_1": 5,
+        "player_4": 4,
+        "player_3": 3,
+        "player_0": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 12,
+      "internal_warning_examples": [
+        "Could not remove item ['sparring_gloves'] from champion shen",
+        "Could not sell champion shen",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 22.42
+    },
+    {
+      "seed": 3010,
+      "seat": 2,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 540,
+      "rank": 6,
+      "ranks": {
+        "player_4": 8,
+        "player_1": 7,
+        "player_2": 6,
+        "player_7": 5,
+        "player_0": 4,
+        "player_3": 3,
+        "player_5": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 11,
+      "internal_warning_examples": [
+        "Could not remove item ['redemption'] from champion jhin",
+        "Could not sell champion jhin",
+        "Could not remove item ['spatula'] from champion azir",
+        "Could not sell champion azir"
+      ],
+      "elapsed_seconds": 31.3
+    },
+    {
+      "seed": 3012,
+      "seat": 4,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 540,
+      "rank": 5,
+      "ranks": {
+        "player_5": 8,
+        "player_6": 7,
+        "player_1": 6,
+        "player_4": 5,
+        "player_0": 4,
+        "player_2": 3,
+        "player_3": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 21,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 25.85
+    },
+    {
+      "seed": 3013,
+      "seat": 5,
+      "kind": "teacher",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 5,
+      "ranks": {
+        "player_1": 8,
+        "player_4": 7,
+        "player_2": 6,
+        "player_5": 5,
+        "player_3": 4,
+        "player_0": 3,
+        "player_6": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 13,
+      "internal_warning_examples": [
+        "Could not remove item ['chain_vest'] from champion hecarim",
+        "Could not sell champion hecarim",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 20.74
+    },
+    {
+      "seed": 3014,
+      "seat": 6,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 5,
+      "ranks": {
+        "player_2": 8,
+        "player_4": 7,
+        "player_7": 6,
+        "player_6": 5,
+        "player_5": 4,
+        "player_0": 3,
+        "player_1": 2,
+        "player_3": 1
+      },
+      "internal_warning_count": 16,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Could not remove item ['mages_cap'] from champion shen",
+        "Could not sell champion shen"
+      ],
+      "elapsed_seconds": 25.41
+    },
+    {
+      "seed": 3017,
+      "seat": 1,
+      "kind": "teacher",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 4,
+      "ranks": {
+        "player_0": 8,
+        "player_4": 7,
+        "player_3": 6,
+        "player_2": 5,
+        "player_1": 4,
+        "player_7": 3,
+        "player_5": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 7,
+      "internal_warning_examples": [
+        "Could not remove item ['locket_of_the_iron_solari'] from champion xinzhao",
+        "Could not sell champion xinzhao",
+        "Failed to add item to item bench",
+        "Could not remove item ['spatula'] from champion yone"
+      ],
+      "elapsed_seconds": 24.86
+    },
+    {
+      "seed": 3016,
+      "seat": 0,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 1,
+      "ranks": {
+        "player_6": 8,
+        "player_7": 7,
+        "player_1": 6,
+        "player_3": 5,
+        "player_5": 4,
+        "player_0": 1,
+        "player_2": 3,
+        "player_4": 2
+      },
+      "internal_warning_count": 3,
+      "internal_warning_examples": [
+        "Could not remove item ['zekes_herald'] from champion kayn",
+        "Could not sell champion kayn",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 29.46
+    },
+    {
+      "seed": 3015,
+      "seat": 7,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 6,
+      "ranks": {
+        "player_0": 8,
+        "player_6": 7,
+        "player_7": 6,
+        "player_3": 5,
+        "player_2": 4,
+        "player_5": 3,
+        "player_1": 1,
+        "player_4": 2
+      },
+      "internal_warning_count": 18,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Could not remove item ['ionic_spark'] from champion jhin"
+      ],
+      "elapsed_seconds": 32.76
+    },
+    {
+      "seed": 3018,
+      "seat": 2,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 525,
+      "rank": 5,
+      "ranks": {
+        "player_5": 8,
+        "player_1": 7,
+        "player_6": 6,
+        "player_2": 5,
+        "player_0": 4,
+        "player_4": 3,
+        "player_3": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 7,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['giants_belt'] from champion lulu",
+        "Could not sell champion lulu",
+        "Could not remove item ['hand_of_justice'] from champion azir"
+      ],
+      "elapsed_seconds": 25.36
+    },
+    {
+      "seed": 3020,
+      "seat": 4,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 5,
+      "ranks": {
+        "player_7": 8,
+        "player_3": 7,
+        "player_5": 6,
+        "player_4": 5,
+        "player_1": 4,
+        "player_6": 3,
+        "player_0": 2,
+        "player_2": 1
+      },
+      "internal_warning_count": 14,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 19.69
+    },
+    {
+      "seed": 3021,
+      "seat": 5,
+      "kind": "teacher",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 2,
+      "ranks": {
+        "player_7": 8,
+        "player_0": 7,
+        "player_6": 6,
+        "player_1": 5,
+        "player_4": 4,
+        "player_3": 3,
+        "player_2": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 11,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 26.05
+    },
+    {
+      "seed": 3019,
+      "seat": 3,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 4,
+      "ranks": {
+        "player_0": 8,
+        "player_7": 7,
+        "player_2": 6,
+        "player_1": 5,
+        "player_3": 4,
+        "player_4": 3,
+        "player_5": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 15,
+      "internal_warning_examples": [
+        "Could not remove item ['recurve_bow'] from champion shen",
+        "Could not sell champion shen",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 29.72
+    },
+    {
+      "seed": 3022,
+      "seat": 6,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 4,
+      "ranks": {
+        "player_1": 8,
+        "player_5": 7,
+        "player_4": 6,
+        "player_2": 5,
+        "player_6": 4,
+        "player_7": 3,
+        "player_0": 1,
+        "player_3": 2
+      },
+      "internal_warning_count": 5,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['recurve_bow'] from champion ezreal",
+        "Could not sell champion ezreal",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 27.0
+    },
+    {
+      "seed": 3023,
+      "seat": 7,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 2,
+      "ranks": {
+        "player_2": 8,
+        "player_4": 7,
+        "player_0": 6,
+        "player_5": 5,
+        "player_6": 4,
+        "player_1": 1,
+        "player_3": 3,
+        "player_7": 2
+      },
+      "internal_warning_count": 12,
+      "internal_warning_examples": [
+        "Could not remove item ['tear_of_the_goddess'] from champion yone",
+        "Could not sell champion yone",
+        "Could not remove item ['negatron_cloak'] from champion jinx",
+        "Could not sell champion jinx"
+      ],
+      "elapsed_seconds": 21.81
+    },
+    {
+      "seed": 3024,
+      "seat": 0,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 2,
+      "ranks": {
+        "player_2": 8,
+        "player_5": 7,
+        "player_6": 6,
+        "player_3": 5,
+        "player_4": 4,
+        "player_7": 3,
+        "player_0": 2,
+        "player_1": 1
+      },
+      "internal_warning_count": 6,
+      "internal_warning_examples": [
+        "Could not remove item ['giants_belt'] from champion zed",
+        "Could not sell champion zed",
+        "Could not remove item ['quicksilver'] from champion ahri",
+        "Could not sell champion ahri"
+      ],
+      "elapsed_seconds": 24.97
+    },
+    {
+      "seed": 3025,
+      "seat": 1,
+      "kind": "teacher",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 6,
+      "ranks": {
+        "player_2": 8,
+        "player_6": 7,
+        "player_1": 6,
+        "player_3": 5,
+        "player_7": 4,
+        "player_0": 3,
+        "player_4": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 11,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['giants_belt'] from champion jax",
+        "Could not sell champion jax",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 30.54
+    },
+    {
+      "seed": 3026,
+      "seat": 2,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 5,
+      "ranks": {
+        "player_1": 8,
+        "player_5": 7,
+        "player_0": 6,
+        "player_2": 5,
+        "player_3": 4,
+        "player_6": 3,
+        "player_4": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 12,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Could not remove item ['quicksilver'] from champion sejuani",
+        "Could not sell champion sejuani"
+      ],
+      "elapsed_seconds": 21.37
+    },
+    {
+      "seed": 3027,
+      "seat": 3,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 5,
+      "ranks": {
+        "player_5": 8,
+        "player_7": 7,
+        "player_4": 6,
+        "player_3": 5,
+        "player_6": 4,
+        "player_0": 3,
+        "player_1": 2,
+        "player_2": 1
+      },
+      "internal_warning_count": 11,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Could not remove item ['dragons_claw'] from champion talon",
+        "Could not sell champion talon"
+      ],
+      "elapsed_seconds": 25.27
+    },
+    {
+      "seed": 3028,
+      "seat": 4,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 5,
+      "ranks": {
+        "player_6": 8,
+        "player_3": 7,
+        "player_5": 6,
+        "player_4": 5,
+        "player_0": 4,
+        "player_7": 3,
+        "player_1": 1,
+        "player_2": 2
+      },
+      "internal_warning_count": 25,
+      "internal_warning_examples": [
+        "some dead yummi allies. Should never really see this.",
+        "Could not remove item ['negatron_cloak'] from champion kennen",
+        "Could not sell champion kennen",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 19.64
+    },
+    {
+      "seed": 3031,
+      "seat": 7,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 540,
+      "rank": 5,
+      "ranks": {
+        "player_1": 8,
+        "player_2": 7,
+        "player_6": 6,
+        "player_7": 5,
+        "player_4": 4,
+        "player_5": 3,
+        "player_0": 2,
+        "player_3": 1
+      },
+      "internal_warning_count": 17,
+      "internal_warning_examples": [
+        "Could not remove item ['negatron_cloak'] from champion irelia",
+        "Could not sell champion irelia",
+        "Could not remove item ['sword_of_the_divine'] from champion sett",
+        "Could not sell champion sett"
+      ],
+      "elapsed_seconds": 18.56
+    },
+    {
+      "seed": 3029,
+      "seat": 5,
+      "kind": "teacher",
+      "reason": "natural_end",
+      "steps": 525,
+      "rank": 4,
+      "ranks": {
+        "player_7": 8,
+        "player_6": 7,
+        "player_3": 6,
+        "player_2": 5,
+        "player_5": 4,
+        "player_0": 3,
+        "player_1": 2,
+        "player_4": 1
+      },
+      "internal_warning_count": 7,
+      "internal_warning_examples": [
+        "Could not remove item ['warmogs_armor'] from champion cassiopeia",
+        "Could not sell champion cassiopeia",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 28.87
+    },
+    {
+      "seed": 3032,
+      "seat": 0,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 5,
+      "ranks": {
+        "player_2": 8,
+        "player_4": 7,
+        "player_5": 6,
+        "player_0": 5,
+        "player_7": 4,
+        "player_1": 1,
+        "player_3": 3,
+        "player_6": 2
+      },
+      "internal_warning_count": 7,
+      "internal_warning_examples": [
+        "Could not remove item ['guardian_angel'] from champion katarina",
+        "Could not sell champion katarina",
+        "Failed to add item to item bench",
+        "Could not remove item ['sparring_gloves'] from champion azir"
+      ],
+      "elapsed_seconds": 23.2
+    },
+    {
+      "seed": 3030,
+      "seat": 6,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 8,
+      "ranks": {
+        "player_6": 8,
+        "player_3": 7,
+        "player_2": 6,
+        "player_0": 5,
+        "player_4": 4,
+        "player_7": 3,
+        "player_1": 2,
+        "player_5": 1
+      },
+      "internal_warning_count": 23,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['negatron_cloak'] from champion evelynn",
+        "Could not sell champion evelynn",
+        "Could not remove item ['chain_vest'] from champion pyke"
+      ],
+      "elapsed_seconds": 35.09
+    },
+    {
+      "seed": 3033,
+      "seat": 1,
+      "kind": "teacher",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 6,
+      "ranks": {
+        "player_4": 8,
+        "player_6": 7,
+        "player_1": 6,
+        "player_3": 5,
+        "player_7": 4,
+        "player_0": 3,
+        "player_2": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 20,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['recurve_bow'] from champion morgana",
+        "Could not sell champion morgana",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 16.54
+    },
+    {
+      "seed": 3034,
+      "seat": 2,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 3,
+      "ranks": {
+        "player_3": 8,
+        "player_0": 7,
+        "player_4": 6,
+        "player_1": 5,
+        "player_7": 4,
+        "player_2": 3,
+        "player_5": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 12,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['statikk_shiv'] from champion aatrox",
+        "Could not sell champion aatrox",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 22.28
+    },
+    {
+      "seed": 3035,
+      "seat": 3,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 3,
+      "ranks": {
+        "player_7": 8,
+        "player_0": 7,
+        "player_4": 6,
+        "player_1": 5,
+        "player_5": 4,
+        "player_3": 3,
+        "player_2": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 12,
+      "internal_warning_examples": [
+        "Could not remove item ['tear_of_the_goddess'] from champion lux",
+        "Could not sell champion lux",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 23.91
+    },
+    {
+      "seed": 3036,
+      "seat": 4,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 4,
+      "ranks": {
+        "player_2": 8,
+        "player_3": 7,
+        "player_1": 6,
+        "player_0": 5,
+        "player_4": 4,
+        "player_5": 3,
+        "player_6": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 14,
+      "internal_warning_examples": [
+        "Could not remove item ['negatron_cloak'] from champion lux",
+        "Could not sell champion lux",
+        "Could not remove item ['chain_vest'] from champion lulu",
+        "Could not sell champion lulu"
+      ],
+      "elapsed_seconds": 30.99
+    },
+    {
+      "seed": 3037,
+      "seat": 5,
+      "kind": "teacher",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 4,
+      "ranks": {
+        "player_2": 8,
+        "player_7": 7,
+        "player_6": 6,
+        "player_0": 5,
+        "player_5": 4,
+        "player_3": 3,
+        "player_1": 1,
+        "player_4": 2
+      },
+      "internal_warning_count": 5,
+      "internal_warning_examples": [
+        "Could not remove item ['giants_belt'] from champion sett",
+        "Could not sell champion sett",
+        "Failed to add item to item bench",
+        "Could not remove item ['tear_of_the_goddess'] from champion leesin"
+      ],
+      "elapsed_seconds": 25.61
+    },
+    {
+      "seed": 3038,
+      "seat": 6,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 4,
+      "ranks": {
+        "player_5": 8,
+        "player_2": 7,
+        "player_7": 6,
+        "player_4": 5,
+        "player_6": 4,
+        "player_1": 3,
+        "player_0": 1,
+        "player_3": 2
+      },
+      "internal_warning_count": 17,
+      "internal_warning_examples": [
+        "Could not remove item ['tear_of_the_goddess'] from champion yone",
+        "Could not sell champion yone",
+        "Could not remove item ['sparring_gloves'] from champion talon",
+        "Could not sell champion talon"
+      ],
+      "elapsed_seconds": 18.04
+    },
+    {
+      "seed": 3039,
+      "seat": 7,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 2,
+      "ranks": {
+        "player_3": 8,
+        "player_6": 7,
+        "player_1": 6,
+        "player_4": 5,
+        "player_0": 4,
+        "player_5": 3,
+        "player_2": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 7,
+      "internal_warning_examples": [
+        "Could not remove item ['shroud_of_stillness'] from champion lillia",
+        "Could not sell champion lillia",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 26.69
+    },
+    {
+      "seed": 3040,
+      "seat": 0,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 2,
+      "ranks": {
+        "player_7": 8,
+        "player_1": 7,
+        "player_3": 6,
+        "player_2": 5,
+        "player_5": 4,
+        "player_6": 3,
+        "player_0": 2,
+        "player_4": 1
+      },
+      "internal_warning_count": 5,
+      "internal_warning_examples": [
+        "Could not remove item ['jeweled_gauntlet'] from champion kennen",
+        "Could not sell champion kennen",
+        "Failed to add item to item bench",
+        "Could not remove item ['bf_sword'] from champion leesin"
+      ],
+      "elapsed_seconds": 25.27
+    }
+  ],
+  "calibration_games": [
+    {
+      "seed": 4001,
+      "seat": 1,
+      "kind": "teacher",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 7,
+      "ranks": {
+        "player_3": 8,
+        "player_1": 7,
+        "player_7": 6,
+        "player_0": 5,
+        "player_6": 4,
+        "player_2": 1,
+        "player_4": 3,
+        "player_5": 2
+      },
+      "internal_warning_count": 10,
+      "internal_warning_examples": [
+        "Could not remove item ['recurve_bow'] from champion morgana",
+        "Could not sell champion morgana",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 24.41
+    },
+    {
+      "seed": 4004,
+      "seat": 4,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 4,
+      "ranks": {
+        "player_7": 8,
+        "player_6": 7,
+        "player_3": 6,
+        "player_1": 5,
+        "player_4": 4,
+        "player_2": 3,
+        "player_0": 2,
+        "player_5": 1
+      },
+      "internal_warning_count": 9,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 27.37
+    },
+    {
+      "seed": 4002,
+      "seat": 2,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 540,
+      "rank": 4,
+      "ranks": {
+        "player_1": 8,
+        "player_3": 7,
+        "player_4": 6,
+        "player_6": 5,
+        "player_2": 4,
+        "player_5": 3,
+        "player_0": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 10,
+      "internal_warning_examples": [
+        "Could not remove item ['sunfire_cape'] from champion shen",
+        "Could not sell champion shen",
+        "Could not remove item ['negatron_cloak'] from champion sett",
+        "Could not sell champion sett"
+      ],
+      "elapsed_seconds": 27.45
+    },
+    {
+      "seed": 4003,
+      "seat": 3,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 3,
+      "ranks": {
+        "player_6": 8,
+        "player_7": 7,
+        "player_4": 6,
+        "player_0": 5,
+        "player_2": 4,
+        "player_3": 3,
+        "player_1": 2,
+        "player_5": 1
+      },
+      "internal_warning_count": 4,
+      "internal_warning_examples": [
+        "Could not remove item ['quicksilver'] from champion lux",
+        "Could not sell champion lux",
+        "Could not remove item ['spatula'] from champion jhin",
+        "Could not sell champion jhin"
+      ],
+      "elapsed_seconds": 35.12
+    },
+    {
+      "seed": 4006,
+      "seat": 6,
+      "kind": "econ",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 5,
+      "ranks": {
+        "player_2": 8,
+        "player_0": 7,
+        "player_5": 6,
+        "player_6": 5,
+        "player_4": 4,
+        "player_3": 3,
+        "player_1": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 21,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 22.49
+    },
+    {
+      "seed": 4007,
+      "seat": 7,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 5,
+      "ranks": {
+        "player_2": 8,
+        "player_4": 7,
+        "player_6": 6,
+        "player_7": 5,
+        "player_3": 4,
+        "player_0": 3,
+        "player_1": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 11,
+      "internal_warning_examples": [
+        "Could not remove item ['giants_belt'] from champion vi",
+        "Could not sell champion vi",
+        "Could not remove item ['warmogs_armor'] from champion sett",
+        "Could not sell champion sett"
+      ],
+      "elapsed_seconds": 23.69
+    },
+    {
+      "seed": 4005,
+      "seat": 5,
+      "kind": "teacher",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 5,
+      "ranks": {
+        "player_0": 8,
+        "player_4": 7,
+        "player_2": 6,
+        "player_5": 5,
+        "player_1": 4,
+        "player_6": 3,
+        "player_3": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 3,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['giants_belt'] from champion sett",
+        "Could not sell champion sett"
+      ],
+      "elapsed_seconds": 33.72
+    },
+    {
+      "seed": 4008,
+      "seat": 0,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 5,
+      "ranks": {
+        "player_6": 8,
+        "player_1": 7,
+        "player_4": 6,
+        "player_0": 5,
+        "player_3": 4,
+        "player_5": 3,
+        "player_2": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 6,
+      "internal_warning_examples": [
+        "Could not remove item ['titans_resolve'] from champion lillia",
+        "Could not sell champion lillia",
+        "Could not remove item ['vanguards_cuirass'] from champion kayn",
+        "Could not sell champion kayn"
+      ],
+      "elapsed_seconds": 25.09
+    }
+  ],
+  "evaluation": [
+    {
+      "split": "validation",
+      "training_seed": 47,
+      "seed": 5002,
+      "seat": 2,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 1,
+      "ranks": {
+        "player_5": 8,
+        "player_6": 7,
+        "player_0": 6,
+        "player_3": 5,
+        "player_4": 4,
+        "player_7": 3,
+        "player_1": 2,
+        "player_2": 1
+      },
+      "internal_warning_count": 5,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['needlessly_large_rod'] from champion akali",
+        "Could not sell champion akali",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 18.99
+    },
+    {
+      "split": "validation",
+      "training_seed": 47,
+      "seed": 5003,
+      "seat": 3,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 405,
+      "rank": 3,
+      "ranks": {
+        "player_2": 8,
+        "player_1": 7,
+        "player_5": 6,
+        "player_4": 5,
+        "player_6": 4,
+        "player_3": 3,
+        "player_0": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 3,
+      "internal_warning_examples": [
+        "Could not remove item ['zephyr'] from champion leesin",
+        "Could not sell champion leesin",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 21.48
+    },
+    {
+      "split": "validation",
+      "training_seed": 47,
+      "seed": 5001,
+      "seat": 1,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 540,
+      "rank": 3,
+      "ranks": {
+        "player_4": 8,
+        "player_2": 7,
+        "player_0": 6,
+        "player_6": 5,
+        "player_5": 4,
+        "player_1": 3,
+        "player_3": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 13,
+      "internal_warning_examples": [
+        "Could not remove item ['shroud_of_stillness'] from champion shen",
+        "Could not sell champion shen",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 23.09
+    },
+    {
+      "split": "validation",
+      "training_seed": 47,
+      "seed": 5004,
+      "seat": 4,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 2,
+      "ranks": {
+        "player_2": 8,
+        "player_1": 7,
+        "player_6": 6,
+        "player_0": 5,
+        "player_3": 4,
+        "player_7": 3,
+        "player_4": 2,
+        "player_5": 1
+      },
+      "internal_warning_count": 5,
+      "internal_warning_examples": [
+        "Could not remove item ['jeweled_gauntlet'] from champion kennen",
+        "Could not sell champion kennen",
+        "Failed to add item to item bench",
+        "Could not remove item ['spatula'] from champion leesin"
+      ],
+      "elapsed_seconds": 25.94
+    },
+    {
+      "split": "validation",
+      "training_seed": 47,
+      "seed": 5006,
+      "seat": 6,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 3,
+      "ranks": {
+        "player_3": 8,
+        "player_5": 7,
+        "player_7": 6,
+        "player_4": 5,
+        "player_1": 4,
+        "player_6": 3,
+        "player_0": 1,
+        "player_2": 2
+      },
+      "internal_warning_count": 11,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Could not remove item ['runaans_hurricane'] from champion lillia",
+        "Could not sell champion lillia"
+      ],
+      "elapsed_seconds": 22.34
+    },
+    {
+      "split": "validation",
+      "training_seed": 47,
+      "seed": 5005,
+      "seat": 5,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 3,
+      "ranks": {
+        "player_1": 8,
+        "player_2": 7,
+        "player_0": 6,
+        "player_4": 5,
+        "player_7": 4,
+        "player_5": 3,
+        "player_3": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "elapsed_seconds": 28.69
+    },
+    {
+      "split": "validation",
+      "training_seed": 47,
+      "seed": 5008,
+      "seat": 0,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 8,
+      "ranks": {
+        "player_0": 8,
+        "player_2": 7,
+        "player_6": 6,
+        "player_4": 5,
+        "player_3": 4,
+        "player_1": 3,
+        "player_5": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 15,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Could not remove item ['runaans_hurricane'] from champion riven"
+      ],
+      "elapsed_seconds": 25.97
+    },
+    {
+      "split": "validation",
+      "training_seed": 47,
+      "seed": 5007,
+      "seat": 7,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 1,
+      "ranks": {
+        "player_5": 8,
+        "player_0": 7,
+        "player_1": 6,
+        "player_3": 5,
+        "player_4": 4,
+        "player_2": 3,
+        "player_6": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 9,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['giants_belt'] from champion sylas",
+        "Could not sell champion sylas",
+        "Could not remove item ['sunfire_cape'] from champion talon"
+      ],
+      "elapsed_seconds": 28.92
+    },
+    {
+      "split": "validation",
+      "training_seed": 47,
+      "seed": 5002,
+      "seat": 2,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 420,
+      "rank": 4,
+      "ranks": {
+        "player_0": 8,
+        "player_3": 7,
+        "player_5": 6,
+        "player_4": 5,
+        "player_2": 4,
+        "player_7": 3,
+        "player_1": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "elapsed_seconds": 15.86
+    },
+    {
+      "split": "validation",
+      "training_seed": 47,
+      "seed": 5001,
+      "seat": 1,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 4,
+      "ranks": {
+        "player_2": 8,
+        "player_4": 7,
+        "player_6": 6,
+        "player_3": 5,
+        "player_1": 4,
+        "player_5": 3,
+        "player_0": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 2,
+      "internal_warning_examples": [
+        "Could not remove item ['spatula'] from champion azir",
+        "Could not sell champion azir"
+      ],
+      "elapsed_seconds": 25.3
+    },
+    {
+      "split": "validation",
+      "training_seed": 47,
+      "seed": 5004,
+      "seat": 4,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 4,
+      "ranks": {
+        "player_2": 8,
+        "player_6": 7,
+        "player_1": 6,
+        "player_0": 5,
+        "player_4": 4,
+        "player_3": 3,
+        "player_5": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 5,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 22.24
+    },
+    {
+      "split": "validation",
+      "training_seed": 47,
+      "seed": 5003,
+      "seat": 3,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 3,
+      "ranks": {
+        "player_5": 8,
+        "player_2": 7,
+        "player_4": 6,
+        "player_1": 5,
+        "player_6": 4,
+        "player_3": 3,
+        "player_0": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 7,
+      "internal_warning_examples": [
+        "Could not remove item ['morellonomicon'] from champion zilean",
+        "Could not sell champion zilean",
+        "Failed to add item to item bench",
+        "Could not remove item ['needlessly_large_rod'] from champion ezreal"
+      ],
+      "elapsed_seconds": 23.75
+    },
+    {
+      "split": "validation",
+      "training_seed": 47,
+      "seed": 5005,
+      "seat": 5,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 6,
+      "ranks": {
+        "player_1": 8,
+        "player_2": 7,
+        "player_5": 6,
+        "player_7": 5,
+        "player_6": 4,
+        "player_4": 3,
+        "player_0": 1,
+        "player_3": 2
+      },
+      "internal_warning_count": 1,
+      "internal_warning_examples": [
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 28.66
+    },
+    {
+      "split": "validation",
+      "training_seed": 47,
+      "seed": 5006,
+      "seat": 6,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 540,
+      "rank": 4,
+      "ranks": {
+        "player_3": 8,
+        "player_5": 7,
+        "player_1": 6,
+        "player_4": 5,
+        "player_6": 4,
+        "player_7": 3,
+        "player_0": 2,
+        "player_2": 1
+      },
+      "internal_warning_count": 17,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['titans_resolve'] from champion yone",
+        "Could not sell champion yone",
+        "Could not remove item ['statikk_shiv'] from champion aatrox"
+      ],
+      "elapsed_seconds": 25.73
+    },
+    {
+      "split": "validation",
+      "training_seed": 47,
+      "seed": 5008,
+      "seat": 0,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 7,
+      "ranks": {
+        "player_2": 8,
+        "player_0": 7,
+        "player_4": 6,
+        "player_3": 5,
+        "player_6": 4,
+        "player_5": 3,
+        "player_1": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 5,
+      "internal_warning_examples": [
+        "Could not remove item ['elderwood_heirloom'] from champion veigar",
+        "Could not sell champion veigar",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 25.81
+    },
+    {
+      "split": "validation",
+      "training_seed": 47,
+      "seed": 5007,
+      "seat": 7,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 1,
+      "ranks": {
+        "player_0": 8,
+        "player_5": 7,
+        "player_3": 6,
+        "player_1": 5,
+        "player_4": 4,
+        "player_2": 3,
+        "player_6": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 9,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['chain_vest'] from champion pyke",
+        "Could not sell champion pyke",
+        "Could not remove item ['vanguards_cuirass'] from champion ezreal"
+      ],
+      "elapsed_seconds": 34.78
+    },
+    {
+      "split": "validation",
+      "training_seed": 47,
+      "seed": 5002,
+      "seat": 2,
+      "kind": "diffusion_vector",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 1,
+      "ranks": {
+        "player_0": 8,
+        "player_6": 7,
+        "player_3": 6,
+        "player_5": 5,
+        "player_4": 4,
+        "player_7": 3,
+        "player_1": 2,
+        "player_2": 1
+      },
+      "internal_warning_count": 13,
+      "internal_warning_examples": [
+        "Could not remove item ['needlessly_large_rod'] from champion katarina",
+        "Could not sell champion katarina",
+        "Could not remove item ['negatron_cloak'] from champion lux",
+        "Could not sell champion lux"
+      ],
+      "elapsed_seconds": 19.75
+    },
+    {
+      "split": "validation",
+      "training_seed": 47,
+      "seed": 5001,
+      "seat": 1,
+      "kind": "diffusion_vector",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 5,
+      "ranks": {
+        "player_2": 8,
+        "player_4": 7,
+        "player_6": 6,
+        "player_1": 5,
+        "player_5": 4,
+        "player_3": 3,
+        "player_0": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 9,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Could not remove item ['runaans_hurricane'] from champion yuumi",
+        "Could not sell champion yuumi"
+      ],
+      "elapsed_seconds": 22.76
+    },
+    {
+      "split": "validation",
+      "training_seed": 47,
+      "seed": 5003,
+      "seat": 3,
+      "kind": "diffusion_vector",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 4,
+      "ranks": {
+        "player_2": 8,
+        "player_5": 7,
+        "player_1": 6,
+        "player_4": 5,
+        "player_3": 4,
+        "player_6": 3,
+        "player_0": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 7,
+      "internal_warning_examples": [
+        "Could not remove item ['gargoyle_stoneplate'] from champion lillia",
+        "Could not sell champion lillia",
+        "Failed to add item to item bench",
+        "Could not remove item ['negatron_cloak'] from champion leesin"
+      ],
+      "elapsed_seconds": 22.01
+    },
+    {
+      "split": "validation",
+      "training_seed": 47,
+      "seed": 5004,
+      "seat": 4,
+      "kind": "diffusion_vector",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 2,
+      "ranks": {
+        "player_2": 8,
+        "player_1": 7,
+        "player_6": 6,
+        "player_0": 5,
+        "player_3": 4,
+        "player_7": 3,
+        "player_4": 2,
+        "player_5": 1
+      },
+      "internal_warning_count": 4,
+      "internal_warning_examples": [
+        "Could not remove item ['shroud_of_stillness'] from champion ahri",
+        "Could not sell champion ahri",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 27.87
+    },
+    {
+      "split": "validation",
+      "training_seed": 47,
+      "seed": 5006,
+      "seat": 6,
+      "kind": "diffusion_vector",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 5,
+      "ranks": {
+        "player_3": 8,
+        "player_7": 7,
+        "player_1": 6,
+        "player_6": 5,
+        "player_4": 4,
+        "player_5": 3,
+        "player_0": 2,
+        "player_2": 1
+      },
+      "internal_warning_count": 16,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['tear_of_the_goddess'] from champion kayn",
+        "Could not sell champion kayn",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 23.08
+    },
+    {
+      "split": "validation",
+      "training_seed": 47,
+      "seed": 5005,
+      "seat": 5,
+      "kind": "diffusion_vector",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 2,
+      "ranks": {
+        "player_2": 8,
+        "player_0": 7,
+        "player_6": 6,
+        "player_4": 5,
+        "player_7": 4,
+        "player_1": 3,
+        "player_3": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "elapsed_seconds": 25.35
+    },
+    {
+      "split": "validation",
+      "training_seed": 47,
+      "seed": 5007,
+      "seat": 7,
+      "kind": "diffusion_vector",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 4,
+      "ranks": {
+        "player_0": 8,
+        "player_5": 7,
+        "player_1": 6,
+        "player_4": 5,
+        "player_7": 4,
+        "player_2": 3,
+        "player_3": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 11,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['chain_vest'] from champion lulu",
+        "Could not sell champion lulu",
+        "Could not remove item ['titans_resolve'] from champion yone"
+      ],
+      "elapsed_seconds": 26.31
+    },
+    {
+      "split": "validation",
+      "training_seed": 47,
+      "seed": 5002,
+      "seat": 2,
+      "kind": "diffusion_vector_residual",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 3,
+      "ranks": {
+        "player_5": 8,
+        "player_0": 7,
+        "player_6": 6,
+        "player_3": 5,
+        "player_4": 4,
+        "player_2": 3,
+        "player_1": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 5,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['sparring_gloves'] from champion riven",
+        "Could not sell champion riven",
+        "Could not remove item ['trap_claw'] from champion leesin"
+      ],
+      "elapsed_seconds": 17.44
+    },
+    {
+      "split": "validation",
+      "training_seed": 47,
+      "seed": 5008,
+      "seat": 0,
+      "kind": "diffusion_vector",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 5,
+      "ranks": {
+        "player_6": 8,
+        "player_2": 7,
+        "player_4": 6,
+        "player_0": 5,
+        "player_3": 4,
+        "player_5": 3,
+        "player_1": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 5,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['rabadons_deathcap'] from champion ezreal",
+        "Could not sell champion ezreal",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 23.17
+    },
+    {
+      "split": "validation",
+      "training_seed": 47,
+      "seed": 5001,
+      "seat": 1,
+      "kind": "diffusion_vector_residual",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 4,
+      "ranks": {
+        "player_4": 8,
+        "player_6": 7,
+        "player_2": 6,
+        "player_5": 5,
+        "player_1": 4,
+        "player_0": 3,
+        "player_3": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 10,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Could not remove item ['recurve_bow'] from champion zilean"
+      ],
+      "elapsed_seconds": 21.88
+    },
+    {
+      "split": "validation",
+      "training_seed": 47,
+      "seed": 5003,
+      "seat": 3,
+      "kind": "diffusion_vector_residual",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 4,
+      "ranks": {
+        "player_2": 8,
+        "player_5": 7,
+        "player_1": 6,
+        "player_4": 5,
+        "player_3": 4,
+        "player_6": 3,
+        "player_0": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 4,
+      "internal_warning_examples": [
+        "Could not remove item ['rabadons_deathcap'] from champion azir",
+        "Could not sell champion azir",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 22.0
+    },
+    {
+      "split": "validation",
+      "training_seed": 47,
+      "seed": 5004,
+      "seat": 4,
+      "kind": "diffusion_vector_residual",
+      "reason": "natural_end",
+      "steps": 525,
+      "rank": 2,
+      "ranks": {
+        "player_2": 8,
+        "player_6": 7,
+        "player_0": 6,
+        "player_1": 5,
+        "player_3": 4,
+        "player_7": 3,
+        "player_4": 2,
+        "player_5": 1
+      },
+      "internal_warning_count": 6,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Could not remove item ['needlessly_large_rod'] from champion sett",
+        "Could not sell champion sett"
+      ],
+      "elapsed_seconds": 21.91
+    },
+    {
+      "split": "validation",
+      "training_seed": 47,
+      "seed": 5006,
+      "seat": 6,
+      "kind": "diffusion_vector_residual",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 4,
+      "ranks": {
+        "player_7": 8,
+        "player_3": 7,
+        "player_4": 6,
+        "player_1": 5,
+        "player_6": 4,
+        "player_0": 3,
+        "player_2": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 12,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Could not remove item ['infinity_edge'] from champion lillia",
+        "Could not sell champion lillia"
+      ],
+      "elapsed_seconds": 19.49
+    },
+    {
+      "split": "validation",
+      "training_seed": 47,
+      "seed": 5005,
+      "seat": 5,
+      "kind": "diffusion_vector_residual",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 2,
+      "ranks": {
+        "player_2": 8,
+        "player_0": 7,
+        "player_6": 6,
+        "player_4": 5,
+        "player_7": 4,
+        "player_1": 3,
+        "player_3": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "elapsed_seconds": 25.34
+    },
+    {
+      "split": "validation",
+      "training_seed": 47,
+      "seed": 5007,
+      "seat": 7,
+      "kind": "diffusion_vector_residual",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 3,
+      "ranks": {
+        "player_0": 8,
+        "player_3": 7,
+        "player_5": 6,
+        "player_1": 5,
+        "player_4": 4,
+        "player_7": 3,
+        "player_2": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 13,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Could not remove item ['chain_vest'] from champion jax",
+        "Could not sell champion jax"
+      ],
+      "elapsed_seconds": 26.21
+    },
+    {
+      "split": "validation",
+      "training_seed": 47,
+      "seed": 5008,
+      "seat": 0,
+      "kind": "diffusion_vector_residual",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 7,
+      "ranks": {
+        "player_6": 8,
+        "player_0": 7,
+        "player_2": 6,
+        "player_4": 5,
+        "player_3": 4,
+        "player_1": 3,
+        "player_5": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 14,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 25.82
+    },
+    {
+      "split": "test",
+      "training_seed": 47,
+      "seed": 6003,
+      "seat": 3,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 3,
+      "ranks": {
+        "player_1": 8,
+        "player_4": 7,
+        "player_6": 6,
+        "player_7": 5,
+        "player_5": 4,
+        "player_3": 3,
+        "player_0": 1,
+        "player_2": 2
+      },
+      "internal_warning_count": 7,
+      "internal_warning_examples": [
+        "Could not remove item ['zephyr'] from champion zilean",
+        "Could not sell champion zilean",
+        "Failed to add item to item bench",
+        "Could not remove item ['tear_of_the_goddess'] from champion ezreal"
+      ],
+      "elapsed_seconds": 25.91
+    },
+    {
+      "split": "test",
+      "training_seed": 47,
+      "seed": 6002,
+      "seat": 2,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 2,
+      "ranks": {
+        "player_6": 8,
+        "player_7": 7,
+        "player_0": 6,
+        "player_3": 5,
+        "player_4": 4,
+        "player_5": 3,
+        "player_1": 1,
+        "player_2": 2
+      },
+      "internal_warning_count": 10,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['sunfire_cape'] from champion aatrox",
+        "Could not sell champion aatrox",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 26.85
+    },
+    {
+      "split": "test",
+      "training_seed": 47,
+      "seed": 6001,
+      "seat": 1,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 5,
+      "ranks": {
+        "player_5": 8,
+        "player_6": 7,
+        "player_3": 6,
+        "player_1": 5,
+        "player_4": 4,
+        "player_0": 3,
+        "player_2": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 13,
+      "internal_warning_examples": [
+        "Could not remove item ['titans_resolve'] from champion ezreal",
+        "Could not sell champion ezreal",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 26.92
+    },
+    {
+      "split": "test",
+      "training_seed": 47,
+      "seed": 6004,
+      "seat": 4,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 6,
+      "ranks": {
+        "player_7": 8,
+        "player_5": 7,
+        "player_4": 6,
+        "player_3": 5,
+        "player_6": 4,
+        "player_0": 3,
+        "player_1": 1,
+        "player_2": 2
+      },
+      "internal_warning_count": 7,
+      "internal_warning_examples": [
+        "some dead yummi allies. Should never really see this.",
+        "Could not remove item ['warmogs_armor'] from champion sejuani",
+        "Could not sell champion sejuani",
+        "Could not remove item ['zekes_herald'] from champion morgana"
+      ],
+      "elapsed_seconds": 33.34
+    },
+    {
+      "split": "test",
+      "training_seed": 47,
+      "seed": 6005,
+      "seat": 5,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 1,
+      "ranks": {
+        "player_7": 8,
+        "player_2": 7,
+        "player_3": 6,
+        "player_4": 5,
+        "player_1": 4,
+        "player_0": 3,
+        "player_5": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 3,
+      "internal_warning_examples": [
+        "Could not remove item ['negatron_cloak'] from champion azir",
+        "Could not sell champion azir",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 28.21
+    },
+    {
+      "split": "test",
+      "training_seed": 47,
+      "seed": 6006,
+      "seat": 6,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 1,
+      "ranks": {
+        "player_1": 8,
+        "player_4": 7,
+        "player_5": 6,
+        "player_3": 5,
+        "player_2": 4,
+        "player_7": 3,
+        "player_0": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 15,
+      "internal_warning_examples": [
+        "Could not remove item ['chain_vest'] from champion zed",
+        "Could not sell champion zed",
+        "Could not remove item ['bramble_vest'] from champion riven",
+        "Could not sell champion riven"
+      ],
+      "elapsed_seconds": 27.9
+    },
+    {
+      "split": "test",
+      "training_seed": 47,
+      "seed": 6007,
+      "seat": 7,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 525,
+      "rank": 3,
+      "ranks": {
+        "player_5": 8,
+        "player_1": 7,
+        "player_2": 6,
+        "player_3": 5,
+        "player_6": 4,
+        "player_7": 3,
+        "player_0": 2,
+        "player_4": 1
+      },
+      "internal_warning_count": 13,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Could not remove item ['redemption'] from champion shen",
+        "Could not sell champion shen"
+      ],
+      "elapsed_seconds": 30.51
+    },
+    {
+      "split": "test",
+      "training_seed": 47,
+      "seed": 6008,
+      "seat": 0,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 7,
+      "ranks": {
+        "player_7": 8,
+        "player_0": 7,
+        "player_2": 6,
+        "player_6": 5,
+        "player_4": 4,
+        "player_5": 3,
+        "player_1": 2,
+        "player_3": 1
+      },
+      "internal_warning_count": 19,
+      "internal_warning_examples": [
+        "Could not remove item ['sparring_gloves'] from champion talon",
+        "Could not sell champion talon",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 31.31
+    },
+    {
+      "split": "test",
+      "training_seed": 47,
+      "seed": 6001,
+      "seat": 1,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 5,
+      "ranks": {
+        "player_5": 8,
+        "player_0": 7,
+        "player_6": 6,
+        "player_1": 5,
+        "player_2": 4,
+        "player_4": 3,
+        "player_3": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 4,
+      "internal_warning_examples": [
+        "Could not remove item ['elderwood_heirloom'] from champion nunu",
+        "Could not sell champion nunu",
+        "Could not remove item ['recurve_bow'] from champion cassiopeia",
+        "Could not sell champion cassiopeia"
+      ],
+      "elapsed_seconds": 26.38
+    },
+    {
+      "split": "test",
+      "training_seed": 47,
+      "seed": 6002,
+      "seat": 2,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 525,
+      "rank": 1,
+      "ranks": {
+        "player_0": 8,
+        "player_6": 7,
+        "player_3": 6,
+        "player_7": 5,
+        "player_4": 4,
+        "player_1": 3,
+        "player_2": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 4,
+      "internal_warning_examples": [
+        "Could not remove item ['chain_vest'] from champion azir",
+        "Could not sell champion azir",
+        "Could not remove item ['bf_sword'] from champion jhin",
+        "Could not sell champion jhin"
+      ],
+      "elapsed_seconds": 27.76
+    },
+    {
+      "split": "test",
+      "training_seed": 47,
+      "seed": 6003,
+      "seat": 3,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 2,
+      "ranks": {
+        "player_1": 8,
+        "player_7": 7,
+        "player_4": 6,
+        "player_6": 5,
+        "player_5": 4,
+        "player_0": 3,
+        "player_2": 1,
+        "player_3": 2
+      },
+      "internal_warning_count": 2,
+      "internal_warning_examples": [
+        "Could not remove item ['needlessly_large_rod'] from champion leesin",
+        "Could not sell champion leesin"
+      ],
+      "elapsed_seconds": 25.51
+    },
+    {
+      "split": "test",
+      "training_seed": 47,
+      "seed": 6004,
+      "seat": 4,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 4,
+      "ranks": {
+        "player_7": 8,
+        "player_5": 7,
+        "player_1": 6,
+        "player_3": 5,
+        "player_4": 4,
+        "player_0": 3,
+        "player_2": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 3,
+      "internal_warning_examples": [
+        "some dead yummi allies. Should never really see this.",
+        "Could not remove item ['vanguards_cuirass'] from champion kayn",
+        "Could not sell champion kayn"
+      ],
+      "elapsed_seconds": 28.17
+    },
+    {
+      "split": "test",
+      "training_seed": 47,
+      "seed": 6005,
+      "seat": 5,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 4,
+      "ranks": {
+        "player_7": 8,
+        "player_2": 7,
+        "player_0": 6,
+        "player_1": 5,
+        "player_5": 4,
+        "player_4": 3,
+        "player_3": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 15,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Could not remove item ['zephyr'] from champion yone",
+        "Could not sell champion yone"
+      ],
+      "elapsed_seconds": 21.06
+    },
+    {
+      "split": "test",
+      "training_seed": 47,
+      "seed": 6006,
+      "seat": 6,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 6,
+      "ranks": {
+        "player_5": 8,
+        "player_0": 7,
+        "player_6": 6,
+        "player_1": 5,
+        "player_3": 4,
+        "player_2": 1,
+        "player_4": 3,
+        "player_7": 2
+      },
+      "internal_warning_count": 2,
+      "internal_warning_examples": [
+        "Could not remove item ['giants_belt'] from champion lillia",
+        "Could not sell champion lillia"
+      ],
+      "elapsed_seconds": 22.16
+    },
+    {
+      "split": "test",
+      "training_seed": 47,
+      "seed": 6007,
+      "seat": 7,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 4,
+      "ranks": {
+        "player_1": 8,
+        "player_3": 7,
+        "player_5": 6,
+        "player_2": 5,
+        "player_7": 4,
+        "player_6": 3,
+        "player_0": 2,
+        "player_4": 1
+      },
+      "internal_warning_count": 13,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['zekes_herald'] from champion yone",
+        "Could not sell champion yone",
+        "Could not remove item ['redemption'] from champion riven"
+      ],
+      "elapsed_seconds": 28.7
+    },
+    {
+      "split": "test",
+      "training_seed": 47,
+      "seed": 6008,
+      "seat": 0,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 5,
+      "ranks": {
+        "player_7": 8,
+        "player_1": 7,
+        "player_2": 6,
+        "player_0": 5,
+        "player_6": 4,
+        "player_4": 3,
+        "player_3": 2,
+        "player_5": 1
+      },
+      "internal_warning_count": 14,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Could not remove item ['ionic_spark'] from champion cassiopeia",
+        "Could not sell champion cassiopeia"
+      ],
+      "elapsed_seconds": 31.33
+    },
+    {
+      "split": "test",
+      "training_seed": 47,
+      "seed": 6002,
+      "seat": 2,
+      "kind": "diffusion_vector",
+      "reason": "natural_end",
+      "steps": 420,
+      "rank": 4,
+      "ranks": {
+        "player_6": 8,
+        "player_7": 7,
+        "player_0": 6,
+        "player_3": 5,
+        "player_2": 4,
+        "player_5": 3,
+        "player_1": 1,
+        "player_4": 2
+      },
+      "internal_warning_count": 0,
+      "internal_warning_examples": [],
+      "elapsed_seconds": 20.02
+    },
+    {
+      "split": "test",
+      "training_seed": 47,
+      "seed": 6001,
+      "seat": 1,
+      "kind": "diffusion_vector",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 5,
+      "ranks": {
+        "player_5": 8,
+        "player_6": 7,
+        "player_3": 6,
+        "player_1": 5,
+        "player_4": 4,
+        "player_0": 3,
+        "player_2": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 12,
+      "internal_warning_examples": [
+        "Could not remove item ['gargoyle_stoneplate'] from champion zilean",
+        "Could not sell champion zilean",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 26.85
+    },
+    {
+      "split": "test",
+      "training_seed": 47,
+      "seed": 6003,
+      "seat": 3,
+      "kind": "diffusion_vector",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 3,
+      "ranks": {
+        "player_1": 8,
+        "player_4": 7,
+        "player_6": 6,
+        "player_7": 5,
+        "player_5": 4,
+        "player_3": 3,
+        "player_0": 1,
+        "player_2": 2
+      },
+      "internal_warning_count": 7,
+      "internal_warning_examples": [
+        "Could not remove item ['zephyr'] from champion zilean",
+        "Could not sell champion zilean",
+        "Failed to add item to item bench",
+        "Could not remove item ['tear_of_the_goddess'] from champion ezreal"
+      ],
+      "elapsed_seconds": 25.59
+    },
+    {
+      "split": "test",
+      "training_seed": 47,
+      "seed": 6004,
+      "seat": 4,
+      "kind": "diffusion_vector",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 6,
+      "ranks": {
+        "player_7": 8,
+        "player_5": 7,
+        "player_4": 6,
+        "player_3": 5,
+        "player_6": 4,
+        "player_1": 3,
+        "player_0": 2,
+        "player_2": 1
+      },
+      "internal_warning_count": 3,
+      "internal_warning_examples": [
+        "some dead yummi allies. Should never really see this.",
+        "Could not remove item ['dragons_claw'] from champion shen",
+        "Could not sell champion shen"
+      ],
+      "elapsed_seconds": 25.08
+    },
+    {
+      "split": "test",
+      "training_seed": 47,
+      "seed": 6005,
+      "seat": 5,
+      "kind": "diffusion_vector",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 1,
+      "ranks": {
+        "player_7": 8,
+        "player_2": 7,
+        "player_3": 6,
+        "player_4": 5,
+        "player_1": 4,
+        "player_0": 3,
+        "player_5": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 6,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['needlessly_large_rod'] from champion zilean",
+        "Could not sell champion zilean",
+        "Could not remove item ['recurve_bow'] from champion ezreal"
+      ],
+      "elapsed_seconds": 30.88
+    },
+    {
+      "split": "test",
+      "training_seed": 47,
+      "seed": 6006,
+      "seat": 6,
+      "kind": "diffusion_vector",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 1,
+      "ranks": {
+        "player_1": 8,
+        "player_4": 7,
+        "player_5": 6,
+        "player_3": 5,
+        "player_2": 4,
+        "player_7": 3,
+        "player_0": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 15,
+      "internal_warning_examples": [
+        "Could not remove item ['chain_vest'] from champion zed",
+        "Could not sell champion zed",
+        "Could not remove item ['bramble_vest'] from champion riven",
+        "Could not sell champion riven"
+      ],
+      "elapsed_seconds": 28.28
+    },
+    {
+      "split": "test",
+      "training_seed": 47,
+      "seed": 6007,
+      "seat": 7,
+      "kind": "diffusion_vector",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 3,
+      "ranks": {
+        "player_1": 8,
+        "player_5": 7,
+        "player_2": 6,
+        "player_3": 5,
+        "player_6": 4,
+        "player_7": 3,
+        "player_0": 1,
+        "player_4": 2
+      },
+      "internal_warning_count": 14,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['chain_vest'] from champion lulu",
+        "Could not sell champion lulu",
+        "Could not remove item ['zephyr'] from champion sett"
+      ],
+      "elapsed_seconds": 28.06
+    },
+    {
+      "split": "test",
+      "training_seed": 47,
+      "seed": 6001,
+      "seat": 1,
+      "kind": "diffusion_vector_residual",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 5,
+      "ranks": {
+        "player_5": 8,
+        "player_6": 7,
+        "player_3": 6,
+        "player_1": 5,
+        "player_7": 4,
+        "player_2": 3,
+        "player_0": 1,
+        "player_4": 2
+      },
+      "internal_warning_count": 9,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Could not remove item ['trap_claw'] from champion evelynn",
+        "Could not sell champion evelynn"
+      ],
+      "elapsed_seconds": 22.45
+    },
+    {
+      "split": "test",
+      "training_seed": 47,
+      "seed": 6008,
+      "seat": 0,
+      "kind": "diffusion_vector",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 6,
+      "ranks": {
+        "player_7": 8,
+        "player_2": 7,
+        "player_0": 6,
+        "player_4": 5,
+        "player_6": 4,
+        "player_1": 3,
+        "player_3": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 22,
+      "internal_warning_examples": [
+        "Could not remove item ['sparring_gloves'] from champion morgana",
+        "Could not sell champion morgana",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 31.78
+    },
+    {
+      "split": "test",
+      "training_seed": 47,
+      "seed": 6002,
+      "seat": 2,
+      "kind": "diffusion_vector_residual",
+      "reason": "natural_end",
+      "steps": 540,
+      "rank": 3,
+      "ranks": {
+        "player_7": 8,
+        "player_0": 7,
+        "player_3": 6,
+        "player_4": 5,
+        "player_6": 4,
+        "player_2": 3,
+        "player_1": 2,
+        "player_5": 1
+      },
+      "internal_warning_count": 15,
+      "internal_warning_examples": [
+        "Could not remove item ['warmogs_armor'] from champion cassiopeia",
+        "Could not sell champion cassiopeia",
+        "Could not remove item ['zekes_herald'] from champion jhin",
+        "Could not sell champion jhin"
+      ],
+      "elapsed_seconds": 24.74
+    },
+    {
+      "split": "test",
+      "training_seed": 47,
+      "seed": 6003,
+      "seat": 3,
+      "kind": "diffusion_vector_residual",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 4,
+      "ranks": {
+        "player_1": 8,
+        "player_7": 7,
+        "player_4": 6,
+        "player_0": 5,
+        "player_3": 4,
+        "player_2": 3,
+        "player_5": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 4,
+      "internal_warning_examples": [
+        "Could not remove item ['mages_cap'] from champion jhin",
+        "Could not sell champion jhin",
+        "Could not remove item ['sparring_gloves'] from champion talon",
+        "Could not sell champion talon"
+      ],
+      "elapsed_seconds": 26.04
+    },
+    {
+      "split": "test",
+      "training_seed": 47,
+      "seed": 6004,
+      "seat": 4,
+      "kind": "diffusion_vector_residual",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 3,
+      "ranks": {
+        "player_7": 8,
+        "player_5": 7,
+        "player_0": 6,
+        "player_3": 5,
+        "player_6": 4,
+        "player_4": 3,
+        "player_1": 2,
+        "player_2": 1
+      },
+      "internal_warning_count": 5,
+      "internal_warning_examples": [
+        "some dead yummi allies. Should never really see this.",
+        "Could not remove item ['trap_claw'] from champion jinx",
+        "Could not sell champion jinx",
+        "Could not remove item ['sparring_gloves'] from champion cassiopeia"
+      ],
+      "elapsed_seconds": 27.53
+    },
+    {
+      "split": "test",
+      "training_seed": 47,
+      "seed": 6005,
+      "seat": 5,
+      "kind": "diffusion_vector_residual",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 1,
+      "ranks": {
+        "player_7": 8,
+        "player_2": 7,
+        "player_1": 6,
+        "player_3": 5,
+        "player_4": 4,
+        "player_0": 3,
+        "player_5": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 2,
+      "internal_warning_examples": [
+        "Could not remove item ['spear_of_shojin'] from champion morgana",
+        "Could not sell champion morgana"
+      ],
+      "elapsed_seconds": 26.52
+    },
+    {
+      "split": "test",
+      "training_seed": 47,
+      "seed": 6006,
+      "seat": 6,
+      "kind": "diffusion_vector_residual",
+      "reason": "natural_end",
+      "steps": 540,
+      "rank": 1,
+      "ranks": {
+        "player_1": 8,
+        "player_4": 7,
+        "player_5": 6,
+        "player_3": 5,
+        "player_2": 4,
+        "player_7": 3,
+        "player_0": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 17,
+      "internal_warning_examples": [
+        "Could not remove item ['chain_vest'] from champion zed",
+        "Could not sell champion zed",
+        "Could not remove item ['bramble_vest'] from champion riven",
+        "Could not sell champion riven"
+      ],
+      "elapsed_seconds": 27.41
+    },
+    {
+      "split": "test",
+      "training_seed": 47,
+      "seed": 6007,
+      "seat": 7,
+      "kind": "diffusion_vector_residual",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 5,
+      "ranks": {
+        "player_1": 8,
+        "player_5": 7,
+        "player_3": 6,
+        "player_7": 5,
+        "player_2": 4,
+        "player_6": 3,
+        "player_0": 1,
+        "player_4": 2
+      },
+      "internal_warning_count": 15,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['negatron_cloak'] from champion xinzhao",
+        "Could not sell champion xinzhao",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 30.01
+    },
+    {
+      "split": "test",
+      "training_seed": 47,
+      "seed": 6008,
+      "seat": 0,
+      "kind": "diffusion_vector_residual",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 4,
+      "ranks": {
+        "player_7": 8,
+        "player_2": 7,
+        "player_4": 6,
+        "player_6": 5,
+        "player_0": 4,
+        "player_1": 3,
+        "player_3": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 13,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Could not remove item ['spear_of_shojin'] from champion sett",
+        "Could not sell champion sett"
+      ],
+      "elapsed_seconds": 29.62
+    },
+    {
+      "split": "validation",
+      "training_seed": 83,
+      "seed": 5002,
+      "seat": 2,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 5,
+      "ranks": {
+        "player_3": 8,
+        "player_6": 7,
+        "player_5": 6,
+        "player_2": 5,
+        "player_4": 4,
+        "player_7": 3,
+        "player_0": 2,
+        "player_1": 1
+      },
+      "internal_warning_count": 11,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['sparring_gloves'] from champion jhin",
+        "Could not sell champion jhin",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 18.55
+    },
+    {
+      "split": "validation",
+      "training_seed": 83,
+      "seed": 5003,
+      "seat": 3,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 6,
+      "ranks": {
+        "player_2": 8,
+        "player_5": 7,
+        "player_3": 6,
+        "player_4": 5,
+        "player_6": 4,
+        "player_7": 3,
+        "player_0": 1,
+        "player_1": 2
+      },
+      "internal_warning_count": 9,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['titans_resolve'] from champion kayn",
+        "Could not sell champion kayn",
+        "Could not remove item ['guardian_angel'] from champion nunu"
+      ],
+      "elapsed_seconds": 26.55
+    },
+    {
+      "split": "validation",
+      "training_seed": 83,
+      "seed": 5001,
+      "seat": 1,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 3,
+      "ranks": {
+        "player_6": 8,
+        "player_2": 7,
+        "player_5": 6,
+        "player_3": 5,
+        "player_0": 4,
+        "player_1": 3,
+        "player_4": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 12,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['chain_vest'] from champion thresh",
+        "Could not sell champion thresh",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 26.88
+    },
+    {
+      "split": "validation",
+      "training_seed": 83,
+      "seed": 5004,
+      "seat": 4,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 2,
+      "ranks": {
+        "player_2": 8,
+        "player_1": 7,
+        "player_6": 6,
+        "player_0": 5,
+        "player_3": 4,
+        "player_7": 3,
+        "player_4": 2,
+        "player_5": 1
+      },
+      "internal_warning_count": 5,
+      "internal_warning_examples": [
+        "Could not remove item ['thieves_gloves'] from champion ahri",
+        "Could not sell champion ahri",
+        "Failed to add item to item bench",
+        "Could not remove item ['bf_sword'] from champion azir"
+      ],
+      "elapsed_seconds": 27.49
+    },
+    {
+      "split": "validation",
+      "training_seed": 83,
+      "seed": 5005,
+      "seat": 5,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 540,
+      "rank": 6,
+      "ranks": {
+        "player_2": 8,
+        "player_7": 7,
+        "player_5": 6,
+        "player_6": 5,
+        "player_1": 4,
+        "player_4": 3,
+        "player_0": 1,
+        "player_3": 2
+      },
+      "internal_warning_count": 18,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['blue_buff'] from champion ahri",
+        "Could not sell champion ahri",
+        "Could not remove item ['guardian_angel'] from champion morgana"
+      ],
+      "elapsed_seconds": 26.77
+    },
+    {
+      "split": "validation",
+      "training_seed": 83,
+      "seed": 5008,
+      "seat": 0,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 420,
+      "rank": 4,
+      "ranks": {
+        "player_6": 8,
+        "player_4": 7,
+        "player_2": 6,
+        "player_5": 5,
+        "player_0": 4,
+        "player_1": 3,
+        "player_3": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 7,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['trap_claw'] from champion ezreal",
+        "Could not sell champion ezreal",
+        "Could not remove item ['quicksilver'] from champion evelynn"
+      ],
+      "elapsed_seconds": 21.97
+    },
+    {
+      "split": "validation",
+      "training_seed": 83,
+      "seed": 5006,
+      "seat": 6,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 3,
+      "ranks": {
+        "player_7": 8,
+        "player_1": 7,
+        "player_3": 6,
+        "player_4": 5,
+        "player_5": 4,
+        "player_6": 3,
+        "player_0": 2,
+        "player_2": 1
+      },
+      "internal_warning_count": 18,
+      "internal_warning_examples": [
+        "Could not remove item ['negatron_cloak'] from champion katarina",
+        "Could not sell champion katarina",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 24.34
+    },
+    {
+      "split": "validation",
+      "training_seed": 83,
+      "seed": 5001,
+      "seat": 1,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 2,
+      "ranks": {
+        "player_6": 8,
+        "player_2": 7,
+        "player_5": 6,
+        "player_0": 5,
+        "player_3": 4,
+        "player_7": 3,
+        "player_1": 2,
+        "player_4": 1
+      },
+      "internal_warning_count": 8,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 23.08
+    },
+    {
+      "split": "validation",
+      "training_seed": 83,
+      "seed": 5007,
+      "seat": 7,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 1,
+      "ranks": {
+        "player_1": 8,
+        "player_5": 7,
+        "player_6": 6,
+        "player_2": 5,
+        "player_3": 4,
+        "player_0": 3,
+        "player_4": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 11,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Could not remove item ['recurve_bow'] from champion warwick",
+        "Could not sell champion warwick"
+      ],
+      "elapsed_seconds": 42.56
+    },
+    {
+      "split": "validation",
+      "training_seed": 83,
+      "seed": 5002,
+      "seat": 2,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 4,
+      "ranks": {
+        "player_6": 8,
+        "player_3": 7,
+        "player_5": 6,
+        "player_4": 5,
+        "player_2": 4,
+        "player_7": 3,
+        "player_0": 2,
+        "player_1": 1
+      },
+      "internal_warning_count": 15,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Could not remove item ['youmuus_ghostblade'] from champion yone"
+      ],
+      "elapsed_seconds": 21.15
+    },
+    {
+      "split": "validation",
+      "training_seed": 83,
+      "seed": 5003,
+      "seat": 3,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 525,
+      "rank": 6,
+      "ranks": {
+        "player_2": 8,
+        "player_5": 7,
+        "player_3": 6,
+        "player_4": 5,
+        "player_1": 4,
+        "player_7": 3,
+        "player_0": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 2,
+      "internal_warning_examples": [
+        "Could not remove item ['giants_belt'] from champion azir",
+        "Could not sell champion azir"
+      ],
+      "elapsed_seconds": 26.38
+    },
+    {
+      "split": "validation",
+      "training_seed": 83,
+      "seed": 5004,
+      "seat": 4,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 2,
+      "ranks": {
+        "player_6": 8,
+        "player_0": 7,
+        "player_1": 6,
+        "player_3": 5,
+        "player_2": 4,
+        "player_7": 3,
+        "player_4": 2,
+        "player_5": 1
+      },
+      "internal_warning_count": 6,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['hand_of_justice'] from champion katarina",
+        "Could not sell champion katarina",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 24.86
+    },
+    {
+      "split": "validation",
+      "training_seed": 83,
+      "seed": 5005,
+      "seat": 5,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 6,
+      "ranks": {
+        "player_2": 8,
+        "player_7": 7,
+        "player_5": 6,
+        "player_6": 5,
+        "player_4": 4,
+        "player_3": 3,
+        "player_0": 2,
+        "player_1": 1
+      },
+      "internal_warning_count": 11,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['quicksilver'] from champion warwick",
+        "Could not sell champion warwick",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 25.83
+    },
+    {
+      "split": "validation",
+      "training_seed": 83,
+      "seed": 5006,
+      "seat": 6,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 5,
+      "ranks": {
+        "player_3": 8,
+        "player_1": 7,
+        "player_7": 6,
+        "player_6": 5,
+        "player_5": 4,
+        "player_0": 3,
+        "player_2": 1,
+        "player_4": 2
+      },
+      "internal_warning_count": 14,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Could not remove item ['warmogs_armor'] from champion sejuani"
+      ],
+      "elapsed_seconds": 26.98
+    },
+    {
+      "split": "validation",
+      "training_seed": 83,
+      "seed": 5007,
+      "seat": 7,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 525,
+      "rank": 4,
+      "ranks": {
+        "player_0": 8,
+        "player_4": 7,
+        "player_3": 6,
+        "player_1": 5,
+        "player_7": 4,
+        "player_6": 3,
+        "player_2": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 9,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['needlessly_large_rod'] from champion veigar",
+        "Could not sell champion veigar",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 27.85
+    },
+    {
+      "split": "validation",
+      "training_seed": 83,
+      "seed": 5002,
+      "seat": 2,
+      "kind": "diffusion_vector",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 4,
+      "ranks": {
+        "player_3": 8,
+        "player_6": 7,
+        "player_5": 6,
+        "player_4": 5,
+        "player_2": 4,
+        "player_7": 3,
+        "player_0": 2,
+        "player_1": 1
+      },
+      "internal_warning_count": 9,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['recurve_bow'] from champion aatrox",
+        "Could not sell champion aatrox",
+        "Could not remove item ['titans_resolve'] from champion kayn"
+      ],
+      "elapsed_seconds": 19.1
+    },
+    {
+      "split": "validation",
+      "training_seed": 83,
+      "seed": 5001,
+      "seat": 1,
+      "kind": "diffusion_vector",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 8,
+      "ranks": {
+        "player_1": 8,
+        "player_6": 7,
+        "player_2": 6,
+        "player_5": 5,
+        "player_0": 4,
+        "player_3": 3,
+        "player_4": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 11,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['chain_vest'] from champion lulu",
+        "Could not sell champion lulu",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 23.42
+    },
+    {
+      "split": "validation",
+      "training_seed": 83,
+      "seed": 5008,
+      "seat": 0,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 6,
+      "ranks": {
+        "player_2": 8,
+        "player_6": 7,
+        "player_0": 6,
+        "player_1": 5,
+        "player_3": 4,
+        "player_4": 3,
+        "player_5": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 9,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Could not remove item ['shroud_of_stillness'] from champion warwick"
+      ],
+      "elapsed_seconds": 25.97
+    },
+    {
+      "split": "validation",
+      "training_seed": 83,
+      "seed": 5003,
+      "seat": 3,
+      "kind": "diffusion_vector",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 6,
+      "ranks": {
+        "player_2": 8,
+        "player_5": 7,
+        "player_3": 6,
+        "player_4": 5,
+        "player_7": 4,
+        "player_6": 3,
+        "player_0": 1,
+        "player_1": 2
+      },
+      "internal_warning_count": 9,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['sword_of_the_divine'] from champion yone",
+        "Could not sell champion yone",
+        "Could not remove item ['hextech_gunblade'] from champion evelynn"
+      ],
+      "elapsed_seconds": 25.19
+    },
+    {
+      "split": "validation",
+      "training_seed": 83,
+      "seed": 5006,
+      "seat": 6,
+      "kind": "diffusion_vector",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 3,
+      "ranks": {
+        "player_7": 8,
+        "player_1": 7,
+        "player_3": 6,
+        "player_4": 5,
+        "player_5": 4,
+        "player_6": 3,
+        "player_0": 2,
+        "player_2": 1
+      },
+      "internal_warning_count": 18,
+      "internal_warning_examples": [
+        "Could not remove item ['negatron_cloak'] from champion katarina",
+        "Could not sell champion katarina",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 24.1
+    },
+    {
+      "split": "validation",
+      "training_seed": 83,
+      "seed": 5004,
+      "seat": 4,
+      "kind": "diffusion_vector",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 2,
+      "ranks": {
+        "player_2": 8,
+        "player_1": 7,
+        "player_6": 6,
+        "player_0": 5,
+        "player_3": 4,
+        "player_7": 3,
+        "player_4": 2,
+        "player_5": 1
+      },
+      "internal_warning_count": 5,
+      "internal_warning_examples": [
+        "Could not remove item ['thieves_gloves'] from champion ahri",
+        "Could not sell champion ahri",
+        "Failed to add item to item bench",
+        "Could not remove item ['bf_sword'] from champion azir"
+      ],
+      "elapsed_seconds": 27.27
+    },
+    {
+      "split": "validation",
+      "training_seed": 83,
+      "seed": 5005,
+      "seat": 5,
+      "kind": "diffusion_vector",
+      "reason": "natural_end",
+      "steps": 540,
+      "rank": 6,
+      "ranks": {
+        "player_2": 8,
+        "player_7": 7,
+        "player_5": 6,
+        "player_6": 5,
+        "player_1": 4,
+        "player_4": 3,
+        "player_0": 1,
+        "player_3": 2
+      },
+      "internal_warning_count": 18,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['blue_buff'] from champion ahri",
+        "Could not sell champion ahri",
+        "Could not remove item ['guardian_angel'] from champion morgana"
+      ],
+      "elapsed_seconds": 26.13
+    },
+    {
+      "split": "validation",
+      "training_seed": 83,
+      "seed": 5002,
+      "seat": 2,
+      "kind": "diffusion_vector_residual",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 4,
+      "ranks": {
+        "player_3": 8,
+        "player_6": 7,
+        "player_5": 6,
+        "player_4": 5,
+        "player_2": 4,
+        "player_7": 3,
+        "player_0": 2,
+        "player_1": 1
+      },
+      "internal_warning_count": 9,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['recurve_bow'] from champion aatrox",
+        "Could not sell champion aatrox",
+        "Could not remove item ['titans_resolve'] from champion kayn"
+      ],
+      "elapsed_seconds": 19.08
+    },
+    {
+      "split": "validation",
+      "training_seed": 83,
+      "seed": 5008,
+      "seat": 0,
+      "kind": "diffusion_vector",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 7,
+      "ranks": {
+        "player_6": 8,
+        "player_0": 7,
+        "player_4": 6,
+        "player_2": 5,
+        "player_1": 4,
+        "player_5": 3,
+        "player_3": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 7,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['blue_buff'] from champion ashe",
+        "Could not sell champion ashe",
+        "Could not remove item ['sword_of_the_divine'] from champion evelynn"
+      ],
+      "elapsed_seconds": 23.82
+    },
+    {
+      "split": "validation",
+      "training_seed": 83,
+      "seed": 5001,
+      "seat": 1,
+      "kind": "diffusion_vector_residual",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 7,
+      "ranks": {
+        "player_6": 8,
+        "player_1": 7,
+        "player_2": 6,
+        "player_5": 5,
+        "player_0": 4,
+        "player_3": 3,
+        "player_4": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 11,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['chain_vest'] from champion pyke",
+        "Could not sell champion pyke",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 23.77
+    },
+    {
+      "split": "validation",
+      "training_seed": 83,
+      "seed": 5007,
+      "seat": 7,
+      "kind": "diffusion_vector",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 2,
+      "ranks": {
+        "player_1": 8,
+        "player_6": 7,
+        "player_0": 6,
+        "player_2": 5,
+        "player_4": 4,
+        "player_3": 3,
+        "player_5": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 12,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Could not remove item ['giants_belt'] from champion vi",
+        "Could not sell champion vi"
+      ],
+      "elapsed_seconds": 42.15
+    },
+    {
+      "split": "validation",
+      "training_seed": 83,
+      "seed": 5003,
+      "seat": 3,
+      "kind": "diffusion_vector_residual",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 6,
+      "ranks": {
+        "player_2": 8,
+        "player_5": 7,
+        "player_3": 6,
+        "player_4": 5,
+        "player_7": 4,
+        "player_6": 3,
+        "player_0": 1,
+        "player_1": 2
+      },
+      "internal_warning_count": 9,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['sword_of_the_divine'] from champion yone",
+        "Could not sell champion yone",
+        "Could not remove item ['hextech_gunblade'] from champion evelynn"
+      ],
+      "elapsed_seconds": 26.31
+    },
+    {
+      "split": "validation",
+      "training_seed": 83,
+      "seed": 5004,
+      "seat": 4,
+      "kind": "diffusion_vector_residual",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 3,
+      "ranks": {
+        "player_2": 8,
+        "player_1": 7,
+        "player_6": 6,
+        "player_0": 5,
+        "player_3": 4,
+        "player_4": 3,
+        "player_5": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 3,
+      "internal_warning_examples": [
+        "Could not remove item ['rapid_firecannon'] from champion lux",
+        "Could not sell champion lux",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 28.34
+    },
+    {
+      "split": "validation",
+      "training_seed": 83,
+      "seed": 5005,
+      "seat": 5,
+      "kind": "diffusion_vector_residual",
+      "reason": "natural_end",
+      "steps": 525,
+      "rank": 6,
+      "ranks": {
+        "player_2": 8,
+        "player_7": 7,
+        "player_5": 6,
+        "player_6": 5,
+        "player_4": 4,
+        "player_1": 3,
+        "player_0": 1,
+        "player_3": 2
+      },
+      "internal_warning_count": 15,
+      "internal_warning_examples": [
+        "Could not remove item ['sunfire_cape'] from champion shen",
+        "Could not sell champion shen",
+        "Could not remove item ['rabadons_deathcap'] from champion xinzhao",
+        "Could not sell champion xinzhao"
+      ],
+      "elapsed_seconds": 28.88
+    },
+    {
+      "split": "validation",
+      "training_seed": 83,
+      "seed": 5006,
+      "seat": 6,
+      "kind": "diffusion_vector_residual",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 3,
+      "ranks": {
+        "player_7": 8,
+        "player_1": 7,
+        "player_3": 6,
+        "player_4": 5,
+        "player_5": 4,
+        "player_6": 3,
+        "player_0": 2,
+        "player_2": 1
+      },
+      "internal_warning_count": 18,
+      "internal_warning_examples": [
+        "Could not remove item ['negatron_cloak'] from champion katarina",
+        "Could not sell champion katarina",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 24.56
+    },
+    {
+      "split": "validation",
+      "training_seed": 83,
+      "seed": 5008,
+      "seat": 0,
+      "kind": "diffusion_vector_residual",
+      "reason": "natural_end",
+      "steps": 420,
+      "rank": 7,
+      "ranks": {
+        "player_6": 8,
+        "player_0": 7,
+        "player_2": 6,
+        "player_4": 5,
+        "player_3": 4,
+        "player_1": 3,
+        "player_5": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 4,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['sunfire_cape'] from champion ahri",
+        "Could not sell champion ahri",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 23.04
+    },
+    {
+      "split": "validation",
+      "training_seed": 83,
+      "seed": 5007,
+      "seat": 7,
+      "kind": "diffusion_vector_residual",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 3,
+      "ranks": {
+        "player_1": 8,
+        "player_4": 7,
+        "player_6": 6,
+        "player_0": 5,
+        "player_2": 4,
+        "player_7": 3,
+        "player_3": 2,
+        "player_5": 1
+      },
+      "internal_warning_count": 11,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Could not remove item ['zekes_herald'] from champion ahri"
+      ],
+      "elapsed_seconds": 47.23
+    },
+    {
+      "split": "test",
+      "training_seed": 83,
+      "seed": 6001,
+      "seat": 1,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 510,
+      "rank": 6,
+      "ranks": {
+        "player_0": 8,
+        "player_5": 7,
+        "player_1": 6,
+        "player_4": 5,
+        "player_2": 4,
+        "player_7": 3,
+        "player_3": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 16,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 22.27
+    },
+    {
+      "split": "test",
+      "training_seed": 83,
+      "seed": 6002,
+      "seat": 2,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 3,
+      "ranks": {
+        "player_6": 8,
+        "player_4": 7,
+        "player_0": 6,
+        "player_3": 5,
+        "player_7": 4,
+        "player_2": 3,
+        "player_1": 2,
+        "player_5": 1
+      },
+      "internal_warning_count": 5,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Could not remove item ['sunfire_cape'] from champion kayn",
+        "Could not sell champion kayn"
+      ],
+      "elapsed_seconds": 24.16
+    },
+    {
+      "split": "test",
+      "training_seed": 83,
+      "seed": 6004,
+      "seat": 4,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 540,
+      "rank": 4,
+      "ranks": {
+        "player_7": 8,
+        "player_5": 7,
+        "player_0": 6,
+        "player_1": 5,
+        "player_4": 4,
+        "player_6": 3,
+        "player_2": 2,
+        "player_3": 1
+      },
+      "internal_warning_count": 25,
+      "internal_warning_examples": [
+        "Could not remove item ['chain_vest'] from champion aphelios",
+        "Could not sell champion aphelios",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 24.73
+    },
+    {
+      "split": "test",
+      "training_seed": 83,
+      "seed": 6003,
+      "seat": 3,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 540,
+      "rank": 7,
+      "ranks": {
+        "player_1": 8,
+        "player_3": 7,
+        "player_6": 6,
+        "player_7": 5,
+        "player_4": 4,
+        "player_5": 3,
+        "player_0": 2,
+        "player_2": 1
+      },
+      "internal_warning_count": 10,
+      "internal_warning_examples": [
+        "Could not remove item ['dragons_claw'] from champion evelynn",
+        "Could not sell champion evelynn",
+        "Could not remove item ['giants_belt'] from champion leesin",
+        "Could not sell champion leesin"
+      ],
+      "elapsed_seconds": 25.42
+    },
+    {
+      "split": "test",
+      "training_seed": 83,
+      "seed": 6008,
+      "seat": 0,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 5,
+      "ranks": {
+        "player_5": 8,
+        "player_7": 7,
+        "player_6": 6,
+        "player_0": 5,
+        "player_4": 4,
+        "player_1": 1,
+        "player_2": 3,
+        "player_3": 2
+      },
+      "internal_warning_count": 12,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 18.46
+    },
+    {
+      "split": "test",
+      "training_seed": 83,
+      "seed": 6005,
+      "seat": 5,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 5,
+      "ranks": {
+        "player_2": 8,
+        "player_4": 7,
+        "player_1": 6,
+        "player_5": 5,
+        "player_7": 4,
+        "player_0": 3,
+        "player_3": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 4,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['spear_of_shojin'] from champion morgana",
+        "Could not sell champion morgana",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 26.57
+    },
+    {
+      "split": "test",
+      "training_seed": 83,
+      "seed": 6006,
+      "seat": 6,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 6,
+      "ranks": {
+        "player_0": 8,
+        "player_5": 7,
+        "player_6": 6,
+        "player_1": 5,
+        "player_3": 4,
+        "player_7": 3,
+        "player_2": 1,
+        "player_4": 2
+      },
+      "internal_warning_count": 9,
+      "internal_warning_examples": [
+        "Could not remove item ['spatula'] from champion ezreal",
+        "Could not sell champion ezreal",
+        "Failed to add item to item bench",
+        "Could not remove item ['last_whisper'] from champion jinx"
+      ],
+      "elapsed_seconds": 25.96
+    },
+    {
+      "split": "test",
+      "training_seed": 83,
+      "seed": 6007,
+      "seat": 7,
+      "kind": "diffusion",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 4,
+      "ranks": {
+        "player_5": 8,
+        "player_1": 7,
+        "player_3": 6,
+        "player_0": 5,
+        "player_7": 4,
+        "player_6": 3,
+        "player_2": 2,
+        "player_4": 1
+      },
+      "internal_warning_count": 10,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['chain_vest'] from champion jarvaniv",
+        "Could not sell champion jarvaniv",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 36.35
+    },
+    {
+      "split": "test",
+      "training_seed": 83,
+      "seed": 6001,
+      "seat": 1,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 4,
+      "ranks": {
+        "player_0": 8,
+        "player_5": 7,
+        "player_2": 6,
+        "player_7": 5,
+        "player_1": 4,
+        "player_3": 3,
+        "player_4": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 21,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Could not remove item ['mages_cap'] from champion yone"
+      ],
+      "elapsed_seconds": 21.88
+    },
+    {
+      "split": "test",
+      "training_seed": 83,
+      "seed": 6002,
+      "seat": 2,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 4,
+      "ranks": {
+        "player_4": 8,
+        "player_6": 7,
+        "player_0": 6,
+        "player_3": 5,
+        "player_2": 4,
+        "player_1": 3,
+        "player_5": 2,
+        "player_7": 1
+      },
+      "internal_warning_count": 16,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Could not remove item ['elderwood_heirloom'] from champion evelynn"
+      ],
+      "elapsed_seconds": 28.16
+    },
+    {
+      "split": "test",
+      "training_seed": 83,
+      "seed": 6003,
+      "seat": 3,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 1,
+      "ranks": {
+        "player_5": 8,
+        "player_7": 7,
+        "player_0": 6,
+        "player_4": 5,
+        "player_2": 4,
+        "player_6": 3,
+        "player_1": 2,
+        "player_3": 1
+      },
+      "internal_warning_count": 4,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Could not remove item ['bf_sword'] from champion riven",
+        "Could not sell champion riven"
+      ],
+      "elapsed_seconds": 29.03
+    },
+    {
+      "split": "test",
+      "training_seed": 83,
+      "seed": 6004,
+      "seat": 4,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 7,
+      "ranks": {
+        "player_7": 8,
+        "player_4": 7,
+        "player_5": 6,
+        "player_1": 5,
+        "player_3": 4,
+        "player_0": 3,
+        "player_2": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 13,
+      "internal_warning_examples": [
+        "Could not remove item ['chain_vest'] from champion hecarim",
+        "Could not sell champion hecarim",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 25.95
+    },
+    {
+      "split": "test",
+      "training_seed": 83,
+      "seed": 6005,
+      "seat": 5,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 5,
+      "ranks": {
+        "player_7": 8,
+        "player_2": 7,
+        "player_4": 6,
+        "player_5": 5,
+        "player_1": 4,
+        "player_6": 3,
+        "player_0": 2,
+        "player_3": 1
+      },
+      "internal_warning_count": 13,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['statikk_shiv'] from champion morgana",
+        "Could not sell champion morgana",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 26.86
+    },
+    {
+      "split": "test",
+      "training_seed": 83,
+      "seed": 6006,
+      "seat": 6,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 5,
+      "ranks": {
+        "player_5": 8,
+        "player_0": 7,
+        "player_3": 6,
+        "player_6": 5,
+        "player_4": 4,
+        "player_7": 3,
+        "player_1": 2,
+        "player_2": 1
+      },
+      "internal_warning_count": 10,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['spear_of_shojin'] from champion azir",
+        "Could not sell champion azir",
+        "Could not remove item ['hand_of_justice'] from champion irelia"
+      ],
+      "elapsed_seconds": 23.64
+    },
+    {
+      "split": "test",
+      "training_seed": 83,
+      "seed": 6007,
+      "seat": 7,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 4,
+      "ranks": {
+        "player_2": 8,
+        "player_5": 7,
+        "player_0": 6,
+        "player_1": 5,
+        "player_7": 4,
+        "player_6": 3,
+        "player_3": 2,
+        "player_4": 1
+      },
+      "internal_warning_count": 12,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Could not remove item ['zzrot_portal'] from champion ezreal"
+      ],
+      "elapsed_seconds": 28.94
+    },
+    {
+      "split": "test",
+      "training_seed": 83,
+      "seed": 6001,
+      "seat": 1,
+      "kind": "diffusion_vector",
+      "reason": "natural_end",
+      "steps": 435,
+      "rank": 6,
+      "ranks": {
+        "player_5": 8,
+        "player_0": 7,
+        "player_1": 6,
+        "player_4": 5,
+        "player_7": 4,
+        "player_2": 3,
+        "player_3": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 11,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 20.19
+    },
+    {
+      "split": "test",
+      "training_seed": 83,
+      "seed": 6008,
+      "seat": 0,
+      "kind": "diffusion_gibbs",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 4,
+      "ranks": {
+        "player_5": 8,
+        "player_2": 7,
+        "player_6": 6,
+        "player_7": 5,
+        "player_0": 4,
+        "player_1": 3,
+        "player_3": 1,
+        "player_4": 2
+      },
+      "internal_warning_count": 13,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['recurve_bow'] from champion sejuani",
+        "Could not sell champion sejuani",
+        "Could not remove item ['zzrot_portal'] from champion ezreal"
+      ],
+      "elapsed_seconds": 27.76
+    },
+    {
+      "split": "test",
+      "training_seed": 83,
+      "seed": 6004,
+      "seat": 4,
+      "kind": "diffusion_vector",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 4,
+      "ranks": {
+        "player_5": 8,
+        "player_7": 7,
+        "player_0": 6,
+        "player_1": 5,
+        "player_4": 4,
+        "player_6": 3,
+        "player_2": 2,
+        "player_3": 1
+      },
+      "internal_warning_count": 23,
+      "internal_warning_examples": [
+        "Could not remove item ['chain_vest'] from champion jarvaniv",
+        "Could not sell champion jarvaniv",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 23.99
+    },
+    {
+      "split": "test",
+      "training_seed": 83,
+      "seed": 6003,
+      "seat": 3,
+      "kind": "diffusion_vector",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 5,
+      "ranks": {
+        "player_5": 8,
+        "player_1": 7,
+        "player_7": 6,
+        "player_3": 5,
+        "player_4": 4,
+        "player_0": 3,
+        "player_2": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 8,
+      "internal_warning_examples": [
+        "Could not remove item ['jeweled_gauntlet'] from champion xinzhao",
+        "Could not sell champion xinzhao",
+        "Could not remove item ['bf_sword'] from champion lillia",
+        "Could not sell champion lillia"
+      ],
+      "elapsed_seconds": 29.05
+    },
+    {
+      "split": "test",
+      "training_seed": 83,
+      "seed": 6002,
+      "seat": 2,
+      "kind": "diffusion_vector",
+      "reason": "natural_end",
+      "steps": 540,
+      "rank": 1,
+      "ranks": {
+        "player_4": 8,
+        "player_6": 7,
+        "player_0": 6,
+        "player_3": 5,
+        "player_7": 4,
+        "player_1": 3,
+        "player_2": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 10,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Could not remove item ['mantle_of_dusk'] from champion jhin",
+        "Could not sell champion jhin"
+      ],
+      "elapsed_seconds": 36.94
+    },
+    {
+      "split": "test",
+      "training_seed": 83,
+      "seed": 6005,
+      "seat": 5,
+      "kind": "diffusion_vector",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 6,
+      "ranks": {
+        "player_2": 8,
+        "player_4": 7,
+        "player_5": 6,
+        "player_1": 5,
+        "player_7": 4,
+        "player_0": 3,
+        "player_3": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 14,
+      "internal_warning_examples": [
+        "Could not remove item ['recurve_bow'] from champion jhin",
+        "Could not sell champion jhin",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 30.33
+    },
+    {
+      "split": "test",
+      "training_seed": 83,
+      "seed": 6006,
+      "seat": 6,
+      "kind": "diffusion_vector",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 6,
+      "ranks": {
+        "player_0": 8,
+        "player_5": 7,
+        "player_6": 6,
+        "player_1": 5,
+        "player_3": 4,
+        "player_7": 3,
+        "player_2": 1,
+        "player_4": 2
+      },
+      "internal_warning_count": 9,
+      "internal_warning_examples": [
+        "Could not remove item ['spatula'] from champion ezreal",
+        "Could not sell champion ezreal",
+        "Failed to add item to item bench",
+        "Could not remove item ['last_whisper'] from champion jinx"
+      ],
+      "elapsed_seconds": 25.42
+    },
+    {
+      "split": "test",
+      "training_seed": 83,
+      "seed": 6008,
+      "seat": 0,
+      "kind": "diffusion_vector",
+      "reason": "natural_end",
+      "steps": 495,
+      "rank": 6,
+      "ranks": {
+        "player_5": 8,
+        "player_2": 7,
+        "player_0": 6,
+        "player_6": 5,
+        "player_7": 4,
+        "player_1": 3,
+        "player_3": 1,
+        "player_4": 2
+      },
+      "internal_warning_count": 21,
+      "internal_warning_examples": [
+        "Could not remove item ['recurve_bow'] from champion riven",
+        "Could not sell champion riven",
+        "Could not remove item ['sparring_gloves'] from champion morgana",
+        "Could not sell champion morgana"
+      ],
+      "elapsed_seconds": 26.09
+    },
+    {
+      "split": "test",
+      "training_seed": 83,
+      "seed": 6007,
+      "seat": 7,
+      "kind": "diffusion_vector",
+      "reason": "natural_end",
+      "steps": 540,
+      "rank": 3,
+      "ranks": {
+        "player_1": 8,
+        "player_5": 7,
+        "player_3": 6,
+        "player_2": 5,
+        "player_6": 4,
+        "player_7": 3,
+        "player_0": 1,
+        "player_4": 2
+      },
+      "internal_warning_count": 24,
+      "internal_warning_examples": [
+        "Could not remove item ['needlessly_large_rod'] from champion nunu",
+        "Could not sell champion nunu",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 31.95
+    },
+    {
+      "split": "test",
+      "training_seed": 83,
+      "seed": 6001,
+      "seat": 1,
+      "kind": "diffusion_vector_residual",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 5,
+      "ranks": {
+        "player_5": 8,
+        "player_0": 7,
+        "player_3": 6,
+        "player_1": 5,
+        "player_4": 4,
+        "player_2": 3,
+        "player_6": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 11,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Could not remove item ['warlords_banner'] from champion katarina"
+      ],
+      "elapsed_seconds": 25.0
+    },
+    {
+      "split": "test",
+      "training_seed": 83,
+      "seed": 6004,
+      "seat": 4,
+      "kind": "diffusion_vector_residual",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 4,
+      "ranks": {
+        "player_5": 8,
+        "player_7": 7,
+        "player_0": 6,
+        "player_1": 5,
+        "player_4": 4,
+        "player_6": 3,
+        "player_2": 2,
+        "player_3": 1
+      },
+      "internal_warning_count": 23,
+      "internal_warning_examples": [
+        "Could not remove item ['chain_vest'] from champion jarvaniv",
+        "Could not sell champion jarvaniv",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 24.05
+    },
+    {
+      "split": "test",
+      "training_seed": 83,
+      "seed": 6003,
+      "seat": 3,
+      "kind": "diffusion_vector_residual",
+      "reason": "natural_end",
+      "steps": 525,
+      "rank": 4,
+      "ranks": {
+        "player_1": 8,
+        "player_5": 7,
+        "player_7": 6,
+        "player_4": 5,
+        "player_3": 4,
+        "player_2": 3,
+        "player_0": 2,
+        "player_6": 1
+      },
+      "internal_warning_count": 8,
+      "internal_warning_examples": [
+        "Could not remove item ['sunfire_cape'] from champion morgana",
+        "Could not sell champion morgana",
+        "Could not remove item ['guardian_angel'] from champion xinzhao",
+        "Could not sell champion xinzhao"
+      ],
+      "elapsed_seconds": 30.81
+    },
+    {
+      "split": "test",
+      "training_seed": 83,
+      "seed": 6005,
+      "seat": 5,
+      "kind": "diffusion_vector_residual",
+      "reason": "natural_end",
+      "steps": 465,
+      "rank": 5,
+      "ranks": {
+        "player_2": 8,
+        "player_4": 7,
+        "player_1": 6,
+        "player_5": 5,
+        "player_7": 4,
+        "player_0": 3,
+        "player_3": 1,
+        "player_6": 2
+      },
+      "internal_warning_count": 15,
+      "internal_warning_examples": [
+        "Could not remove item ['tear_of_the_goddess'] from champion kayn",
+        "Could not sell champion kayn",
+        "Failed to add item to item bench",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 27.63
+    },
+    {
+      "split": "test",
+      "training_seed": 83,
+      "seed": 6002,
+      "seat": 2,
+      "kind": "diffusion_vector_residual",
+      "reason": "natural_end",
+      "steps": 540,
+      "rank": 1,
+      "ranks": {
+        "player_4": 8,
+        "player_6": 7,
+        "player_0": 6,
+        "player_3": 5,
+        "player_7": 4,
+        "player_1": 3,
+        "player_2": 1,
+        "player_5": 2
+      },
+      "internal_warning_count": 10,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Failed to add item to item bench",
+        "Could not remove item ['mantle_of_dusk'] from champion jhin",
+        "Could not sell champion jhin"
+      ],
+      "elapsed_seconds": 35.68
+    },
+    {
+      "split": "test",
+      "training_seed": 83,
+      "seed": 6006,
+      "seat": 6,
+      "kind": "diffusion_vector_residual",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 6,
+      "ranks": {
+        "player_5": 8,
+        "player_0": 7,
+        "player_6": 6,
+        "player_3": 5,
+        "player_1": 4,
+        "player_4": 3,
+        "player_2": 1,
+        "player_7": 2
+      },
+      "internal_warning_count": 8,
+      "internal_warning_examples": [
+        "Could not remove item ['tear_of_the_goddess'] from champion kayn",
+        "Could not sell champion kayn",
+        "Failed to add item to item bench",
+        "Could not remove item ['chalice_of_power'] from champion kalista"
+      ],
+      "elapsed_seconds": 23.23
+    },
+    {
+      "split": "test",
+      "training_seed": 83,
+      "seed": 6007,
+      "seat": 7,
+      "kind": "diffusion_vector_residual",
+      "reason": "natural_end",
+      "steps": 450,
+      "rank": 6,
+      "ranks": {
+        "player_5": 8,
+        "player_0": 7,
+        "player_7": 6,
+        "player_6": 5,
+        "player_1": 4,
+        "player_2": 3,
+        "player_3": 2,
+        "player_4": 1
+      },
+      "internal_warning_count": 17,
+      "internal_warning_examples": [
+        "Failed to add item to item bench",
+        "Could not remove item ['needlessly_large_rod'] from champion lux",
+        "Could not sell champion lux",
+        "Failed to add item to item bench"
+      ],
+      "elapsed_seconds": 27.85
+    },
+    {
+      "split": "test",
+      "training_seed": 83,
+      "seed": 6008,
+      "seat": 0,
+      "kind": "diffusion_vector_residual",
+      "reason": "natural_end",
+      "steps": 540,
+      "rank": 5,
+      "ranks": {
+        "player_5": 8,
+        "player_2": 7,
+        "player_1": 6,
+        "player_0": 5,
+        "player_7": 4,
+        "player_6": 3,
+        "player_3": 2,
+        "player_4": 1
+      },
+      "internal_warning_count": 25,
+      "internal_warning_examples": [
+        "Could not remove item ['recurve_bow'] from champion riven",
+        "Could not sell champion riven",
+        "Could not remove item ['sparring_gloves'] from champion morgana",
+        "Could not sell champion morgana"
+      ],
+      "elapsed_seconds": 28.28
+    }
+  ],
+  "notes": [
+    "all models share same collected data; 2 training seeds only",
+    "seed and seat matched, but different actions can change random-number consumption",
+    "stderr and simulator behavior not comprehensively audited; warning count is only text heuristic",
+    "single-action diffusion, vector tilt and residual scaling do not prove martingale or fixed-point properties",
+    "test seeds held out of data and calibration; multiple groups reported, no selection correction"
+  ],
+  "crossfit": {
+    "global_game_balanced_mse": 0.043084500152563876,
+    "per_game": {
+      "0": {
+        "n": 128,
+        "mean_residual": -0.29737543903543295,
+        "mse": 0.09324468685307
+      },
+      "1": {
+        "n": 128,
+        "mean_residual": 0.18002520792707194,
+        "mse": 0.034454692928384247
+      },
+      "2": {
+        "n": 128,
+        "mean_residual": -0.03260906799894141,
+        "mse": 0.004137720794680392
+      },
+      "3": {
+        "n": 128,
+        "mean_residual": -0.24159615854770866,
+        "mse": 0.06261925088268736
+      },
+      "4": {
+        "n": 128,
+        "mean_residual": -0.23076761486793626,
+        "mse": 0.05572468729325218
+      },
+      "5": {
+        "n": 128,
+        "mean_residual": -0.26091634367912137,
+        "mse": 0.07050451923559597
+      },
+      "6": {
+        "n": 128,
+        "mean_residual": -0.017034435938134623,
+        "mse": 0.008281572289767057
+      },
+      "7": {
+        "n": 128,
+        "mean_residual": -0.13530376296661242,
+        "mse": 0.024015127619306166
+      },
+      "8": {
+        "n": 128,
+        "mean_residual": 0.16693981312535838,
+        "mse": 0.03167875789475683
+      },
+      "9": {
+        "n": 128,
+        "mean_residual": -0.1281542927171593,
+        "mse": 0.019467831267355316
+      },
+      "10": {
+        "n": 128,
+        "mean_residual": 0.1298072569417478,
+        "mse": 0.022105907034097403
+      },
+      "11": {
+        "n": 128,
+        "mean_residual": -0.08050847755137655,
+        "mse": 0.008482430410267054
+      },
+      "12": {
+        "n": 128,
+        "mean_residual": -0.02338753125601247,
+        "mse": 0.002025342305153782
+      },
+      "13": {
+        "n": 128,
+        "mean_residual": -0.010601064878482641,
+        "mse": 0.005710676744088434
+      },
+      "14": {
+        "n": 128,
+        "mean_residual": -0.2016681412121522,
+        "mse": 0.04344259117599751
+      },
+      "15": {
+        "n": 128,
+        "mean_residual": 0.3270068478153006,
+        "mse": 0.12108395993747609
+      },
+      "16": {
+        "n": 128,
+        "mean_residual": 0.09309405675240649,
+        "mse": 0.0137469514777509
+      },
+      "17": {
+        "n": 128,
+        "mean_residual": -0.04291965257498577,
+        "mse": 0.0065605787925543954
+      },
+      "18": {
+        "n": 128,
+        "mean_residual": 0.023868870636544724,
+        "mse": 0.008658297393727622
+      },
+      "19": {
+        "n": 128,
+        "mean_residual": -0.07808984645656696,
+        "mse": 0.01145796387381948
+      },
+      "20": {
+        "n": 128,
+        "mean_residual": 0.37124268168290964,
+        "mse": 0.1640581046383311
+      },
+      "21": {
+        "n": 128,
+        "mean_residual": 0.094838958813205,
+        "mse": 0.013914016351009806
+      },
+      "22": {
+        "n": 128,
+        "mean_residual": 0.3358730434028975,
+        "mse": 0.11965655237772038
+      },
+      "23": {
+        "n": 128,
+        "mean_residual": 0.2939805160061347,
+        "mse": 0.09991171848599827
+      },
+      "24": {
+        "n": 128,
+        "mean_residual": -0.30469407777283397,
+        "mse": 0.09732137420746984
+      },
+      "25": {
+        "n": 128,
+        "mean_residual": -0.022950365880768302,
+        "mse": 0.004282858167862965
+      },
+      "26": {
+        "n": 128,
+        "mean_residual": -0.13182109271780218,
+        "mse": 0.022871758998391254
+      },
+      "27": {
+        "n": 128,
+        "mean_residual": -0.0724186579147052,
+        "mse": 0.00809666163612209
+      },
+      "28": {
+        "n": 128,
+        "mean_residual": 0.05550145329423069,
+        "mse": 0.006547631091084772
+      },
+      "29": {
+        "n": 128,
+        "mean_residual": -0.39296038437711334,
+        "mse": 0.1576783814533149
+      },
+      "30": {
+        "n": 128,
+        "mean_residual": -0.08675557956720759,
+        "mse": 0.01069896941329921
+      },
+      "31": {
+        "n": 128,
+        "mean_residual": -0.09327685671264598,
+        "mse": 0.011412831633810492
+      },
+      "32": {
+        "n": 128,
+        "mean_residual": -0.23715273518695495,
+        "mse": 0.0589277559446844
+      },
+      "33": {
+        "n": 128,
+        "mean_residual": 0.22690319508580648,
+        "mse": 0.06003958300366345
+      },
+      "34": {
+        "n": 128,
+        "mean_residual": 0.1806984285477183,
+        "mse": 0.03800551392258418
+      },
+      "35": {
+        "n": 128,
+        "mean_residual": 0.028862304951094285,
+        "mse": 0.005693859570854705
+      },
+      "36": {
+        "n": 128,
+        "mean_residual": -0.0685683006749943,
+        "mse": 0.018332383748658674
+      },
+      "37": {
+        "n": 128,
+        "mean_residual": 0.12982024570872017,
+        "mse": 0.02328052072285261
+      },
+      "38": {
+        "n": 128,
+        "mean_residual": 0.31090150738717887,
+        "mse": 0.1021373201608404
+      },
+      "39": {
+        "n": 128,
+        "mean_residual": 0.21177383536598154,
+        "mse": 0.05310866437021333
+      }
+    },
+    "sample_count": 5120
+  },
+  "heldout_calibration": {
+    "valid_games": 8,
+    "game_balanced_mse": 0.020976676553766244,
+    "per_game": [
+      {
+        "seed": 4001,
+        "seat": 1,
+        "n": 315,
+        "mean_residual": -0.29958921986507303,
+        "mse": 0.09132991193161273
+      },
+      {
+        "seed": 4002,
+        "seat": 2,
+        "n": 375,
+        "mean_residual": 0.09711512245520482,
+        "mse": 0.012546987979088068
+      },
+      {
+        "seed": 4003,
+        "seat": 3,
+        "n": 450,
+        "mean_residual": 0.14131194063471375,
+        "mse": 0.02433483876282399
+      },
+      {
+        "seed": 4004,
+        "seat": 4,
+        "n": 375,
+        "mean_residual": -0.009448839055952776,
+        "mse": 0.0036648459726906827
+      },
+      {
+        "seed": 4005,
+        "seat": 5,
+        "n": 405,
+        "mean_residual": -0.11058873365398071,
+        "mse": 0.016729609241195716
+      },
+      {
+        "seed": 4006,
+        "seat": 6,
+        "n": 315,
+        "mean_residual": 0.0033991612523416935,
+        "mse": 0.0016257124645471593
+      },
+      {
+        "seed": 4007,
+        "seat": 7,
+        "n": 330,
+        "mean_residual": -0.02591953244156322,
+        "mse": 0.0039731782346515325
+      },
+      {
+        "seed": 4008,
+        "seat": 0,
+        "n": 345,
+        "mean_residual": -0.0911849148501098,
+        "mse": 0.013608327843520094
+      }
+    ]
+  },
+  "weight_diagnostics": {
+    "0.0": {
+      "n": 40,
+      "beta": 0.0,
+      "ess": 39.99999999999999,
+      "ess_fraction": 0.9999999999999998,
+      "max_weight": 0.025,
+      "weighted_cost": 0.4857142857142857,
+      "uniform_cost": 0.48571428571428565,
+      "kl_to_uniform": 0.0
+    },
+    "0.5": {
+      "n": 40,
+      "beta": 0.5,
+      "ess": 39.52757706616257,
+      "ess_fraction": 0.9881894266540643,
+      "max_weight": 0.03168538670414968,
+      "weighted_cost": 0.4621373133531588,
+      "uniform_cost": 0.48571428571428565,
+      "kl_to_uniform": 0.005911105800367423
+    }
+  },
+  "device": "cuda",
+  "summaries": {
+    "validation": {
+      "diffusion": {
+        "47": {
+          "attempted": 8,
+          "valid": 8,
+          "mean_rank": 3.0,
+          "top4_rate": 0.875,
+          "first_rate": 0.25,
+          "warning_games": 7,
+          "warning_lines": 61
+        },
+        "83": {
+          "attempted": 8,
+          "valid": 8,
+          "mean_rank": 3.75,
+          "top4_rate": 0.625,
+          "first_rate": 0.125,
+          "warning_games": 8,
+          "warning_lines": 91
+        }
+      },
+      "diffusion_gibbs": {
+        "47": {
+          "attempted": 8,
+          "valid": 8,
+          "mean_rank": 4.125,
+          "top4_rate": 0.75,
+          "first_rate": 0.125,
+          "warning_games": 7,
+          "warning_lines": 46
+        },
+        "83": {
+          "attempted": 8,
+          "valid": 8,
+          "mean_rank": 4.375,
+          "top4_rate": 0.5,
+          "first_rate": 0.0,
+          "warning_games": 8,
+          "warning_lines": 74
+        }
+      },
+      "diffusion_vector": {
+        "47": {
+          "attempted": 8,
+          "valid": 8,
+          "mean_rank": 3.5,
+          "top4_rate": 0.625,
+          "first_rate": 0.125,
+          "warning_games": 7,
+          "warning_lines": 65
+        },
+        "83": {
+          "attempted": 8,
+          "valid": 8,
+          "mean_rank": 4.75,
+          "top4_rate": 0.5,
+          "first_rate": 0.0,
+          "warning_games": 8,
+          "warning_lines": 89
+        }
+      },
+      "diffusion_vector_residual": {
+        "47": {
+          "attempted": 8,
+          "valid": 8,
+          "mean_rank": 3.625,
+          "top4_rate": 0.875,
+          "first_rate": 0.0,
+          "warning_games": 7,
+          "warning_lines": 64
+        },
+        "83": {
+          "attempted": 8,
+          "valid": 8,
+          "mean_rank": 4.875,
+          "top4_rate": 0.5,
+          "first_rate": 0.0,
+          "warning_games": 8,
+          "warning_lines": 80
+        }
+      }
+    },
+    "test": {
+      "diffusion": {
+        "47": {
+          "attempted": 8,
+          "valid": 8,
+          "mean_rank": 3.5,
+          "top4_rate": 0.625,
+          "first_rate": 0.25,
+          "warning_games": 8,
+          "warning_lines": 87
+        },
+        "83": {
+          "attempted": 8,
+          "valid": 8,
+          "mean_rank": 5.0,
+          "top4_rate": 0.375,
+          "first_rate": 0.0,
+          "warning_games": 8,
+          "warning_lines": 91
+        }
+      },
+      "diffusion_gibbs": {
+        "47": {
+          "attempted": 8,
+          "valid": 8,
+          "mean_rank": 3.875,
+          "top4_rate": 0.625,
+          "first_rate": 0.125,
+          "warning_games": 8,
+          "warning_lines": 57
+        },
+        "83": {
+          "attempted": 8,
+          "valid": 8,
+          "mean_rank": 4.25,
+          "top4_rate": 0.625,
+          "first_rate": 0.125,
+          "warning_games": 8,
+          "warning_lines": 102
+        }
+      },
+      "diffusion_vector": {
+        "47": {
+          "attempted": 8,
+          "valid": 8,
+          "mean_rank": 3.625,
+          "top4_rate": 0.625,
+          "first_rate": 0.25,
+          "warning_games": 7,
+          "warning_lines": 79
+        },
+        "83": {
+          "attempted": 8,
+          "valid": 8,
+          "mean_rank": 4.625,
+          "top4_rate": 0.375,
+          "first_rate": 0.125,
+          "warning_games": 8,
+          "warning_lines": 120
+        }
+      },
+      "diffusion_vector_residual": {
+        "47": {
+          "attempted": 8,
+          "valid": 8,
+          "mean_rank": 3.25,
+          "top4_rate": 0.75,
+          "first_rate": 0.25,
+          "warning_games": 8,
+          "warning_lines": 80
+        },
+        "83": {
+          "attempted": 8,
+          "valid": 8,
+          "mean_rank": 4.5,
+          "top4_rate": 0.375,
+          "first_rate": 0.125,
+          "warning_games": 8,
+          "warning_lines": 117
+        }
+      }
+    }
+  },
+  "elapsed_seconds": 1247.83
+}

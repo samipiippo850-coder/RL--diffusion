@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.part
+.venv/
+venv/
+tft_env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+known_hosts*
+connect_*.py
+server_check.py
+*.log
